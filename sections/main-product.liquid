@@ -179,6 +179,8 @@
                 </div>
               </details>
             </share-button>
+          <div id="bundler-target-element"></div>
+
             <script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
           {%- when 'variant_picker' -%}
             {%- unless product.has_only_default_variant -%}
@@ -310,7 +312,6 @@
     </div>
   </div>
   {%- render 'cart-notification' -%}
-<div id="bundler-target-element"></div>
 
   <product-modal id="ProductModal-{{ section.id }}" class="product-media-modal">
     <div class="product-media-modal__dialog" role="dialog" aria-label="{{ 'products.modal.label' | t }}" aria-modal="true" tabindex="-1">
@@ -416,7 +417,6 @@
       </div>
     </modal-dialog>
   {%- endfor -%}
-  <div id="bundler-target-element"></div>
 </section>
 
 {% javascript %}
