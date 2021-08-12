@@ -29,9 +29,49 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/three-Packaging-Presentation-Miaroo-min.png",
         "desktop_text_box_position": "flex-end",
-        "color_scheme": "accent-2",
+        "color_scheme": "accent-1",
         "stack_images_on_mobile": true,
         "adapt_height_first_image": false
+      }
+    },
+    "1628780674c9ed5bc2": {
+      "type": "collage",
+      "blocks": {
+        "3af15566-53f7-4956-9138-eaa3007c9a07": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Miaroo_premium_matcha_green_tea_on_yellow_background.png",
+            "image_padding": true,
+            "color_scheme": "background-2"
+          }
+        },
+        "1628780674c9ed5bc2-1": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "secondary_background": true,
+            "second_image": true,
+            "image_padding": true
+          }
+        },
+        "1628780674c9ed5bc2-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "3af15566-53f7-4956-9138-eaa3007c9a07",
+        "1628780674c9ed5bc2-1",
+        "1628780674c9ed5bc2-2"
+      ],
+      "settings": {
+        "heading": "",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
       }
     },
     "featured_products": {
@@ -86,6 +126,7 @@
   },
   "order": [
     "image_banner",
+    "1628780674c9ed5bc2",
     "featured_products",
     "image_text"
   ]
