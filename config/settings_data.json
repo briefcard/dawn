@@ -1,10 +1,11 @@
 {
   "current": {
-    "colors_accent_1": "#02af4a",
-    "colors_accent_2": "#c15eee",
+    "colors_solid_button_labels": "#203d51",
+    "colors_accent_1": "#f8d33e",
+    "colors_accent_2": "#5fd5a5",
     "colors_text": "#203d51",
-    "colors_outline_button_labels": "#f8d33e",
-    "colors_background_2": "#5fd5a5",
+    "colors_outline_button_labels": "#02af4a",
+    "colors_background_2": "#c15eee",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",

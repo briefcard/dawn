@@ -41,25 +41,25 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Miaroo_premium_matcha_green_tea_on_yellow_background.png",
-            "image_padding": true,
-            "color_scheme": "background-2"
+            "image_padding": false,
+            "color_scheme": "background-1"
           }
         },
         "1628780674c9ed5bc2-1": {
           "type": "product",
           "settings": {
-            "product": "",
-            "secondary_background": true,
+            "product": "organic-premium-matcha-50g",
+            "secondary_background": false,
             "second_image": true,
-            "image_padding": true
+            "image_padding": false
           }
         },
         "1628780674c9ed5bc2-2": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "frontpage",
             "image_padding": false,
-            "color_scheme": "background-1"
+            "color_scheme": "inverse"
           }
         }
       },
