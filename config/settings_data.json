@@ -7,6 +7,7 @@
     "colors_outline_button_labels": "#02af4a",
     "colors_background_2": "#f8d33e",
     "accent_icons": "accent-2",
+    "page_width": "1200",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
