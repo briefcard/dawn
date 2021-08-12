@@ -128,20 +128,12 @@
         "color_scheme": "background-1",
         "layout": "image_first"
       }
-    },
-    "1628792212148df113": {
-      "type": "apps",
-      "disabled": true,
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
     "image_banner",
     "1628780674c9ed5bc2",
     "featured_products",
-    "image_text",
-    "1628792212148df113"
+    "image_text"
   ]
 }
