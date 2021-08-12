@@ -30,7 +30,7 @@
         "image": "shopify:\/\/shop_images\/three-Packaging-Presentation-Miaroo-min.png",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "accent-1",
-        "stack_images_on_mobile": true,
+        "stack_images_on_mobile": false,
         "adapt_height_first_image": false
       }
     },
