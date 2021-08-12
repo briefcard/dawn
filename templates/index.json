@@ -5,9 +5,8 @@
       "blocks": {
         "heading": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "Your Organic Jumpstart"
+            "heading": "Make the shift."
           }
         },
         "button": {
@@ -20,16 +19,23 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
+        },
+        "1643dc38-de81-4067-8c47-42396c5c54a6": {
+          "type": "text",
+          "settings": {
+            "text": "Your mind, body & soul will thank you. :-)"
+          }
         }
       },
       "block_order": [
         "heading",
-        "button"
+        "button",
+        "1643dc38-de81-4067-8c47-42396c5c54a6"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/three-Packaging-Presentation-Miaroo-min.png",
         "desktop_text_box_position": "flex-end",
-        "color_scheme": "background-2",
+        "color_scheme": "inverse",
         "stack_images_on_mobile": false,
         "adapt_height_first_image": false
       }
