@@ -1,11 +1,11 @@
 {
   "current": {
-    "colors_solid_button_labels": "#203d51",
-    "colors_accent_1": "#f8d33e",
+    "colors_solid_button_labels": "#ffffff",
+    "colors_accent_1": "#c15eee",
     "colors_accent_2": "#5fd5a5",
     "colors_text": "#203d51",
     "colors_outline_button_labels": "#02af4a",
-    "colors_background_2": "#c15eee",
+    "colors_background_2": "#f8d33e",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -13,7 +13,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "heading": "The matcha company that makes it easy.",
+              "heading": "Organic Jumpstart! Free shipping on $50+",
               "color_scheme": "accent-1",
               "link": ""
             }
