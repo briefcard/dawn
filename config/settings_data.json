@@ -6,6 +6,7 @@
     "colors_text": "#203d51",
     "colors_outline_button_labels": "#02af4a",
     "colors_background_2": "#f8d33e",
+    "accent_icons": "accent-2",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
