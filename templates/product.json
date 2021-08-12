@@ -85,16 +85,18 @@
     "162879057995c0cdc6": {
       "type": "collage",
       "blocks": {
-        "bf62ce29-03d8-425a-80f9-57ceaf8340df": {
+        "e6b0f8e8-923e-4b7a-ba3e-c1b122f0a95b": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Add_a_heading_1_1.jpg",
             "image_padding": false,
             "color_scheme": "background-1"
           }
         },
-        "e6b0f8e8-923e-4b7a-ba3e-c1b122f0a95b": {
+        "bf62ce29-03d8-425a-80f9-57ceaf8340df": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_8726_1.png",
             "image_padding": false,
             "color_scheme": "background-1"
           }
@@ -108,12 +110,12 @@
         }
       },
       "block_order": [
-        "bf62ce29-03d8-425a-80f9-57ceaf8340df",
         "e6b0f8e8-923e-4b7a-ba3e-c1b122f0a95b",
+        "bf62ce29-03d8-425a-80f9-57ceaf8340df",
         "60a14302-c9be-481f-884f-6d30bb417624"
       ],
       "settings": {
-        "heading": "Multimedia collage",
+        "heading": "Join the party. Have some matcha!",
         "desktop_layout": "left",
         "mobile_layout": "collage"
       }
