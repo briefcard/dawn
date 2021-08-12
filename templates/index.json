@@ -5,8 +5,9 @@
       "blocks": {
         "heading": {
           "type": "heading",
+          "disabled": true,
           "settings": {
-            "heading": "healthy & tasty starts here"
+            "heading": "Your Organic Jumpstart"
           }
         },
         "button": {
@@ -28,7 +29,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/three-Packaging-Presentation-Miaroo-min.png",
         "desktop_text_box_position": "flex-end",
-        "color_scheme": "background-2",
+        "color_scheme": "accent-2",
         "stack_images_on_mobile": true,
         "adapt_height_first_image": false
       }
