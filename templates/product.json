@@ -46,6 +46,7 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
           }
         },
@@ -80,6 +81,18 @@
         "add_image_padding": false,
         "show_image_outline": true,
         "show_vendor": false
+      }
+    },
+    "162888765031a713e4": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1628887594e3ef468b": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"max-width:1200px; width:90%; margin:auto; font-size:18px;\">\n{{ product.description }}\n<\/div>"
       }
     },
     "162879057995c0cdc6": {
@@ -169,6 +182,8 @@
   "order": [
     "main",
     "product-recommendations",
+    "162888765031a713e4",
+    "1628887594e3ef468b",
     "162879057995c0cdc6",
     "1628790622fd09bcb6"
   ]
