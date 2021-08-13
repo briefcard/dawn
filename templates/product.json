@@ -92,7 +92,7 @@
     "1628887594e3ef468b": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div style=\"max-width:1200px; width:85%; margin:auto; font-size:18px;\">\n{{ product.description }}\n<\/div>"
+        "custom_liquid": "<div style=\"max-width:1000px; width: 90%; margin:auto; font-size:18px;\">\n{{ product.description }}\n<\/div>"
       }
     },
     "162879057995c0cdc6": {
