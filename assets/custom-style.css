@@ -24,15 +24,17 @@ overflow: visible !important;
 }
 
 
-.right-margin-correct-5{
+.right-margin-correct{
 
 margin-right:-10%;
   margin-left:10%;
-  padding-right:10%;
-  padding-left:10%;
-  width:100%;
 
 }
+  
+  .left-margin-correct {
+  margin-left: -10%;
+    margin-right:10%
+  }
   
   .margin-top-negative{
 
