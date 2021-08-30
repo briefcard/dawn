@@ -4,15 +4,7 @@
 
 }
 
-.right-margin-correct-5{
 
-margin-right:-10%;
-  margin-left:10%;
-  padding-right:10%;
-  padding-left:10%;
-  width:100%;
-
-}
 
 .border-radius-25 {
 border-radius:25px;
@@ -26,8 +18,25 @@ z-index: 1
 width:100%;
 }
 
+
+
+@media (min-width: 700px) {
+
 .overflow-show{
 
 overflow: visible !important;
 
+}
+
+
+.right-margin-correct-5{
+
+margin-right:-10%;
+  margin-left:10%;
+  padding-right:10%;
+  padding-left:10%;
+  width:100%;
+
+}
+  
 }
