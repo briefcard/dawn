@@ -15,7 +15,7 @@ width:100%;
 
 
 
-@media (min-width: 700px) {
+@media screen and (min-width: 750px) {
 
 .overflow-show{
 
@@ -56,3 +56,7 @@ margin-right:-10%;
   padding: 0 !important;
   }
 }
+
+ .image-with-text__grid--reverse {
+    flex-direction: row-reverse !important;
+  }
