@@ -167,41 +167,6 @@
         "mobile_layout": "collage"
       }
     },
-    "image_text": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/jason-leung-f3uWanPu_rU-unsplash.jpg",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first"
-      }
-    },
     "163035809706adbc23": {
       "type": "multicolumn",
       "blocks": {
@@ -250,7 +215,6 @@
     "image_banner",
     "featured_products",
     "1628780674c9ed5bc2",
-    "image_text",
     "163035809706adbc23"
   ]
 }
