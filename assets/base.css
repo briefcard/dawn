@@ -1663,6 +1663,7 @@ input[type='checkbox'] {
 .shopify-section-header-sticky {
   position: sticky;
   top: 0;
+  background-color: rgb(var(--color-background));
 }
 
 .shopify-section-header-hidden {
