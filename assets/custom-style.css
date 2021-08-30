@@ -22,3 +22,9 @@ z-index: 1
 .full-width{
 width:100%;
 }
+
+.overflow-show{
+
+overflow: show;
+
+}
