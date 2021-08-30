@@ -6,19 +6,19 @@
         "1630350621dd61c948-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text"
+            "heading": "Organic Matcha Superfood, Easier Than Ever"
           }
         },
         "1630350621dd61c948-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>The only morning beverage for healthy adults!<\/p>"
           }
         },
         "1630350621dd61c948-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Get Started",
             "button_link": ""
           }
         }
@@ -30,7 +30,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/three-Packaging-Presentation-Miaroo-min.png",
-        "height": "large",
+        "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first"
       }
