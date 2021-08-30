@@ -1,11 +1,12 @@
 {
   "current": {
     "colors_solid_button_labels": "#ffffff",
-    "colors_accent_1": "#c15eee",
+    "colors_accent_1": "#02af4a",
     "colors_accent_2": "#5fd5a5",
     "colors_text": "#203d51",
-    "colors_outline_button_labels": "#02af4a",
+    "colors_outline_button_labels": "#c15eee",
     "colors_background_2": "#f8d33e",
+    "type_header_font": "abril_fatface_n4",
     "accent_icons": "accent-2",
     "page_width": "1200",
     "sections": {

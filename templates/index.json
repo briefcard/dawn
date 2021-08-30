@@ -1,5 +1,40 @@
 {
   "sections": {
+    "16303456864022f6d3": {
+      "type": "image-with-text",
+      "blocks": {
+        "16303456864022f6d3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ready to Take a Leap?"
+          }
+        },
+        "16303456864022f6d3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "16303456864022f6d3-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16303456864022f6d3-0",
+        "16303456864022f6d3-1",
+        "16303456864022f6d3-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/three-Packaging-Presentation-Miaroo-min.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -35,7 +70,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/three-Packaging-Presentation-Miaroo-min.png",
         "desktop_text_box_position": "flex-end",
-        "color_scheme": "inverse",
+        "color_scheme": "background-1",
         "stack_images_on_mobile": false,
         "adapt_height_first_image": false
       }
@@ -46,7 +81,7 @@
         "b26aea91-2376-4858-8801-a87c55e36fd3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_8726_1.png",
+            "image": "shopify:\/\/shop_images\/Miaroo_Organic_Premium_Matcha_Powder.jpg",
             "image_padding": false,
             "color_scheme": "background-1"
           }
@@ -54,7 +89,7 @@
         "3af15566-53f7-4956-9138-eaa3007c9a07": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Miaroo_premium_matcha_green_tea_on_yellow_background.png",
+            "image": "shopify:\/\/shop_images\/IMG_8726_1.png",
             "image_padding": false,
             "color_scheme": "background-1"
           }
@@ -124,6 +159,7 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_8212.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
@@ -131,6 +167,7 @@
     }
   },
   "order": [
+    "16303456864022f6d3",
     "image_banner",
     "1628780674c9ed5bc2",
     "featured_products",
