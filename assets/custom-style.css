@@ -1,8 +1,3 @@
-.margin-top-negative{
-
-  margin-top:-13%;
-
-}
 
 
 
@@ -38,5 +33,20 @@ margin-right:-10%;
   width:100%;
 
 }
+  
+  .margin-top-negative{
+
+  margin-top:-13%;
+
+}
+.margin-top-positive{
+
+  margin-top:13%;
+
+}
+
+  .big-header {
+  font-size:2.5em;
+  }
   
 }
