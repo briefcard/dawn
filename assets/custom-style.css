@@ -46,8 +46,9 @@ margin-right:-10%;
 }
 
   .big-header {
-  font-size:4em;
+  font-size:4em !important;
   }
+  
   .padding-none{
   padding: 0 !important;
   }
