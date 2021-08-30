@@ -58,5 +58,5 @@ margin-right:-10%;
 }
 
  .image-with-text__grid--reverse-2 {
-    flex-direction: column-reverse;
+    flex-direction: row-reverse;
   }
