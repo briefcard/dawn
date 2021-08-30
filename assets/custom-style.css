@@ -16,3 +16,7 @@ border-radius:25px;
 .send-to-back {
 z-index: 1
 }
+
+.full-width{
+width:100%;
+}
