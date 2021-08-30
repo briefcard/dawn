@@ -4,8 +4,9 @@
 
 }
 
-.margin-right-5 {
- margin-right: 5rem;
+.fill-grid{
+	margin-right:5%
+      width:80%;
 }
 .border-radius-25 {
 border-radius:25px;
