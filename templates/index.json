@@ -30,7 +30,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/three-Packaging-Presentation-Miaroo-min.png",
-        "height": "adapt",
+        "height": "large",
         "color_scheme": "background-1",
         "layout": "text_first"
       }
@@ -164,6 +164,40 @@
         "color_scheme": "background-1",
         "layout": "image_first"
       }
+    },
+    "1630350621dd61c948": {
+      "type": "main-image-text-header",
+      "blocks": {
+        "1630350621dd61c948-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "1630350621dd61c948-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1630350621dd61c948-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1630350621dd61c948-0",
+        "1630350621dd61c948-1",
+        "1630350621dd61c948-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
     }
   },
   "order": [
@@ -171,6 +205,7 @@
     "image_banner",
     "1628780674c9ed5bc2",
     "featured_products",
-    "image_text"
+    "image_text",
+    "1630350621dd61c948"
   ]
 }
