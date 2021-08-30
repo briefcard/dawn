@@ -19,7 +19,7 @@
           "type": "button",
           "settings": {
             "button_label": "Get Started",
-            "button_link": ""
+            "button_link": "shopify:\/\/collections\/matcha-powder"
           }
         }
       },
@@ -54,8 +54,8 @@
         "16303456864022f6d3-2": {
           "type": "button",
           "settings": {
-            "button_label": "Shop Now",
-            "button_link": ""
+            "button_label": "Get Started",
+            "button_link": "shopify:\/\/collections\/matcha-powder"
           }
         }
       },
