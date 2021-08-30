@@ -53,7 +53,9 @@ margin-right:-10%;
   }
   
   .padding-none{
-  padding: 0 !important;
+  padding-top: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 0 !important;
   }
 }
 
