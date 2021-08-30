@@ -1,9 +1,13 @@
 .margin-top-negative {
 
-  margin-top:-5%;
+  margin-top:-10%;
 
 }
 
 .border-radius-25 {
 border-radius:25px;
+}
+
+.send-to-back {
+z-index: 1
 }
