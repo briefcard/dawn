@@ -1,8 +1,8 @@
-.float_Button{
-  
- border-color: var(--color-base-outline-button-labels);
- color: var(--color-base-outline-button-labels);
- background-color: 0;
+.button_container_header{
+
+  width:150px;
+  height:50px;
+
 }
 
 .inline-block{
