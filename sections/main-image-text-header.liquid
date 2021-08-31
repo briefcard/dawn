@@ -65,7 +65,7 @@
   
  {%- if section.settings.flavor1 != blank -%}
     
-    <div class="grid__item_custom inline-block" onclick="changeMainImage(1)">
+    <div id="flavor1" class="grid__item_custom inline-block" onclick="">
       <div class="image-with-text__media image-with-text__media--{{ section.settings.height }} media height-100p">
           <img
             srcset="{{ section.settings.flavor1 | img_url: '165x' }} 165w"
@@ -84,7 +84,7 @@
   
    {%- if section.settings.flavor2 != blank -%}
     
-    <div class="grid__item_custom inline-block" onclick="changeMainImage(2)">
+    <div id="flavor2" class="grid__item_custom inline-block" onclick="">
       <div class="image-with-text__media image-with-text__media--{{ section.settings.height }} media height-100p">
           <img
             srcset="{{ section.settings.flavor2 | img_url: '165x' }} 165w"
@@ -102,7 +102,7 @@
       {%- endif -%}
 {%- if section.settings.flavor3 != blank -%}
   <span class="mobile-break"></span>
-    <div class="grid__item_custom inline-block " onclick="changeMainImage(3)">
+    <div  id="flavor3" class="grid__item_custom inline-block " onclick="">
       <div class="image-with-text__media image-with-text__media--{{ section.settings.height }} media height-100p">
           <img
             srcset="{{ section.settings.flavor3 | img_url: '165x' }} 165w"
@@ -120,7 +120,7 @@
       {%- endif -%}
   {%- if section.settings.flavor4 != blank -%}
     
-    <div class="grid__item_custom inline-block" onclick="changeMainImage(4)">
+    <div id="flavor4"class="grid__item_custom inline-block" onclick="">
       <div class="image-with-text__media image-with-text__media--{{ section.settings.height }} media height-100p">
           <img
             srcset="{{ section.settings.flavor4 | img_url: '165x' }} 165w"
@@ -324,6 +324,7 @@
 
 
 <script>
+ 
   
 $(document).ready( function changeMainImage(x) {
       
@@ -355,6 +356,14 @@ $(document).ready( function changeMainImage(x) {
           break;
       };
      
-    });
+    }
+                 
+                 
+     $(document).getElementByID("flavor1").addEventListener("click", changeMainImage(1));
+	$(document).getElementByID("flavor2").addEventListener("click", changeMainImage(2));
+  $(document).getElementByID("flavor3").addEventListener("click", changeMainImage(3));
+  $(document).getElementByID("flavor4").addEventListener("click", changeMainImage(4));
+
+);
 
 </script>
