@@ -115,8 +115,9 @@
             height="{{ section.settings.flavor1.height}}"
             class=""
           >
-        <a href="{{ section.settings.flavor1url }}"><div id="flavor1button" class="float_Button">Try Now!</div>
-      </div>
+       {%- if section.settings.flavor1url != blank -%} <a href="{{ section.settings.flavor1url }}"><div id="flavor1button" class="float_Button">Try Now!</div></a>
+      {%- endif -%}
+        </div>
     </div>
       {%- endif -%}
   
