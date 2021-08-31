@@ -1,6 +1,15 @@
 {{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
 {{ 'custom-style.css' | asset_url | stylesheet_tag }}
 
+<script>
+     
+  $(document).getElementByID("flavor1").onclick = changeMainImage(1);             
+  $(document).getElementByID("flavor2").addEventListener("click", changeMainImage(2));
+  $(document).getElementByID("flavor3").addEventListener("click", changeMainImage(3));
+  $(document).getElementByID("flavor4").addEventListener("click", changeMainImage(4));
+
+
+</script>
 
 <div class="image-with-text {% if section.settings.full_width %}image-with-text--full-width{% else %}page-width{% endif %} color-scheme-{{ section.settings.color_scheme }}  {%- if section.settings.image.width >= 1070 -%}send-to-back fill-grid {% endif%}">    
  
@@ -360,20 +369,6 @@ $(document).ready(
       };
      
     });
-  
-  
-  
-  $(document).ready( function () {
-   
-  $(document).getElementByID("flavor1").onclick = changeMainImage(1);             
-  $(document).getElementByID("flavor1").addEventListener("click", changeMainImage(1));
-  $(document).getElementByID("flavor2").addEventListener("click", changeMainImage(2));
-  $(document).getElementByID("flavor3").addEventListener("click", changeMainImage(3));
-  $(document).getElementByID("flavor4").addEventListener("click", changeMainImage(4));
-
-
-
-  });
   
   
                  
