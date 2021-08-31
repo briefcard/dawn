@@ -7,10 +7,10 @@
     
     function changeMainImage(x) {
       var mainImage = document.getElementById("mainImage");
-      var flavor1DisplaySrc = "{{section.settings.flavor1Display | img_url: '1500x' }}";
-      var flavor2DisplaySrc = "{{section.settings.flavor2Display | img_url: '1500x' }}";
-      var flavor3DisplaySrc = "{{section.settings.flavor3Display | img_url: '1500x' }}";
-      var flavor4DisplaySrc = "{{section.settings.flavor4Display | img_url: '1500x' }}";
+      var flavor1DisplaySrc = {{section.settings.flavor1Display | img_url: '1500x' }};
+      var flavor2DisplaySrc = {{section.settings.flavor2Display | img_url: '1500x' }};
+      var flavor3DisplaySrc = {{section.settings.flavor3Display | img_url: '1500x' }};
+      var flavor4DisplaySrc = {{section.settings.flavor4Display | img_url: '1500x' }};
      
       	switch(x) {
       
