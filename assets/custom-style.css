@@ -2,8 +2,7 @@
   
   max-width:150px;
   max-height:100px;
-  margin-bottom:15px;
-  margin-top:auto;
+  
   margin-right:auto;
   margin-left:auto;
   text-align:center;
@@ -13,7 +12,8 @@
 .header_button {
 
   width:150px !important;
-
+margin-bottom:15px;
+  margin-top:auto;
 
 }
 
