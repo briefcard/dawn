@@ -12,7 +12,7 @@
         {% if section.settings.height == 'adapt' and section.settings.image != blank %} style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"{% endif %}
       >
         {%- if section.settings.image != blank -%}
-          <img
+          <img id="mainImage"
             srcset="{%- if section.settings.image.width >= 165 -%}{{ section.settings.image | img_url: '165x' }} 165w,{%- endif -%}
               {%- if section.settings.image.width >= 360 -%}{{ section.settings.image | img_url: '360x' }} 360w,{%- endif -%}
               {%- if section.settings.image.width >= 535 -%}{{ section.settings.image | img_url: '535x' }} 535w,{%- endif -%}
@@ -64,7 +64,7 @@
   
  {%- if section.settings.flavor1 != blank -%}
     
-    <div class="grid__item_custom inline-block" onClick="activeFlavor(1)">
+    <div class="grid__item_custom inline-block" onClick="changeMainImage(1)">
       <div class="image-with-text__media image-with-text__media--{{ section.settings.height }} media height-100p">
           <img
             srcset="{{ section.settings.flavor1 | img_url: '165x' }} 165w"
@@ -83,7 +83,7 @@
   
    {%- if section.settings.flavor2 != blank -%}
     
-    <div class="grid__item_custom inline-block ">
+    <div class="grid__item_custom inline-block" onClick="changeMainImage(2)">
       <div class="image-with-text__media image-with-text__media--{{ section.settings.height }} media height-100p">
           <img
             srcset="{{ section.settings.flavor2 | img_url: '165x' }} 165w"
@@ -101,7 +101,7 @@
       {%- endif -%}
 {%- if section.settings.flavor3 != blank -%}
   <span class="mobile-break"></span>
-    <div class="grid__item_custom inline-block">
+    <div class="grid__item_custom inline-block " onClick="changeMainImage(3)">
       <div class="image-with-text__media image-with-text__media--{{ section.settings.height }} media height-100p">
           <img
             srcset="{{ section.settings.flavor3 | img_url: '165x' }} 165w"
@@ -119,7 +119,7 @@
       {%- endif -%}
   {%- if section.settings.flavor4 != blank -%}
     
-    <div class="grid__item_custom inline-block">
+    <div class="grid__item_custom inline-block" onClick="changeMainImage(4)">
       <div class="image-with-text__media image-with-text__media--{{ section.settings.height }} media height-100p">
           <img
             srcset="{{ section.settings.flavor4 | img_url: '165x' }} 165w"
@@ -319,4 +319,50 @@
   ]
 }
 {% endschema %}
+{% javascript %}
 
+<script>
+    
+  $document.ready(
+      
+      var changeMainImage(x) => {
+      
+      var mainImage = document.getElementById("mainImage");
+      var flavor1DisplaySrc = {{section.settings.flavor1Display | img_url: '1500x' }};
+      var flavor2DisplaySrc = {{section.settings.flavor2Display | img_url: '1500x' }};
+      var flavor3DisplaySrc = {{section.settings.flavor3Display | img_url: '1500x' }} ;
+      var flavor4DisplaySrc = {{section.settings.flavor4Display | img_url: '1500x' }};
+     
+      
+      	switch(x) {
+      
+          case 1:
+            var mainImage.src = flavor1DisplaySrc;
+            
+            break;
+          case 2:
+            var mainImage = flavor2DisplaySrc;
+            
+            break;
+            
+          case 3:
+          var mainImage = flavor3DisplaySrc;
+
+          break;
+            
+          case 4:
+          var mainImage = flavor4DisplaySrc;
+
+          break;
+      }  
+     
+    }
+  
+    )
+    
+  
+  
+  
+</script>
+
+{% endjavascript %}
