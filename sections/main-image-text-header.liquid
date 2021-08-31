@@ -64,7 +64,6 @@
   
 </script>
 
-{% assign page-load = '1' %}
 
 <div class="image-with-text {% if section.settings.full_width %}image-with-text--full-width{% else %}page-width{% endif %} color-scheme-{{ section.settings.color_scheme }}  {%- if section.settings.image.width >= 1070 -%}send-to-back fill-grid {% endif%}">    
  
@@ -90,15 +89,11 @@
         {%- else -%}
           {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
         {%- endif -%}
-        {%- if section.settings.flavor1url != blank and mainImage.src == section.settings.image -%} <a href="{{ section.settings.flavor1url }}"><div id="flavor1Button" class="float_Button button--secondary">Try Now!</div></a>
-      {%- endif -%}
-        {%- if section.settings.flavor2url != blank and mainImage.src == section.settings.image -%} <a href="{{ section.settings.flavor2url }}"><div id="flavor2Button" class="float_Button button--secondary">Try it Now!</div></a>
-      {%- endif -%}
-       
-        {%- if section.settings.flavor3url != blank and mainImage.src == section.settings.image -%} <a href="{{ section.settings.flavor3url }}"><div id="flavor3Button" class="float_Button button--secondary">Try Now!</div></a>
-      {%- endif -%}
-        {%- if section.settings.flavor4url != blank and mainImage.src == section.settings.image -%} <a href="{{ section.settings.flavor4url }}"><div id="flavor4Button" class="float_Button button--secondary">Try it Now!</div></a>
-      {%- endif -%}
+        <a href="{{ section.settings.flavor1url }}"><div id="flavor1Button" class="float_Button button--secondary">Try Now!</div></a>
+        <a href="{{ section.settings.flavor2url }}"><div id="flavor2Button" class="float_Button button--secondary">Try it Now!</div></a>
+        <a href="{{ section.settings.flavor3url }}"><div id="flavor3Button" class="float_Button button--secondary">Try Now!</div></a>
+        <a href="{{ section.settings.flavor4url }}"><div id="flavor4Button" class="float_Button button--secondary">Try it Now!</div></a>
+      
       </div>
     </div>
    
