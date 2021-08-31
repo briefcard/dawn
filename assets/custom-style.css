@@ -29,6 +29,10 @@ margin-left:auto;
 margin-top:40px;
 }
 
+.slight-box-shadow{
+box-shadow: 5px 5px 5px #fdfdfd;
+}
+
 @media screen and (min-width: 750px) {
 
 .overflow-show{
@@ -82,7 +86,6 @@ margin-right:-10%;
     padding-bottom: 1rem;
     width: calc(25% - 1rem * 3 / 4);
     max-width: 50%;
-  	box-shadow: 2px 2px 2px #fcfcfc;
   }
 
 @media screen and (max-width: 749px) {
