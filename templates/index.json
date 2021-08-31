@@ -196,21 +196,28 @@
         "163035809706adbc23-0": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "title": "Skin & hair upgrade",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         },
         "163035809706adbc23-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "title": "Weight Management",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         },
         "163035809706adbc23-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "title": "Internal Health",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "f6a9a9fa-e1f1-43e8-b472-9bdd49f3d092": {
+          "type": "column",
+          "settings": {
+            "title": "Tasty as Heck!",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         }
@@ -218,10 +225,11 @@
       "block_order": [
         "163035809706adbc23-0",
         "163035809706adbc23-1",
-        "163035809706adbc23-2"
+        "163035809706adbc23-2",
+        "f6a9a9fa-e1f1-43e8-b472-9bdd49f3d092"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "Why make the switch?",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
