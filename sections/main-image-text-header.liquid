@@ -4,7 +4,6 @@
 
      function changeMainImage(x) {
       
-      var mainImageSrc = $(document).getElementById("mainImage").attr("src");
       var flavor1DisplaySrc = "{{section.settings.flavor1Display | img_url: '1500x' }}";
       var flavor2DisplaySrc = "{{section.settings.flavor2Display | img_url: '1500x' }}";
       var flavor3DisplaySrc = "{{section.settings.flavor3Display | img_url: '1500x' }}";
@@ -14,21 +13,21 @@
       	switch(x) {
       
           case 1:
-            var mainImage.src = flavor1DisplaySrc;
+            $(document).getElementById("mainImage").attr("src", flavor1DisplaySrc);
             console.log("1");
             break;
           case 2:
-            var mainImage.src = flavor2DisplaySrc;
+            $(document).getElementById("mainImage").attr("src",flavor2DisplaySrc); 
             console.log("2");
             break;
             
           case 3:
-          var mainImage.src = flavor3DisplaySrc;
+          $(document).getElementById("mainImage").attr("src",flavor3DisplaySrc);
 			console.log("3");
           break;
             
           case 4:
-            var mainImage.src = flavor4DisplaySrc;
+            $(document).getElementById("mainImage").attr("src",flavor4DisplaySrc);
 			console.log("4");
           break;
       };
