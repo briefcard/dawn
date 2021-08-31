@@ -40,7 +40,11 @@
         "flavor1display": "shopify:\/\/shop_images\/Asset_1.png",
         "flavor2display": "shopify:\/\/shop_images\/ito_Ad_1.png",
         "flavor3display": "shopify:\/\/shop_images\/Miaroo_premium_matcha_green_tea_on_yellow_background.png",
-        "flavor4display": "shopify:\/\/shop_images\/RNI-Films-IMG-C9B1AC9D-C0C1-43C7-BFF8-C3355AF5D428.jpg"
+        "flavor4display": "shopify:\/\/shop_images\/RNI-Films-IMG-C9B1AC9D-C0C1-43C7-BFF8-C3355AF5D428.jpg",
+        "flavor1url": "gmail.com",
+        "flavor2url": "gmail.com",
+        "flavor3url": "gmail.com",
+        "flavor4url": "gmail.com"
       }
     },
     "163042516378a404d8": {
