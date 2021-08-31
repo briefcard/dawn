@@ -1,16 +1,22 @@
 .button_container_header{
-  max-width:150px;
-  max-height:100px;
-  position:absolute;
-  bottom:50px !important;
-  
-  text-align:center;
-  overflow:hidden;
-  border-radius:25px;
-  height:50px;
-  background-color: #f8d33e;
-  color: #203d51;
- 
+ 	max-width: 150px;
+    max-height: 100px;
+    margin-right: auto;
+    position: absolute;
+    bottom: 20px!important;
+    left: 90px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 25px;
+    height: 50px;
+    background-color: #f8d33e;
+    color: #203d51;
+    width: 200px;
+    font-weight: 700;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px;
 
 }
 
