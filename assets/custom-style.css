@@ -71,6 +71,10 @@ margin-right:-10%;
 
 @media screen and (max-width: 749px) {
 
+  .mobile-break{
+  display:block;
+  }
+  
   .big-header {
   font-size:3em !important;
   line-height:1.1em;
