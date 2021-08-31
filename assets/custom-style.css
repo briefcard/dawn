@@ -81,7 +81,8 @@ margin-right:-10%;
     padding-left: 1rem;
     padding-bottom: 1rem;
     width: calc(25% - 1rem * 3 / 4);
-    max-width: 50%;
+    max-width: 50%;'
+  	box-shadow: 2px 2px 2px #fcfcfc;
   }
 
 @media screen and (max-width: 749px) {
