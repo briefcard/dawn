@@ -1,12 +1,19 @@
 .button_container_header{
-
-  width:150px;
-  height:50px;
+  
+  max-width:150px;
+  max-height:100px;
   margin-bottom:15px;
   margin-top:auto;
   margin-right:auto;
   margin-left:auto;
   text-align:center;
+
+}
+
+.header_button {
+
+  width:150px !important;
+
 
 }
 
