@@ -22,22 +22,37 @@
       
           case 1:
             mainImage.src = flavor1DisplaySrc;
-            
+            flavor1Button.style.display = "block";
+            flavor2Button.style.display = "none";
+            flavor3Button.style.display = "none";
+            flavor4Button.style.display = "none";
             console.log("1");
             break;
 
           case 2:
             mainImage.src = flavor2DisplaySrc;
+            flavor1Button.style.display = "none";
+            flavor2Button.style.display = "block";
+            flavor3Button.style.display = "none";
+            flavor4Button.style.display = "none";
             console.log("2");
             break;
             
           case 3:
           mainImage.src = flavor3DisplaySrc;
+            flavor1Button.style.display = "none";
+            flavor2Button.style.display = "none";
+            flavor3Button.style.display = "block";
+            flavor4Button.style.display = "none";
 			console.log("3");
           break;
             
           case 4:
            mainImage.src = flavor4DisplaySrc;
+           flavor1Button.style.display = "none";
+            flavor2Button.style.display = "none";
+            flavor3Button.style.display = "none";
+            flavor4Button.style.display = "block";
 			console.log("4");
           break;
       };
