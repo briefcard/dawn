@@ -1,7 +1,109 @@
+{{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
+{{ 'custom-style.css' | asset_url | stylesheet_tag }}
+
+<div class="image-with-text {% if section.settings.full_width %}image-with-text--full-width{% else %}page-width{% endif %} color-scheme-{{ section.settings.color_scheme }}  {%- if section.settings.image.width >= 1070 -%}send-to-back fill-grid {% endif%}">    
+ 
+  
+ {%- if section.settings.flavor1 != blank -%}
+    
+    <div class="grid__item ">
+      <div class="image-with-text__media image-with-text__media--{{ section.settings.height }} media height-150p">
+          <img
+            srcset="{{ section.settings.flavor1 | img_url: '165x' }} 165w"
+            
+            src="{{ section.settings.flavor1 | img_url: '1500x' }}"
+            sizes="(min-width: 200px) 200px, 50px"
+            alt="{{ section.settings.flavor1.alt | escape }}"
+            loading="lazy"
+            width="{{ section.settings.flavor1.width }}"
+            height="{{ section.settings.flavor1.height}}"
+            class="border-radius-25"
+          >
+      </div>
+    </div>
+      {%- endif -%}
+  
+   {%- if section.settings.flavor2 != blank -%}
+    
+    <div class="grid__item ">
+      <div class="image-with-text__media image-with-text__media--{{ section.settings.height }} media height-150p">
+          <img
+            srcset="{{ section.settings.flavor2 | img_url: '165x' }} 165w"
+            
+            src="{{ section.settings.flavor2 | img_url: '1500x' }}"
+            sizes="(min-width: 200px) 200px, 50px"
+            alt="{{ section.settings.flavor2.alt | escape }}"
+            loading="lazy"
+            width="{{ section.settings.flavor2.width }}"
+            height="{{ section.settings.flavor2.height}}"
+            class="border-radius-25"
+          >
+      </div>
+    </div>
+      {%- endif -%}
+{%- if section.settings.flavor3 != blank -%}
+    
+    <div class="grid__item ">
+      <div class="image-with-text__media image-with-text__media--{{ section.settings.height }} media height-150p">
+          <img
+            srcset="{{ section.settings.flavor3 | img_url: '165x' }} 165w"
+            
+            src="{{ section.settings.flavor3 | img_url: '1500x' }}"
+            sizes="(min-width: 200px) 200px, 50px"
+            alt="{{ section.settings.flavor3.alt | escape }}"
+            loading="lazy"
+            width="{{ section.settings.flavor3.width }}"
+            height="{{ section.settings.flavor3.height}}"
+            class="border-radius-25"
+          >
+      </div>
+    </div>
+      {%- endif -%}
+  {%- if section.settings.flavor4 != blank -%}
+    
+    <div class="grid__item ">
+      <div class="image-with-text__media image-with-text__media--{{ section.settings.height }} media height-150p">
+          <img
+            srcset="{{ section.settings.flavor4 | img_url: '165x' }} 165w"
+            
+            src="{{ section.settings.flavor3 | img_url: '1500x' }}"
+            sizes="(min-width: 200px) 200px, 50px"
+            alt="{{ section.settings.flavor4.alt | escape }}"
+            loading="lazy"
+            width="{{ section.settings.flavor4.width }}"
+            height="{{ section.settings.flavor4.height}}"
+            class="border-radius-25"
+          >
+      </div>
+    </div>
+      {%- endif -%}
+</div>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Main Image Selector",
+    "settings": [
+{
+      "type": "image_picker",
+      "id": "flavor1",
+      "label": "Flavor 1 Image"
+    },
+{
+      "type": "image_picker",
+      "id": "flavor2",
+      "label": "Flavor 2 Image"
+    },
+{
+      "type": "image_picker",
+      "id": "flavor3",
+      "label": "Flavor 3 Image"
+    },
+{
+      "type": "image_picker",
+      "id": "flavor4",
+      "label": "Flavor 4 Image"
+    }
+]
   }
 {% endschema %}
 
