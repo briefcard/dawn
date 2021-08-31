@@ -28,6 +28,25 @@
         {%- endif -%}
       </div>
     </div>
+    
+    {%- if section.settings.flavor1 != blank -%}
+    
+    <div class="grid__item ">
+      <div class="image-with-text__media image-with-text__media--{{ section.settings.height }} media ">
+          <img
+            srcset="{{ section.settings.flavor1 | img_url: '165x' }} 165w"
+            
+            src="{{ section.settings.flavor1 | img_url: '1500x' }}"
+            sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 1.2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+            alt="{{ section.settings.flavor1.alt | escape }}"
+            loading="lazy"
+            width="{{ section.settings.flavor1.width }}"
+            height="{{ section.settings.flavor1.height }}"
+            class="border-radius-25"
+          >
+      </div>
+    </div>
+      {%- endif -%}
     <div class="grid__item">
       <div class="image-with-text__content image-with-text__content--{{ section.settings.height }} margin-top-positive padding-none left-margin-correct m-top-padding-10">
         {%- for block in section.blocks -%}
