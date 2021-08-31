@@ -2,11 +2,15 @@
 {{ 'custom-style.css' | asset_url | stylesheet_tag }}
 
 <div class="image-with-text {% if section.settings.full_width %}image-with-text--full-width{% else %}page-width{% endif %} color-scheme-{{ section.settings.color_scheme }}  {%- if section.settings.image.width >= 1070 -%}send-to-back fill-grid {% endif%}">    
+ 
   
+  <div class=" margin-top-negative image-with-text__grid color-{{ section.settings.color_scheme }}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse-2 {% endif %} grid grid--gapless grid--1-col grid--2-col-tablet overflow-show">
+   
+     
   {%- if section.settings.flavor1 != blank -%}
     
     <div class="grid__item ">
-      <div class="image-with-text__media media height-150p">
+      <div class="image-with-text__media image-with-text__media--{{ section.settings.height }} media height-150p">
           <img
             srcset="{{ section.settings.flavor1 | img_url: '165x' }} 165w"
             
@@ -21,9 +25,6 @@
       </div>
     </div>
       {%- endif -%}
-  
-  <div class=" margin-top-negative image-with-text__grid color-{{ section.settings.color_scheme }}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse-2 {% endif %} grid grid--gapless grid--1-col grid--2-col-tablet overflow-show">
-   
     
     <div class="grid__item ">
       <div class="image-with-text__media image-with-text__media--{{ section.settings.height }} {% if section.settings.image != blank %}media{% else %}image-with-text__media--placeholder placeholder{% endif %} right-margin-correct "
