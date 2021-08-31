@@ -11,12 +11,11 @@
             srcset="{{ section.settings.flavor1 | img_url: '165x' }} 165w"
             
             src="{{ section.settings.flavor1 | img_url: '1500x' }}"
-            sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 1.2 }}px, (max-width: 250px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+            sizes="(min-width: 200px) 200px, 50px"
             alt="{{ section.settings.flavor1.alt | escape }}"
             loading="lazy"
             width="{{ section.settings.flavor1.width }}"
-            height="50px"
-               max-height="50px"
+            height="{{ section.settings.flavor1.height}}"
             class="border-radius-25"
           >
       </div>
