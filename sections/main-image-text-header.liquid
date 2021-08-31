@@ -1,6 +1,45 @@
 {{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
 {{ 'custom-style.css' | asset_url | stylesheet_tag }}
 
+{% javascript %}
+
+$(document).ready(
+
+     function changeMainImage(x) {
+      
+      var flavor1DisplaySrc = "{{section.settings.flavor1Display | img_url: '1500x' }}";
+      var flavor2DisplaySrc = "{{section.settings.flavor2Display | img_url: '1500x' }}";
+      var flavor3DisplaySrc = "{{section.settings.flavor3Display | img_url: '1500x' }}";
+      var flavor4DisplaySrc = "{{section.settings.flavor4Display | img_url: '1500x' }}";
+     
+      	switch(x) {
+      
+          case 1:
+            $(document).getElementById("mainImage").attr("src", flavor1DisplaySrc);
+            console.log("1");
+            break;
+          case 2:
+            $(document).getElementById("mainImage").attr("src",flavor2DisplaySrc); 
+            console.log("2");
+            break;
+            
+          case 3:
+          $(document).getElementById("mainImage").attr("src",flavor3DisplaySrc);
+			console.log("3");
+          break;
+            
+          case 4:
+            $(document).getElementById("mainImage").attr("src",flavor4DisplaySrc);
+			console.log("4");
+          break;
+      };
+     
+    }
+);
+
+
+{% endjavascript %}
+
 <div class="image-with-text {% if section.settings.full_width %}image-with-text--full-width{% else %}page-width{% endif %} color-scheme-{{ section.settings.color_scheme }}  {%- if section.settings.image.width >= 1070 -%}send-to-back fill-grid {% endif%}">    
  
   
@@ -321,41 +360,3 @@
 {% endschema %}
 
 
-{% javascript %}
-
-$(document).ready(
-
-     function changeMainImage(x) {
-      
-      var flavor1DisplaySrc = "{{section.settings.flavor1Display | img_url: '1500x' }}";
-      var flavor2DisplaySrc = "{{section.settings.flavor2Display | img_url: '1500x' }}";
-      var flavor3DisplaySrc = "{{section.settings.flavor3Display | img_url: '1500x' }}";
-      var flavor4DisplaySrc = "{{section.settings.flavor4Display | img_url: '1500x' }}";
-     
-      	switch(x) {
-      
-          case 1:
-            $(document).getElementById("mainImage").attr("src", flavor1DisplaySrc);
-            console.log("1");
-            break;
-          case 2:
-            $(document).getElementById("mainImage").attr("src",flavor2DisplaySrc); 
-            console.log("2");
-            break;
-            
-          case 3:
-          $(document).getElementById("mainImage").attr("src",flavor3DisplaySrc);
-			console.log("3");
-          break;
-            
-          case 4:
-            $(document).getElementById("mainImage").attr("src",flavor4DisplaySrc);
-			console.log("4");
-          break;
-      };
-     
-    }
-);
-
-
-{% endjavascript %}
