@@ -7,6 +7,12 @@
     
     function changeMainImage(x) {
       var mainImage = document.getElementById("mainImage");
+      var flavor1Button = document.getElementByID("flavor1Button");
+      var flavor2Button = document.getElementByID("flavor2Button");
+      var flavor3Button = document.getElementByID("flavor3Button");
+      var flavor4Button = document.getElementByID("flavor4Button");
+      
+      
       var flavor1DisplaySrc = '{{section.settings.flavor1display | img_url: '1500x' }}';
       var flavor2DisplaySrc = '{{section.settings.flavor2display | img_url: '1500x' }}';
       var flavor3DisplaySrc = '{{section.settings.flavor3display | img_url: '1500x' }}';
@@ -16,6 +22,7 @@
       
           case 1:
             mainImage.src = flavor1DisplaySrc;
+            
             console.log("1");
             break;
 
@@ -68,6 +75,15 @@
         {%- else -%}
           {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
         {%- endif -%}
+        {%- if section.settings.flavor1url != blank -%} <a href="{{ section.settings.flavor1url }}"><div id="flavor1Button" class="float_Button button--secondary">Try Now!</div></a>
+      {%- endif -%}
+        {%- if section.settings.flavor2url != blank -%} <a href="{{ section.settings.flavor2url }}"><div id="flavor2Button" class="float_Button button--secondary">Try Now!</div></a>
+      {%- endif -%}
+       
+        {%- if section.settings.flavor3url != blank -%} <a href="{{ section.settings.flavor3url }}"><div id="flavor3Button" class="float_Button button--secondary">Try Now!</div></a>
+      {%- endif -%}
+        {%- if section.settings.flavor4url != blank -%} <a href="{{ section.settings.flavor4url }}"><div id="flavor4Button" class="float_Button button--secondary">Try Now!</div></a>
+      {%- endif -%}
       </div>
     </div>
    
@@ -115,8 +131,7 @@
             height="{{ section.settings.flavor1.height}}"
             class=""
           >
-       {%- if section.settings.flavor1url != blank -%} <a href="{{ section.settings.flavor1url }}"><div id="flavor1button" class="float_Button">Try Now!</div></a>
-      {%- endif -%}
+       
         </div>
     </div>
       {%- endif -%}
