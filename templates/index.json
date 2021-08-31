@@ -32,11 +32,16 @@
         "image": "shopify:\/\/shop_images\/IMG_8726_1.png",
         "height": "large",
         "color_scheme": "background-1",
-        "layout": "text_first"
+        "layout": "text_first",
+        "flavor1": "shopify:\/\/shop_images\/Miaroo_Organic_Premium_Matcha_Powder.jpg",
+        "flavor2": "shopify:\/\/shop_images\/IMG_8726_1.png",
+        "flavor3": "shopify:\/\/shop_images\/Add_a_heading_1_1.jpg",
+        "flavor4": "shopify:\/\/shop_images\/RNI-Films-IMG-C9B1AC9D-C0C1-43C7-BFF8-C3355AF5D428.jpg"
       }
     },
     "163042516378a404d8": {
       "type": "main-image-flavor-selector",
+      "disabled": true,
       "settings": {
         "flavor1": "shopify:\/\/shop_images\/Miaroo_Organic_Premium_Matcha_Powder.jpg",
         "flavor2": "shopify:\/\/shop_images\/IMG_8726_1.png",
