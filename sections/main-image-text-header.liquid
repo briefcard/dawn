@@ -65,7 +65,7 @@
   
  {%- if section.settings.flavor1 != blank -%}
     
-    <div class="grid__item_custom inline-block" onClick="changeMainImage(1)">
+    <div class="grid__item_custom inline-block" onclick="changeMainImage(1)">
       <div class="image-with-text__media image-with-text__media--{{ section.settings.height }} media height-100p">
           <img
             srcset="{{ section.settings.flavor1 | img_url: '165x' }} 165w"
@@ -84,7 +84,7 @@
   
    {%- if section.settings.flavor2 != blank -%}
     
-    <div class="grid__item_custom inline-block" onClick="changeMainImage(2)">
+    <div class="grid__item_custom inline-block" onclick="changeMainImage(2)">
       <div class="image-with-text__media image-with-text__media--{{ section.settings.height }} media height-100p">
           <img
             srcset="{{ section.settings.flavor2 | img_url: '165x' }} 165w"
@@ -102,7 +102,7 @@
       {%- endif -%}
 {%- if section.settings.flavor3 != blank -%}
   <span class="mobile-break"></span>
-    <div class="grid__item_custom inline-block " onClick="changeMainImage(3)">
+    <div class="grid__item_custom inline-block " onclick="changeMainImage(3)">
       <div class="image-with-text__media image-with-text__media--{{ section.settings.height }} media height-100p">
           <img
             srcset="{{ section.settings.flavor3 | img_url: '165x' }} 165w"
@@ -120,7 +120,7 @@
       {%- endif -%}
   {%- if section.settings.flavor4 != blank -%}
     
-    <div class="grid__item_custom inline-block" onClick="changeMainImage(4)">
+    <div class="grid__item_custom inline-block" onclick="changeMainImage(4)">
       <div class="image-with-text__media image-with-text__media--{{ section.settings.height }} media height-100p">
           <img
             srcset="{{ section.settings.flavor4 | img_url: '165x' }} 165w"
