@@ -103,7 +103,7 @@
  {%- if section.settings.flavor1 != blank -%}
     
     <div id="flavor1" class="grid__item_custom inline-block" onclick="changeMainImage(1)">
-      <div class="image-with-text__media image-with-text__media--{{ section.settings.height }} media height-100p slight-box-shadow">
+      <div class="image-with-text__media image-with-text__media--{{ section.settings.height }} media height-100p ">
           <img
             srcset="{{ section.settings.flavor1 | img_url: '165x' }} 165w"
             
@@ -113,7 +113,7 @@
             loading="lazy"
             width="{{ section.settings.flavor1.width }}"
             height="{{ section.settings.flavor1.height}}"
-            class="border-radius-25"
+            class="border-radius-25 slight-box-shadow"
           >
       </div>
     </div>
@@ -122,7 +122,7 @@
    {%- if section.settings.flavor2 != blank -%}
     
     <div id="flavor2" class="grid__item_custom inline-block" onclick="changeMainImage(2)">
-      <div class="image-with-text__media image-with-text__media--{{ section.settings.height }} media height-100p slight-box-shadow">
+      <div class="image-with-text__media image-with-text__media--{{ section.settings.height }} media height-100p">
           <img
             srcset="{{ section.settings.flavor2 | img_url: '165x' }} 165w"
             
@@ -132,7 +132,7 @@
             loading="lazy"
             width="{{ section.settings.flavor2.width }}"
             height="{{ section.settings.flavor2.height}}"
-            class="border-radius-25"
+            class="border-radius-25 slight-box-shadow"
           >
       </div>
     </div>
@@ -140,7 +140,7 @@
 {%- if section.settings.flavor3 != blank -%}
   <span class="mobile-break"></span>
     <div  id="flavor3" class="grid__item_custom inline-block " onclick="changeMainImage(3)">
-      <div class="image-with-text__media image-with-text__media--{{ section.settings.height }} media height-100p slight-box-shadow">
+      <div class="image-with-text__media image-with-text__media--{{ section.settings.height }} media height-100p">
           <img
             srcset="{{ section.settings.flavor3 | img_url: '165x' }} 165w"
             
@@ -150,7 +150,7 @@
             loading="lazy"
             width="{{ section.settings.flavor3.width }}"
             height="{{ section.settings.flavor3.height}}"
-            class="border-radius-25"
+            class="border-radius-25 slight-box-shadow"
           >
       </div>
     </div>
@@ -158,7 +158,7 @@
   {%- if section.settings.flavor4 != blank -%}
     
     <div id="flavor4"class="grid__item_custom inline-block" onclick="changeMainImage(4)">
-      <div class="image-with-text__media image-with-text__media--{{ section.settings.height }} media height-100p slight-box-shadow">
+      <div class="image-with-text__media image-with-text__media--{{ section.settings.height }} media height-100p">
           <img
             srcset="{{ section.settings.flavor4 | img_url: '165x' }} 165w"
             
@@ -168,7 +168,7 @@
             loading="lazy"
             width="{{ section.settings.flavor4.width }}"
             height="{{ section.settings.flavor4.height}}"
-            class="border-radius-25"
+            class="border-radius-25 slight-box-shadow"
           >
       </div>
     </div>
