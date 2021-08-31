@@ -115,6 +115,7 @@
             height="{{ section.settings.flavor1.height}}"
             class=""
           >
+        <a href="{{ section.settings.flavor1url }}"><div id="flavor1button" class="float_Button">Try Now!</div>
       </div>
     </div>
       {%- endif -%}
@@ -290,7 +291,27 @@
       "type": "image_picker",
       "id": "flavor4display",
       "label": "Flavor 4 Display"
-    }
+    },
+  {
+      "type": "text",
+  	  "id": "flavor1url",
+      "label": "Flavor 1 URL"
+        },
+   {
+      "type": "text",
+  	  "id": "flavor2url",
+      "label": "Flavor 2 URL"
+        },
+  {
+      "type": "text",
+  	  "id": "flavor3url",
+      "label": "Flavor 3 URL"
+        },
+   {
+      "type": "text",
+  	  "id": "flavor4url",
+      "label": "Flavor 4 URL"
+        }
   ],
   "blocks": [
     {
@@ -309,7 +330,6 @@
     {
       "type": "text",
       "name": "t:sections.image-with-text.blocks.text.name",
-      "limit": 1,
       "settings": [
         {
           "type": "richtext",
