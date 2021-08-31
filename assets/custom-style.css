@@ -9,15 +9,15 @@
   text-align:center;
   overflow:hidden;
   border-radius:25px;
-  height:50pxl
+  height:50px;
+    background-color: #f8d33e;
+  color: #203d51;
   
 
 }
 
 .header_button {
 width:100% !important;
- --color-button: var(--color-foreground);
- --color-button-text: var(--color-foreground);
 }
 
 .inline-block{
