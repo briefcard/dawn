@@ -325,10 +325,7 @@
 
 {% javascript %}
 
-$(document).ready(
-
-
-     function changeMainImage(x) {
+$(document).ready( function changeMainImage(x) {
       
       var flavor1DisplaySrc = "{{section.settings.flavor1Display | img_url: '1500x' }}";
       var flavor2DisplaySrc = "{{section.settings.flavor2Display | img_url: '1500x' }}";
@@ -341,6 +338,7 @@ $(document).ready(
             $(document).getElementById("mainImage").attr("src", flavor1DisplaySrc);
             console.log("1");
             break;
+
           case 2:
             $(document).getElementById("mainImage").attr("src",flavor2DisplaySrc); 
             console.log("2");
@@ -357,8 +355,7 @@ $(document).ready(
           break;
       };
      
-    }
-);
+    });
 
 
 {% endjavascript %}
