@@ -208,6 +208,15 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
+    },
+    "163042516378a404d8": {
+      "type": "main-image-flavor-selector",
+      "settings": {
+        "flavor1": "shopify:\/\/shop_images\/Miaroo_Organic_Premium_Matcha_Powder.jpg",
+        "flavor2": "shopify:\/\/shop_images\/IMG_8726_1.png",
+        "flavor3": "shopify:\/\/shop_images\/Add_a_heading_1_1.jpg",
+        "flavor4": "shopify:\/\/shop_images\/jason-leung-f3uWanPu_rU-unsplash.jpg"
+      }
     }
   },
   "order": [
@@ -216,6 +225,7 @@
     "image_banner",
     "featured_products",
     "1628780674c9ed5bc2",
-    "163035809706adbc23"
+    "163035809706adbc23",
+    "163042516378a404d8"
   ]
 }
