@@ -1,3 +1,10 @@
+.float_Button{
+  
+ --color-button: var(--color-base-outline-button-labels);
+ --color-button-text: var(--color-base-outline-button-labels);
+ --alpha-button-background: 0;
+}
+
 .inline-block{
 display:inline-block;
 
