@@ -16,7 +16,8 @@
 
 .header_button {
 width:100% !important;
-
+ --color-button: var(--color-foreground);
+ --color-button-text: var(--color-foreground);
 }
 
 .inline-block{
