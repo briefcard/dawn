@@ -78,6 +78,84 @@
   </div>
 </div>
 
+<div class="{% if section.settings.full_width %}image-with-text--full-width{% else %}page-width{% endif %} color-scheme-{{ section.settings.color_scheme }}  {%- if section.settings.image.width >= 1070 -%} fill-grid {% endif%} auto-margins top-margin-5">    
+ 
+  
+ {%- if section.settings.flavor1 != blank -%}
+    
+    <div class="grid__item_custom inline-block">
+      <div class="image-with-text__media image-with-text__media--{{ section.settings.height }} media height-100p">
+          <img
+            srcset="{{ section.settings.flavor1 | img_url: '165x' }} 165w"
+            
+            src="{{ section.settings.flavor1 | img_url: '1500x' }}"
+            sizes="(min-width: 200px) 200px, 30px"
+            alt="{{ section.settings.flavor1.alt | escape }}"
+            loading="lazy"
+            width="{{ section.settings.flavor1.width }}"
+            height="{{ section.settings.flavor1.height}}"
+            class="border-radius-25"
+          >
+      </div>
+    </div>
+      {%- endif -%}
+  
+   {%- if section.settings.flavor2 != blank -%}
+    
+    <div class="grid__item_custom inline-block ">
+      <div class="image-with-text__media image-with-text__media--{{ section.settings.height }} media height-100p">
+          <img
+            srcset="{{ section.settings.flavor2 | img_url: '165x' }} 165w"
+            
+            src="{{ section.settings.flavor2 | img_url: '1500x' }}"
+            sizes="(min-width: 200px) 200px, 30px"
+            alt="{{ section.settings.flavor2.alt | escape }}"
+            loading="lazy"
+            width="{{ section.settings.flavor2.width }}"
+            height="{{ section.settings.flavor2.height}}"
+            class="border-radius-25"
+          >
+      </div>
+    </div>
+      {%- endif -%}
+{%- if section.settings.flavor3 != blank -%}
+  <span class="mobile-break"></span>
+    <div class="grid__item_custom inline-block">
+      <div class="image-with-text__media image-with-text__media--{{ section.settings.height }} media height-100p">
+          <img
+            srcset="{{ section.settings.flavor3 | img_url: '165x' }} 165w"
+            
+            src="{{ section.settings.flavor3 | img_url: '1500x' }}"
+            sizes="(min-width: 200px) 200px, 30px"
+            alt="{{ section.settings.flavor3.alt | escape }}"
+            loading="lazy"
+            width="{{ section.settings.flavor3.width }}"
+            height="{{ section.settings.flavor3.height}}"
+            class="border-radius-25"
+          >
+      </div>
+    </div>
+      {%- endif -%}
+  {%- if section.settings.flavor4 != blank -%}
+    
+    <div class="grid__item_custom inline-block">
+      <div class="image-with-text__media image-with-text__media--{{ section.settings.height }} media height-100p">
+          <img
+            srcset="{{ section.settings.flavor4 | img_url: '165x' }} 165w"
+            
+            src="{{ section.settings.flavor3 | img_url: '1500x' }}"
+            sizes="(min-width: 200px) 200px, 30px"
+            alt="{{ section.settings.flavor4.alt | escape }}"
+            loading="lazy"
+            width="{{ section.settings.flavor4.width }}"
+            height="{{ section.settings.flavor4.height}}"
+            class="border-radius-25"
+          >
+      </div>
+    </div>
+      {%- endif -%}
+</div>
+
 {% schema %}
 {
   "name": "Header Text + Image",
@@ -223,7 +301,7 @@
   ],
   "presets": [
     {
-      "name": "t:sections.image-with-text.presets.name",
+      "name": "New Image with Text",
       "blocks": [
         {
           "type": "heading"
