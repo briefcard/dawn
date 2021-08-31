@@ -89,7 +89,7 @@
         {%- else -%}
           {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
         {%- endif -%}
-        <a href="{{ section.settings.flavor1url }}" style="display:none;" id="flavor1Button" class="float_Button button">Try Now!</a>
+        <a href="{{ section.settings.flavor1url }}" style="display:none;" id="flavor1Button" class="float_Button button" {{ block.shopify_attributes }}>>Try Now!</a>
         <a href="{{ section.settings.flavor2url }}" style="display:none;" id="flavor2Button" class="float_Button button">Try it Now!</a>
         <a href="{{ section.settings.flavor3url }}" style="display:none;" id="flavor3Button" class="float_Button button">Try Now!</a>
         <a href="{{ section.settings.flavor4url }}" style="display:none;" id="flavor4Button" class="float_Button button">Try it Now!</a>
