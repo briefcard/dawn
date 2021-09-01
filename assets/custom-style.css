@@ -194,8 +194,8 @@ diplay:none;
 <!-- flavor 1 hover + active -->
 
 .flavor1button:hover {
-  background-color: #CBEAE6;
-  box-shadow: #d82a30;
+  background-color: #CBEAE6 !important;
+  box-shadow: #d82a30 !important;
 }
 
 .lemonraspberrysvg:hover {
