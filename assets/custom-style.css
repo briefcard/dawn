@@ -190,6 +190,14 @@ diplay:none;
 diplay:none;
 }
 
+
+<!-- flavor 1 hover + active -->
+
+.flavor1button:hover{
+
+  border-color: #d82a30;
+}
+
 .lemonraspberrysvg:hover {
 
 filter: invert(19%) sepia(92%) saturate(4402%) hue-rotate(348deg) brightness(91%) contrast(87%);
