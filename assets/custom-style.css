@@ -193,7 +193,7 @@ diplay:none;
 
 <!-- flavor 1 hover + active -->
 
-.slight-box-shadow .flavor1button:hover{
+.flavor1button:hover{
 
   box-shadow: #d82a30;
   background-color: #CBEAE6;
