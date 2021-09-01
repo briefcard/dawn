@@ -3,6 +3,14 @@
 
 }
 
+.header_label_spacing {
+
+    Max-width: 150px;
+    height: auto;
+    margin-top: 50px;
+
+}
+
 a .header_button {
  cursor: pointer;
  color: #203d51;
