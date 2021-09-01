@@ -192,6 +192,6 @@ diplay:none;
 
 .lemonraspberrysvg:hover {
 
-color: #D73339;
-background-color:; #C7E8E2l
+filter: invert(1);
+ 
 }
