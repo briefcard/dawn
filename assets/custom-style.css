@@ -139,7 +139,7 @@ margin-right:-10%;
 
 }
   .header_label_sizing{
-padding-top:3.5em;
+   padding-top:3.5em;
   
   }
   .mobile-break{
@@ -188,4 +188,11 @@ diplay:none;
 
 #flavor4Button {
 diplay:none;
+}
+
+svg .header_label_sizing .lemonraspberrysvg:hover {
+
+color: #D73339;
+  
+  background-color:; #C7E8E2l
 }
