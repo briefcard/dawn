@@ -5,9 +5,9 @@
 
 .header_label_sizing {
 
-    Max-width: 150px;
-    height: auto;
-    margin-top: 50px;
+    Max-width: 150px !important;
+    height: auto !important;
+    margin-top: 50px !important;
 
 }
 
