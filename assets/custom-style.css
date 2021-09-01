@@ -5,12 +5,13 @@
 
 .header_label_sizing {
 
-    Max-width: 150px !important;
+    Max-width: 90% !important;
     height: auto !important;
     margin-top: 50px !important;
       margin-left: auto;
     margin-right: auto;
     position: relative !important;
+      padding-top: 2em;
 
 }
 
@@ -138,6 +139,10 @@ margin-right:-10%;
     display:block;
 
 }
+  .header_label_sizing{
+  padding-top:3.5em;
+  
+  }
   .mobile-break{
   display:block;
   }
