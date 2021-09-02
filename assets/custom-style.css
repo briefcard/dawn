@@ -1,7 +1,7 @@
 
 .flavoractive:hover {
 
-filter: invert;
+filter: invert(100%);
 
 .flavoractive:active {
 filter: invert;
