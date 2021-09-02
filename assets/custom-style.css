@@ -201,4 +201,5 @@ diplay:none;
 .lemonraspberrysvg:hover {
 
 filter: invert(19%) sepia(92%) saturate(4402%) hue-rotate(348deg) brightness(91%) contrast(87%);
+  background-color:#CBEAE6 !important;
 }
