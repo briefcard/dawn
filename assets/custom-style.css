@@ -193,7 +193,7 @@ diplay:none;
 
 <!-- flavor 1 hover + active -->
 
-.flavor1button:hover {
+#flavor1button:hover {
   background-color: #CBEAE6 !important;
   box-shadow: #d82a30 !important;
 }
@@ -201,5 +201,5 @@ diplay:none;
 .lemonraspberrysvg:hover {
 
 filter: invert(19%) sepia(92%) saturate(4402%) hue-rotate(348deg) brightness(91%) contrast(87%);
-  background-color:#CBEAE6 !important;
+  
 }
