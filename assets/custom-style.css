@@ -1,9 +1,12 @@
 
-.flavoractive:hover, .flavoractive:focus {
+.flavoractive:hover, {
 filter: invert(100%);
 }
 
+.activeflavor{
 
+filter:invert(100%);
+}
 .button_container_header{
  	display:none;
 
