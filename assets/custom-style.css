@@ -20,8 +20,6 @@ filter: brightness(0) saturate(100%) invert(15%) sepia(9%) saturate(7494%) hue-r
     margin-right: auto;
     position: relative !important;
   padding-top:1.5em;
-    padding-bottom:1em;;
-
 }
 
 a .header_button {
