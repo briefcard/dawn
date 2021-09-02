@@ -5,8 +5,10 @@
   
   $(document).ready( function() {
     
+    
       $('.flavoractive').click(function(){
-  	  $(this).toggleClass('activeflavor');
+      $('img').removeClass('activeflavor');
+  	  $(this).addClass('activeflavor');
 });
    
   });
