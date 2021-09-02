@@ -1,11 +1,14 @@
 <!-- flavor 1 hover + active -->
 
-.flavoractive:hover, .flavoractive:active {
+.flavoractive:hover {
 
 filter: invert(0%) sepia(0%) saturate(7500%) hue-rotate(340deg) brightness(94%) contrast(106%);  
 }
 
+.flavoractive:active {
+filter: invert(0%) sepia(0%) saturate(7500%) hue-rotate(340deg) brightness(94%) contrast(106%);  
 
+}
 
 
 .button_container_header{
