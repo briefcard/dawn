@@ -1,11 +1,10 @@
 
 .flavoractive:hover {
 
-filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(307deg) brightness(97%) contrast(102%);
-}
+filter: invert;
 
 .flavoractive:active {
-filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(307deg) brightness(97%) contrast(102%);
+filter: invert;
 }
 
 
