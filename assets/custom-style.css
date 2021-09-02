@@ -1,6 +1,6 @@
 <!-- flavor 1 hover + active -->
 
-.flavor1Button:hover {
+.flavor1Button{
   background-color:red;
 }
 
