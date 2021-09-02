@@ -4,7 +4,7 @@ filter: brightness(0) saturate(100%) invert(15%) sepia(9%) saturate(7494%) hue-r
 }
 
 .activeflavor {
-filter: brightness(0) saturate(100%) invert(100%);
+filter: brightness(0) saturate(100%) invert(15%) sepia(9%) saturate(7494%) hue-rotate(173deg) contrast(77%);
 }
 
 .button_container_header{
