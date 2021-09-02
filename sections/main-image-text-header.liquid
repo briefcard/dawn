@@ -3,7 +3,13 @@
 
 <script>
   
+    $(document).ready(
     
+      $('.flavoractive').click(function(){
+  	  $(this).toggleClass('activeflavor');
+});
+    
+    )
     
     function changeMainImage(x) {
       var mainImage = document.getElementById("mainImage");
