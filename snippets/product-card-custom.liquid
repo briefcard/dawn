@@ -123,7 +123,8 @@
             {%- unless product.has_only_default_variant -%}
           <variant-selects class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}" {{ block.shopify_attributes }}>
                   {%- for option in product.options_with_values -%}
-                    <div class="product-form__input product-form__input--dropdown">
+                    {%- unless option.available == false -%}
+            		<div class="product-form__input product-form__input--dropdown">
                       <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">
                         {{ option.name }}
                       </label>
@@ -142,6 +143,7 @@
                         {% render 'icon-caret' %}
                       </div>
                     </div>
+            	{%- endunless -%}
                   {%- endfor -%}
 
                   <script type="application/json">
