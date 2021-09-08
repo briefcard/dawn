@@ -14,7 +14,7 @@
 {% endcomment %}
 
 <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
-
+<script src="{{ 'selectOption.js' | asset_url }}" defer="defer"></script>
 <div class="card-wrapper">
   
 
@@ -153,12 +153,10 @@
               <div class="product-form__input{% if product.has_only_default_variant %} hidden{% endif %}">
                 <label class="form__label" for="Variants-{{ section.id }}">{{ 'products.product.product_variants' | t }}</label>
                 <div class="select">
-                  <select name="id" id="Variants-{{ section.id }}" class="select__select" form="product-form">
+                  <select name="id" id="Variants-{{ section.id }}" class="select__select" form="product-form" onChange="">
                     {%- for variant in product.variants -%}
-                      <option
-                        {% if variant == product.selected_or_first_available_variant %}selected="selected"{% endif %}
-                        {% if variant.available == false %}disabled{% endif %}
-                        value="{{ variant.id }}"
+                      <option    
+                        value="{{ variant.id }}" name ="{{ variant.id }}"
                       >
                         {{ variant.title }}
                         {%- if variant.available == false %} - {{ 'products.product.sold_out' | t }}{% endif %}
@@ -218,7 +216,11 @@
             </div>
 
             <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
-         
+         <script>
+           
+           var 
+           
+        </script>
        
       </div>
     </div>
