@@ -84,6 +84,10 @@
 
     <div class="card-information">
       <div class="card-information__wrapper">
+{% comment %}Start automatically added Judge.me widget{% endcomment %}
+  {% render 'judgeme_widgets', widget_type: 'judgeme_preview_badge', concierge_install: true, product: product_card_product %}
+{% comment %}End automatically added Judge.me widget{% endcomment %}
+
         {%- if show_vendor -%}
           <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
           <div class="caption-with-letter-spacing light">{{ product_card_product.vendor }}</div>
