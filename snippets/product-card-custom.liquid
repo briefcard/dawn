@@ -129,6 +129,7 @@
                           class="select__select"
                           name="options[{{ option.name | escape }}]"
                           form="product-form-{{ section.id }}"
+                          onChange="selectedProduct(this.value)"
                         >
                           {%- for value in option.values -%}
                             <option value="{{ value | escape }}" {% if option.selected_value == value %}selected="selected"{% endif %}>
@@ -153,7 +154,7 @@
               <div class="product-form__input{% if product.has_only_default_variant %} hidden{% endif %}">
                 <label class="form__label" for="Variants-{{ section.id }}">{{ 'products.product.product_variants' | t }}</label>
                 <div class="select">
-                  <select name="id" id="Variants-{{ section.id }}" class="select__select" form="product-form" onChange="selectedProduct(this.value)">
+                  <select name="id" id="Variants-{{ section.id }}" class="select__select" form="product-form" ">
                     {%- for variant in product.variants -%}
                       <option    
                         value="{{ variant.id }}" name ="{{ variant.id }}"
