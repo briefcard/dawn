@@ -2115,3 +2115,9 @@ details-disclosure > details {
   color: rgb(var(--color-foreground));
   word-break: break-word;
 }
+
+  .guarantees {
+  width:100%;
+  position:relative;
+  
+  }
