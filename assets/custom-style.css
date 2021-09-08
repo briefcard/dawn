@@ -228,3 +228,7 @@ display:inline !important;
     padding: 20px 20px 0px 20px;
     vertical-align: top;
 }
+
+ul {    
+  list-style-type: none;
+  padding: 0;}
