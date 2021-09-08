@@ -118,7 +118,7 @@
          
        
             {%- unless product.has_only_default_variant -%}
-           <variant-selects class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}" {{ block.shopify_attributes }}>
+          <variant-selects class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}" {{ block.shopify_attributes }}>
                   {%- for option in product.options_with_values -%}
                     <div class="product-form__input product-form__input--dropdown">
                       <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">
@@ -129,7 +129,6 @@
                           class="select__select"
                           name="options[{{ option.name | escape }}]"
                           form="product-form-{{ section.id }}"
-                          onChange="selectedProduct(this.value)"
                         >
                           {%- for value in option.values -%}
                             <option value="{{ value | escape }}" {% if option.selected_value == value %}selected="selected"{% endif %}>
@@ -146,18 +145,19 @@
                     {{ product.variants | json }}
                   </script>
                 </variant-selects>
-            
-            {%- endunless -%}
-         {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
+                    {%- endunless -%}
+
 
             <noscript>
               <div class="product-form__input{% if product.has_only_default_variant %} hidden{% endif %}">
                 <label class="form__label" for="Variants-{{ section.id }}">{{ 'products.product.product_variants' | t }}</label>
                 <div class="select">
-                  <select name="id" id="Variants-{{ section.id }}" class="select__select" form="product-form" >
+                  <select name="id" id="Variants-{{ section.id }}" class="select__select" form="product-form">
                     {%- for variant in product.variants -%}
-                      <option    
-                        value="{{ variant.id }}" name ="{{ variant.id }}"
+                      <option
+                        {% if variant == product.selected_or_first_available_variant %}selected="selected"{% endif %}
+                        {% if variant.available == false %}disabled{% endif %}
+                        value="{{ variant.id }}"
                       >
                         {{ variant.title }}
                         {%- if variant.available == false %} - {{ 'products.product.sold_out' | t }}{% endif %}
