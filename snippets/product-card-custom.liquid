@@ -13,6 +13,15 @@
     {% render 'product-card-custom', show_vendor: section.settings.show_vendor %}
 {% endcomment %}
 
+{% comment %}theme-check-disable TemplateLength{% endcomment %}
+{{ 'section-main-product.css' | asset_url | stylesheet_tag }}
+{{ 'component-accordion.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
+{{ 'component-rte.css' | asset_url | stylesheet_tag }}
+{{ 'component-slider.css' | asset_url | stylesheet_tag }}
+
+
+
 <div class="grid__item product__media-wrapper">
       <slider-component class="slider-mobile-gutter">
         <a class="skip-to-content-link button visually-hidden" href="#ProductInfo-{{ section.id }}">
