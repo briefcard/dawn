@@ -140,11 +140,11 @@
                           name="options[{{ option.name | escape }}]"
                           form="product-form-{{ section.id }}"
                         >
-                          {%- for value in option.values -%}
-                            <option value="{{ value| escape }}" name="{{id}}" {% if option.selected_value == value %}selected="selected"{% endif %}>
+                          
+                            <option value="{{ option.value | escape }}" name="{{option.id}}" {% if option.selected_value == value %}selected="selected"{% endif %}>
                               {{ value }}
                             </option>
-                          {%- endfor -%}
+                         
                         </select>
                         {% render 'icon-caret' %}
                       </div>
@@ -164,7 +164,7 @@
                 <div class="select">
                   <select name="id" id="Variants-{{ section.id }}" class="select__select" form="product-form">
                     {%- for variant in product.variants -%}
-                    {%- if variant.availability == true -%}
+                   
                       <option
                         {% if variant == product.selected_or_first_available_variant %}selected="selected"{% endif %}
                         {% if variant.available == false %}disabled{% endif %}
@@ -174,7 +174,6 @@
                         {%- if variant.available == false %} - {{ 'products.product.sold_out' | t }}{% endif %}
                         - {{ variant.price | money | strip_html }}
                       </option>
-                    {%- endif -%}
                     {%- endfor -%}                  </select>
                   {% render 'icon-caret' %}
                 </div>
