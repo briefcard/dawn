@@ -47,7 +47,7 @@
         "b58da18d-0544-4ad8-aad0-44b1f6a92b9b": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<img class=\"guarantees\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0594\/0897\/4011\/files\/miaroo_matcha_co_guarantee.jpg?v=1631110764\">"
+            "custom_liquid": "<img class=\"guarantees\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0594\/0897\/4011\/files\/miaroo_matcha_co_guarantees.png?v=1631111467\">"
           }
         },
         "description": {
@@ -93,8 +93,16 @@
     },
     "162888765031a713e4": {
       "type": "apps",
+      "disabled": true,
       "settings": {
         "include_margins": true
+      }
+    },
+    "16311102695944af6f": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<img class=\"guarantees\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0594\/0897\/4011\/files\/miaroo_matcha_co_guarantees.png?v=1631111467\">"
       }
     },
     "1628887594e3ef468b": {
@@ -192,6 +200,7 @@
     "main",
     "product-recommendations",
     "162888765031a713e4",
+    "16311102695944af6f",
     "1628887594e3ef468b",
     "162879057995c0cdc6",
     "1628790622fd09bcb6"
