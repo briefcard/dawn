@@ -209,3 +209,8 @@ li.grid__item.sca-qv-image {
   width:90% !important;
   max-width:100% !important;
 }
+
+.card {
+  width: 50%;
+  display:inline-block;
+}
