@@ -12,6 +12,7 @@
     Usage:
     {% render 'product-card-custom', show_vendor: section.settings.show_vendor %}
 {% endcomment %}
+{{ 'custom-style.css' | asset_url | stylesheet_tag }}
 
 <div class="card-wrapper">
   <a href="{{ product_card_product.url | default: '#' }}" class="full-unstyled-link">
@@ -66,7 +67,7 @@
                 sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 130 | divided_by: 4 }}px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
                 alt="{{ product_card_product.featured_media.alt | escape }}"
                 loading="lazy"
-                class="motion-reduce"
+                class="motion-reduce collection-image-relative"
                 width="{{ product_card_product.featured_media.width }}"
                 height="{{ product_card_product.featured_media.height }}"
               >
