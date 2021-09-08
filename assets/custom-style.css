@@ -205,7 +205,7 @@ position:relative !important;
 
 }
 
-li .grid__item .sca-qv-image {
-width:90%;
-  max-width:100%;
+li.grid__item.sca-qv-image {
+  width:90% !important;
+  max-width:100% !important;
 }
