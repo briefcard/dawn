@@ -181,6 +181,9 @@ margin-right:-10%;
   .card {
   width: 100% !important;
 }
+  .collection-product-info {
+  max-width:100%;
+  }
   
 }
 
@@ -227,6 +230,7 @@ display:inline !important;
 	display: inline-block;
     padding: 20px 20px 0px 20px;
     vertical-align: top;
+  	max-width: 40%;
 }
 
 ul {    
