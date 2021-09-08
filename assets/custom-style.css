@@ -182,7 +182,7 @@ margin-right:-10%;
   width: 100% !important;
 }
   .collection-product-info {
-  max-width:100%;
+  max-width:100% !important;
   }
   
 }
