@@ -153,7 +153,7 @@
               <div class="product-form__input{% if product.has_only_default_variant %} hidden{% endif %}">
                 <label class="form__label" for="Variants-{{ section.id }}">{{ 'products.product.product_variants' | t }}</label>
                 <div class="select">
-                  <select name="id" id="Variants-{{ section.id }}" class="select__select" form="product-form" onChange="">
+                  <select name="id" id="Variants-{{ section.id }}" class="select__select" form="product-form" onChange="selectedProduct()">
                     {%- for variant in product.variants -%}
                       <option    
                         value="{{ variant.id }}" name ="{{ variant.id }}"
@@ -218,7 +218,16 @@
             <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
          <script>
            
-           var 
+           function selectedProduct() {
+           var Selected = document.getElemenetById('id').selected;
+           return Selected;
+           }
+           
+           function currentProduct() {
+           	
+             SelectedProduct();
+           
+           };
            
         </script>
        
