@@ -178,6 +178,10 @@ margin-right:-10%;
   margin-top:0em !important;
   }
   
+  .card {
+  width: 100%;
+}
+  
 }
 
 <!-- Active Button Section -->
