@@ -140,9 +140,9 @@
                           name="options[{{ bundle.name | escape }}]"
                           form="product-form-{{ section.id }}"
                         >
-                          {%- for variant in bundle.values -%}
-                            <option value="{{ variant| escape }}" name="{{}}" {% if bundle.selected_value == value %}selected="selected"{% endif %}>
-                              {{ variant }} @ {{variant.price}}
+                          {%- for variant in bundle -%}
+                            <option value="{{ variant.name| escape }}" name="{{variant.id}}" {% if bundle.selected_value == value %}selected="selected"{% endif %}>
+                              {{ variant }} @ {{bundle.variant.id}}
                             </option>
                           {%- endfor -%}
                         </select>
