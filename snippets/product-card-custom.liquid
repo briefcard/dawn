@@ -142,7 +142,7 @@
                         >
                           {%- for variant in bundle.values -%}
                             <option value="{{ variant| escape }}" name="" {% if bundle.selected_value == value %}selected="selected"{% endif %}>
-                              {{ variant["id"] }}
+                              {{ variant }}
                             </option>
                           {%- endfor -%}
                         </select>
