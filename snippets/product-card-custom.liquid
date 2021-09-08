@@ -12,7 +12,10 @@
     Usage:
     {% render 'product-card-custom', show_vendor: section.settings.show_vendor %}
 {% endcomment %}
-
+{{ 'section-main-product.css' | asset_url | stylesheet_tag }}
+{{ 'component-accordion.css' | asset_url | stylesheet_tag }}
+{{ 'component-rte.css' | asset_url | stylesheet_tag }}
+{{ 'component-slider.css' | asset_url | stylesheet_tag }}
 
 <div class="card-wrapper">
   <a href="{{ product_card_product.url | default: '#' }}" class="full-unstyled-link">
@@ -52,9 +55,6 @@
           <div{% if add_image_padding %} class="card__media-full-spacer"{% endif %}>
             <div class="media media--transparent media--{{ media_size }} media--hover-effect">
                  <slider-component class="slider-mobile-gutter">
-        <a class="skip-to-content-link button visually-hidden" href="#ProductInfo-{{ section.id }}">
-          {{ "accessibility.skip_to_product_info" | t }}
-        </a>
         <ul class="product__media-list grid grid--peek list-unstyled slider slider--mobile" role="list">
           {%- if product_card_product.featured_media != null -%}
             {%- assign media = product_card_product.featured_media -%}
