@@ -116,7 +116,6 @@
         <span class="caption-large light">{{ block.settings.description | escape }}</span>
         {% assign product = product_card_product %}
          
-              {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
        
             {%- unless product.has_only_default_variant -%}
            <variant-selects class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}" {{ block.shopify_attributes }}>
@@ -148,6 +147,7 @@
                 </variant-selects>
             
             {%- endunless -%}
+         {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
 
             <noscript>
               <div class="product-form__input{% if product.has_only_default_variant %} hidden{% endif %}">
