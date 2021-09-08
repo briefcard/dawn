@@ -156,7 +156,8 @@
                 <label class="form__label" for="Variants-{{ section.id }}">{{ 'products.product.product_variants' | t }}</label>
                 <div class="select">
                   <select name="id" id="Variants-{{ section.id }}" class="select__select" form="product-form">
-                    {%- for variant in product.variants and unless variant.availability == false -%}
+                    {%- for variant in product.variants -%}
+                    {%- unless variant.availability == false -%}
                       <option
                         {% if variant == product.selected_or_first_available_variant %}selected="selected"{% endif %}
                         {% if variant.available == false %}disabled{% endif %}
@@ -166,6 +167,7 @@
                         {%- if variant.available == false %} - {{ 'products.product.sold_out' | t }}{% endif %}
                         - {{ variant.price | money | strip_html }}
                       </option>
+                    {%- endunless -%}
                     {%- endfor -%}                  </select>
                   {% render 'icon-caret' %}
                 </div>
