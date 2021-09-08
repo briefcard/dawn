@@ -147,8 +147,9 @@
                 </variant-selects>
             
             {%- endunless -%}
-         {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
-
+         <div class="no-js-hidden" id="price-{{ section.id }}" {{ block.shopify_attributes }}>
+              {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
+            </div>
             <noscript>
               <div class="product-form__input{% if product.has_only_default_variant %} hidden{% endif %}">
                 <label class="form__label" for="Variants-{{ section.id }}">{{ 'products.product.product_variants' | t }}</label>
