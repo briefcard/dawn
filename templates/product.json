@@ -44,6 +44,12 @@
             "show_dynamic_checkout": true
           }
         },
+        "b58da18d-0544-4ad8-aad0-44b1f6a92b9b": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<img class=\"guarantees\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0594\/0897\/4011\/files\/miaroo_matcha_co_guarantee.jpg?v=1631110764\">"
+          }
+        },
         "description": {
           "type": "description",
           "disabled": true,
@@ -64,6 +70,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "b58da18d-0544-4ad8-aad0-44b1f6a92b9b",
         "description",
         "share"
       ],
@@ -74,6 +81,7 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "image_ratio": "adapt",
@@ -97,6 +105,7 @@
     },
     "162879057995c0cdc6": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "e6b0f8e8-923e-4b7a-ba3e-c1b122f0a95b": {
           "type": "image",
