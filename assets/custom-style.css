@@ -218,3 +218,9 @@ position:relative !important;
 .full-unstyled-link {
 display:inline !important;
 }
+
+.collection-product-info {
+	display: inline-block;
+    padding: 20px 20px 0px 20px;
+    vertical-align: top;
+}
