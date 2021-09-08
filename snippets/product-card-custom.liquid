@@ -182,8 +182,8 @@
           
             <div {{ block.shopify_attributes }}>
               <product-form class="product-form">
-                {%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
-                  <input id="{{product_form_id}}"type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+                {%- form 'product', product, id: product_form_id_2, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
+                  <input id="{{product_form_id_2}}"type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
                   <div class="product-form__buttons">
                     <button
                       type="submit"
@@ -227,18 +227,7 @@
             </div>
 
             <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
-         <script>
-           
-           function selectedProduct(x) {
-             console.log(x);
-           var Output = document.getElementById("{{product_form_id}}");
-            
-            Output.value = x;                                 
-           }
-           
         
-           
-        </script>
        
       </div>
     </div>
