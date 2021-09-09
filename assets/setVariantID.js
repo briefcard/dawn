@@ -1,6 +1,6 @@
 
   
-function setVariantID(x) {
+function setVariantID(x,y,z) {
 
 console.log(x);
 
@@ -8,12 +8,20 @@ const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const variant = urlParams.get('variant') 
 
-console.log('variant');
-  
+console.log(variant);
+  console.log(y);
+console.log(z)
+
 var input = document.getElementById(x);
-  
-input.value = variant;
-  
+
+  if ( variant == undefined) {
+	 input.value = y;
+  } else if( z < 2 )  {
+  	 input.value = y;
+  }
+  else {
+  input.value = variant;
+  }
   console.log(input.value);
 //   var selectedInput = document.getElementById(input);
 
