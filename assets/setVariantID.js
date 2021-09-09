@@ -30,10 +30,10 @@ var input = document.getElementById(inputField);
      newCount.value = count;
     console.log('Single Variant Product New Count: ' + newCount);
     
-  } else if (count !== newCount ) {
+  } else if (count !== newCount.value ) {
     input.value = selectedVariant;
   	newCount.value = count;
-    console.log('Mismatching Count: ' + newCount + '...expected this:' + count);
+    console.log('Mismatching Count: ' + newCount.value + '...expected this:' + count);
     
     
   } else {
