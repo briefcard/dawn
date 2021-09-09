@@ -2,7 +2,7 @@
   
 function setVariantID(x) {
 	
-  var selectedOption = document.getElementById('Option-' + toString(x)).selected;
+  var selectedOption = document.getElementById('Option-' + x).selected;
 	
   console.log(selectedOption);
   
