@@ -146,7 +146,7 @@
 
                         >
                           {%- for variant in bundle.values -%}
-                            <option value="{{ variant| escape }}" name="" {% if bundle.selected_value == value %}selected="selected"{% endif %}>
+                            <option onClick="console.log({{bundle.selected_value}})"value="{{ variant| escape }}" name="" {% if bundle.selected_value == value %}selected="selected"{% endif %}>
                               {{ variant }}
                             </option>
                           {%- endfor -%}
