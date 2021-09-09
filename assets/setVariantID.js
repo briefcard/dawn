@@ -1,8 +1,9 @@
 
   
-function setVariantID(select) {
+function setVariantID(select, input) {
 	
   console.log(select);
+  console.log(input)
   
 //   var selectedOption = document.getElementById(select).value;
 //   var selectedInput = document.getElementById('chosenVariant--' + product.title);	
