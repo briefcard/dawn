@@ -133,7 +133,7 @@
                
             		
 
-                 
+               
 
             {%- unless product.has_only_default_variant -%}
           <variant-selects class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}" {{ block.shopify_attributes }} >
@@ -154,7 +154,7 @@
                       <option
                         {% if variant == product_card_product.selected_or_first_available_variant %}selected="selected"{% endif %}
                         {% if variant.available == false %}disabled{% endif %}
-                        value="{{ variant.id }}"
+                        value="{{ variant.id| escape  }}"
                         name=""
                       >
                         {{ variant.title }}
