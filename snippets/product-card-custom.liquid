@@ -19,7 +19,7 @@
 <script src="{{ 'setVariantID.js' | asset_url }}" defer="defer"></script>
 
  
-{% assign count = count | plus: 1 %}
+{% increment count %}
 <script>console.log('the count is: ' + {{count}})</script>
 
 <div class="card-wrapper">
