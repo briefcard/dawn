@@ -18,8 +18,9 @@
 <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'setVariantID.js' | asset_url }}" defer="defer"></script>
 
+ 
 {% assign count = count | plus: 1 %}
-
+<script>console.log('the count is: ' + {{count}})</script>
 
 <div class="card-wrapper">
   
