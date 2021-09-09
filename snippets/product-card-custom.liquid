@@ -157,8 +157,7 @@
                                     {% if bundle.selected_value == value %}selected="selected"{% endif %}>
                               {{ variant }}
                             </option>
-                          {%- assign MyVariant[count] = variant.id -%}
-                          {% assign count = count | plus: 1 %}
+        
                           {%- endfor -%}
                         </select>
                         {% render 'icon-caret' %}

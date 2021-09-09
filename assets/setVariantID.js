@@ -1,10 +1,12 @@
 
   
-function setVariantID(select, input, variant) {
+function setVariantID() {
 	
-  console.log(select);
-  console.log(input);
-  console.log(variant);
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+const variant = urlParams.get('variants') 
+  
+console.log(variant);
   
 //   var selectedInput = document.getElementById(input);
 
