@@ -3,6 +3,7 @@
 function setVariantID(select, input) {
 	
   console.log(select);
+  console.log(input);
   
   
 //   var selectedOption = document.getElementById(select).value;
