@@ -143,7 +143,7 @@
                           class="select__select"
                           name="options[{{ bundle.name | escape }}]"
                           form="product-form-{{ section.id }}"
-                          onChange="setVariantID({{ section.id }})"
+                          onChange="setVariantID(' + {{ section.id }} + ')"
 
                         >
                           {%- for variant in bundle.values -%}
