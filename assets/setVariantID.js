@@ -1,12 +1,14 @@
 
   
-function setVariantID() {
+function setVariantID(x) {
 	
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const variant = urlParams.get('variant') 
+
+var input = document.getElementById(x);
   
-console.log(variant);
+  input.value = variant;
   
 //   var selectedInput = document.getElementById(input);
 
