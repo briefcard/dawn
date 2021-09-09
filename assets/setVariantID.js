@@ -26,12 +26,12 @@ console.log('newCount Vs. Count' + newCount.value + '...expected this:' + count)
 	 input.value = selectedVariant;
      newCount.value = count;
     x = 1;
-    console.log('undefined parameter New Count: ' + newCount);
+    console.log('undefined parameter New Count: ' + newCount.value);
 
   } else if( variantSize < 2 )  {
   	 input.value = selectedVariant;
      newCount.value = count;
-    console.log('Single Variant Product New Count: ' + newCount);
+    console.log('Single Variant Product New Count: ' + newCount.value);
     x = 1;
     
   } else if (count !== newCount.value && x == 1 ) {
