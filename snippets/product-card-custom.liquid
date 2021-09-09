@@ -149,7 +149,7 @@
                           class="select__select"
                           name="options[{{ bundle.name | escape }}]"
                           form="product-form-{{ section.id }}"
-                          onChange="setVariantID(this.value, 'chosenVariant-- {{ section.id }}', {{MyVariant}})"
+                          onChange=""
 
                         >
                           {%- for variant in bundle.values -%}
@@ -173,7 +173,7 @@
 
 
             <noscript>
-              <div class="product-form__input{% if product_card_product.has_only_default_variant %} hidden{% endif %}">
+              <div class="product-form__input{% if product_card_product.has_only_default_variant %} hidden{% endif %}" onClick="setVariantID()">
                 <label class="form__label" for="Variants-{{ section.id }}">{{ 'products.product.product_variants' | t }}</label>
                 <div class="select">
                   <select name="id" id="Variants-{{ section.id }}" class="select__select" form="product-form">
