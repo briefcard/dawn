@@ -21,12 +21,13 @@ var input = document.getElementById(inputField);
 
   if ( variant == undefined) {
 	 input.value = selectedVariant;
-     newCount = count;
+     newCount.value = count;
   } else if( variantSize < 2 )  {
   	 input.value = selectedVariant;
-     newCount = count;
+     newCount.value = count;
   } else if (count !== newCount )
     input.value = selectedVariant;
+  	newCount.value = count;
   else {
   input.value = variant;
   newCount = count;
