@@ -3,7 +3,7 @@
 
 function setVariantID(inputField,selectedVariant,variantSize,count) {
 
-console.log(x);
+console.log(inputField);
 
 
 const queryString = window.location.search;
@@ -12,8 +12,8 @@ const variant = urlParams.get('variant')
 
 
 console.log(variant);
-console.log(y);
-console.log(z)
+console.log(selectedVariant);
+console.log(variantSize)
 
 var newCount = document.getElementById('counter');
 
