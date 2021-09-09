@@ -10,8 +10,6 @@ const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const variant = urlParams.get('variant') 
 
-    console.log('newCount Vs. Count' + newCount.value + '...expected this:' + count);
-
 // console.log('this is the url param: ' + variant);
 //   console.log('this is the liquid variant selected:' + selectedVariant);
 //   console.log('this is the array size of this variant: ' + variantSize);
@@ -20,6 +18,9 @@ const variant = urlParams.get('variant')
   var x ;
 var newCount = document.getElementById('counter');
 var input = document.getElementById(inputField);
+
+  
+console.log('newCount Vs. Count' + newCount.value + '...expected this:' + count);
 
   if ( variant == undefined) {
 	 input.value = selectedVariant;
