@@ -15,7 +15,8 @@ const variant = urlParams.get('variant');
 // console.log('this is the array size of this variant: ' + variantSize);
 // console.log('this is the counter: ' + count);
 
-var newCount = document.getElementById('counter');
+var Count = document.getElementById('counter');
+var newCount = pastInt(Count);
 var input = document.getElementById(inputField);
 
 console.log(typeof count);
@@ -36,7 +37,7 @@ console.log('newCount Vs. Count = ' + newCount.value + '...expected this:' + cou
     console.log('Single Variant Product New Count: ' + newCount.value);
 
     
-  } else if ( count !== parseInt(newCount)) {
+  } else if ( count !== newCount) {
     
     console.log(selectedVariant);
     input.value = selectedVariant;
