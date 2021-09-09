@@ -144,7 +144,7 @@
                           class="select__select"
                           name="options[{{ bundle.name | escape }}]"
                           form="product-form-{{ section.id }}"
-                          onChange="setVariantID(this.value,document.getElementById('chosenVariant--'+ ' + {{ section.id }} + '))"
+                          onChange="setVariantID(this.value,document.getElementById('chosenVariant--'+  {{ section.id }}))"
 
                         >
                           {%- for variant in bundle.values -%}
