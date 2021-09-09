@@ -3,7 +3,7 @@
 
 function setVariantID(inputField,selectedVariant,variantSize,count) {
 
-console.log(inputField);
+
 
 
 const queryString = window.location.search;
@@ -46,7 +46,7 @@ console.log('newCount Vs. Count' + newCount.value + '...expected this:' + count)
     x = 1;
   }
   
-  console.log(input.value);
+
 //   var selectedInput = document.getElementById(input);
 
 //   console.log()
