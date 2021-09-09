@@ -36,7 +36,7 @@ console.log('newCount Vs. Count = ' + newCount.value + '...expected this:' + cou
     console.log('Single Variant Product New Count: ' + newCount.value);
 
     
-  } else if (newCount.value !== count) {
+  } else if ( count !== parseInt(newCount)) {
     
     console.log(selectedVariant);
     input.value = selectedVariant;
