@@ -38,12 +38,14 @@ console.log('newCount Vs. Count' + newCount.value + '...expected this:' + count)
     input.value = selectedVariant;
   	newCount.value = count;
      x = 1;
+    console.log('testing count');
     
     
   } else {
   input.value = variant;
   newCount.value = count;
     x = 1;
+    console.log('new flavor');
   }
   
 
