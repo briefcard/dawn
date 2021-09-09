@@ -4,7 +4,7 @@ function setVariantID(select, product) {
 	
   console.log(select);
   var selectedOption = document.getElementById(select).value;
-  var selectedInput = document.getElementById('chosenVariant--' + product.title).	
+  var selectedInput = document.getElementById('chosenVariant--' + product.title);	
   console.log(selectedOption);
   console.log(product);
   console.log(product.variants[0]);
