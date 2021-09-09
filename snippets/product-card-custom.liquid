@@ -162,7 +162,7 @@
               <div class="product-form__input{% if product_card_product.has_only_default_variant %} hidden{% endif %}">
                 <label class="form__label" for="Variants-{{ section.id }}">{{ 'products.product.product_variants' | t }}</label>
                 <div class="select">
-                  <select name="id" id="Variants-{{ section.id }}" class="select__select" form="product-form" onChange="console.log({{product_card_product.selected_or_first_available_variant}})">
+                  <select name="id" id="Variants-{{ section.id }}" class="select__select" form="product-form" onChange="console.log("{{product_card_product.selected_or_first_available_variant}}")">
                     {%- for variant in product_card_product.variants -%}
                    
                       <option
