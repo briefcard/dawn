@@ -5,20 +5,7 @@
 {{ 'component-product-grid.css' | asset_url | stylesheet_tag }}
 {{ 'custom-style.css' | asset_url | stylesheet_tag }}
 
-{% javascript %}
-//<script>
 
-  
-function setVariantID(x) {
-	
-  var selectedOption = document.getElementById('Option-' + toString(x)).selected;
-	
-  console.log(selectedOption);
-  
-}
-
-//</script>
-{% endjavascript %}
 
 <link rel="preload" href="{{ 'component-rte.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
