@@ -10,6 +10,7 @@ var input = document.getElementById(x);
   
   input.value = variant;
   
+  console.log(input.value);
 //   var selectedInput = document.getElementById(input);
 
 //   console.log()
