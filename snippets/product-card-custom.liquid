@@ -173,7 +173,7 @@
 
 
             <noscript>
-              <div class="product-form__input{% if product_card_product.has_only_default_variant %} hidden{% endif %}" onClick="setVariantID(Variants-{{ section.id }})">
+              <div class="product-form__input{% if product_card_product.has_only_default_variant %} hidden{% endif %}" >
                 <label class="form__label" for="Variants-{{ section.id }}">{{ 'products.product.product_variants' | t }}</label>
                 <div class="select">
                   <select name="id" id="Variants-{{ section.id }}" class="select__select" form="product-form">
@@ -195,7 +195,7 @@
             </noscript>
           	
             <div {{ block.shopify_attributes }}>
-              <product-form class="product-form" onClick="">
+              <product-form class="product-form" onClick="setVariantID('chosenVariant--' + {{ section.id }})">
                 {%- form 'product', product_card_product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
                   <input id="chosenVariant--{{ section.id }}" type="hidden" name="id" value="{{ product_card_product.selected_or_first_available_variant.id }}">
                   <div class="product-form__buttons">
