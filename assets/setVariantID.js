@@ -18,6 +18,9 @@ const variant = urlParams.get('variant');
 var newCount = document.getElementById('counter');
 var input = document.getElementById(inputField);
 
+console.log(typeof count);
+  
+console.log(typeof newCount);
   
 console.log('newCount Vs. Count = ' + newCount.value + '...expected this:' + count);
 
