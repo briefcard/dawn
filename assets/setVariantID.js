@@ -33,7 +33,8 @@ console.log('newCount Vs. Count = ' + newCount.value + '...expected this:' + cou
     console.log('Single Variant Product New Count: ' + newCount.value);
 
     
-  } else if (newCount.value !== count ) {
+  } else if (newCount.value !== count) {
+    
     console.log(selectedVariant);
     input.value = selectedVariant;
   	newCount.value = count;
@@ -48,7 +49,7 @@ console.log('newCount Vs. Count = ' + newCount.value + '...expected this:' + cou
     console.log('new flavor');
   }
   
-  console.log('this is x: '+ x);
+//   console.log('this is x: '+ x);
 //   var selectedInput = document.getElementById(input);
 
 //   console.log()
@@ -59,4 +60,5 @@ console.log('newCount Vs. Count = ' + newCount.value + '...expected this:' + cou
 //         console.log(product.variants[x].id);
 //     }
 //   }
+  
 }
