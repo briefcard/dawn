@@ -35,6 +35,7 @@ var input = document.getElementById(inputField);
   } else if (count !== newCount.value && x == 1 ) {
     input.value = selectedVariant;
   	newCount.value = count;
+     x = 1;
     console.log('Mismatching Count: ' + newCount.value + '...expected this:' + count);
     
     
