@@ -195,9 +195,9 @@
             </noscript>
           	
             <div {{ block.shopify_attributes }}>
-              <product-form class="product-form" onClick="setVariantID('chosenVariant--{{ section.id }}')">
+              <product-form class="product-form" onClick="setVariantID('chosenVariant">
                 {%- form 'product', product_card_product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
-                  <input id="chosenVariant--{{ section.id }}" type="hidden" name="id" value="{{ product_card_product.selected_or_first_available_variant.id }}">
+                  <input id="chosenVariant" type="hidden" name="id" value="{{ product_card_product.selected_or_first_available_variant.id }}">
                   <div class="product-form__buttons">
                     <button
                       type="submit"
