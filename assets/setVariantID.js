@@ -15,7 +15,8 @@ const variant = urlParams.get('variant');
 // console.log('this is the array size of this variant: ' + variantSize);
 // console.log('this is the counter: ' + count);
 
-var newCount = parseInt(document.getElementById('counter'));
+var Count = document.getElementById('counter');
+var newCount = parseInt(Count)
 var input = document.getElementById(inputField);
 
 console.log(typeof count);
@@ -26,13 +27,13 @@ console.log('newCount Vs. Count = ' + newCount.value + '...expected this:' + cou
 
   if ( variant == undefined) {
 	 input.value = selectedVariant;
-     newCount.value = count;
+     Count.value = count;
 
     console.log('undefined parameter New Count: ' + newCount.value);
 
   } else if( variantSize < 2 )  {
   	 input.value = selectedVariant;
-     newCount.value = count;
+     Count.value = count;
     console.log('Single Variant Product New Count: ' + newCount.value);
 
     
@@ -40,14 +41,14 @@ console.log('newCount Vs. Count = ' + newCount.value + '...expected this:' + cou
     
     console.log(selectedVariant);
     input.value = selectedVariant;
-  	newCount.value = count;
+  	Count.value = count;
 
     console.log('testing count');
     
     
   } else {
   input.value = variant;
-  newCount.value = count;
+  Count.value = count;
 
     console.log('new flavor');
   }
