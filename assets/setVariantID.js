@@ -33,7 +33,7 @@ console.log('newCount Vs. Count' + newCount.value + '...expected this:' + count)
     console.log('Single Variant Product New Count: ' + newCount.value);
     var x = 1;
     
-  } else if (newCount.value !== count and x == 1 ) {
+  } else if (newCount.value !== count && x == 1 ) {
     console.log(selectedVariant);
     input.value = selectedVariant;
   	newCount.value = count;
