@@ -131,6 +131,9 @@
         {% comment %} Variant Selector below{% endcomment %}
        
                
+            		
+
+                 
 
             {%- unless product.has_only_default_variant -%}
           <variant-selects class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}" {{ block.shopify_attributes }} >
@@ -146,7 +149,8 @@
                           onChange="console.log({{ product_card_product.selected_or_first_available_variant.id  }})"
 				  >
                     {%- for variant in product_card_product.variants -%}
-                   
+                    <script> console.log({{variant}})</script>
+                    <script> console.log({{bundle}})</script>
                       <option
                         {% if variant == product_card_product.selected_or_first_available_variant %}selected="selected"{% endif %}
                         {% if variant.available == false %}disabled{% endif %}
