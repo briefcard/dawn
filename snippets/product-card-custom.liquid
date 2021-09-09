@@ -131,7 +131,7 @@
         {% comment %} Variant Selector below{% endcomment %}
        
             {%- unless product.has_only_default_variant -%}
-          <variant-selects class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}" {{ block.shopify_attributes }}>
+          <variant-selects class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}" {{ block.shopify_attributes }} >
                   {%- for bundle in product_card_product.options_with_values -%}
             		<div class="product-form__input product-form__input--dropdown">
                       <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">
@@ -142,6 +142,7 @@
                           class="select__select"
                           name="options[{{ bundle.name | escape }}]"
                           form="product-form-{{ section.id }}"
+                          onChange="console.log({{ product_card_product.selected_or_first_available_variant.id  }})"
                         >
                           {%- for variant in bundle.values -%}
                             <option value="{{ variant| escape }}" name="" {% if bundle.selected_value == value %}selected="selected"{% endif %}>
@@ -165,7 +166,7 @@
               <div class="product-form__input{% if product_card_product.has_only_default_variant %} hidden{% endif %}">
                 <label class="form__label" for="Variants-{{ section.id }}">{{ 'products.product.product_variants' | t }}</label>
                 <div class="select">
-                  <select name="id" id="Variants-{{ section.id }}" class="select__select" form="product-form" onChange="console.log("{{product_card_product.selected_or_first_available_variant}}")">
+                  <select name="id" id="Variants-{{ section.id }}" class="select__select" form="product-form">
                     {%- for variant in product_card_product.variants -%}
                    
                       <option
@@ -185,7 +186,7 @@
           	
             <div {{ block.shopify_attributes }}>
               <product-form class="product-form" onClick="console.log({{ product_card_product.selected_or_first_available_variant.id }})">
-                {%- form 'product', product_card_product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
+                {%- form 'product', product_card_product, id: product-form-{{ section.id }}, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
                   <input type="hidden" name="id" value="{{ product_card_product.selected_or_first_available_variant.id }}">
                   <div class="product-form__buttons">
                     <button
