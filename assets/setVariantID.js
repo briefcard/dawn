@@ -1,24 +1,31 @@
 
-  
-function setVariantID(x,y,z) {
+
+
+function setVariantID(x,y,z,count) {
 
 console.log(x);
+
 
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const variant = urlParams.get('variant') 
 
+
 console.log(variant);
-  console.log(y);
+console.log(y);
 console.log(z)
+
+var newCount;
 
 var input = document.getElementById(x);
 
   if ( variant == undefined) {
 	 input.value = y;
+     newCount = count;
   } else if( z < 2 )  {
   	 input.value = y;
-  }
+     newCount = count;
+  } else if (count !== newCount )
   else {
   input.value = variant;
   }

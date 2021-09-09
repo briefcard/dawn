@@ -200,7 +200,8 @@
               <product-form class="product-form" onClick="setVariantID('chosenVariant--{{ count }}', {{product_card_product.selected_or_first_available_variant.id}}, {{product_card_product.variants.size}} )">
                 {%- form 'product', product_card_product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
                   <input id="chosenVariant--{{count}}" type="hidden" name="id" value="{{ product_card_product.selected_or_first_available_variant.id }}">
-                  <div class="product-form__buttons">
+                	<input id="counter" type="hideen" name="" value ="0">  
+                <div class="product-form__buttons">
                     <button
                       type="submit"
                       name="add"
