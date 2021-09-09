@@ -16,7 +16,7 @@ const variant = urlParams.get('variant');
 // console.log('this is the counter: ' + count);
 
 var Count = document.getElementById('counter');
-var newCount = pastInt(Count);
+var newCount = parseInt(Count);
 var input = document.getElementById(inputField);
 
 console.log(typeof count);
