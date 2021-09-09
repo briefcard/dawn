@@ -25,13 +25,14 @@ var input = document.getElementById(inputField);
   } else if( variantSize < 2 )  {
   	 input.value = selectedVariant;
      newCount.value = count;
-  } else if (count !== newCount )
+  } else if (count !== newCount ) {
     input.value = selectedVariant;
   	newCount.value = count;
-  else {
+  } else {
   input.value = variant;
   newCount = count;
   }
+  
   console.log(input.value);
 //   var selectedInput = document.getElementById(input);
 
