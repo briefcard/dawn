@@ -18,6 +18,8 @@
 <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'setVariantID.js' | asset_url }}" defer="defer"></script>
 
+{% assign count = 0 %}
+
 
 <div class="card-wrapper">
   
@@ -133,7 +135,10 @@
        
             {%- unless product.has_only_default_variant -%}
           <variant-selects class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}" {{ block.shopify_attributes }} >
-                  {%- for bundle in product_card_product.options_with_values -%}
+                  
+           
+            {%- for bundle in product_card_product.options_with_values -%}
+            	
             		<div class="product-form__input product-form__input--dropdown">
                       <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">
                         {{ bundle.name }}
@@ -144,7 +149,7 @@
                           class="select__select"
                           name="options[{{ bundle.name | escape }}]"
                           form="product-form-{{ section.id }}"
-                          onChange="setVariantID(this.value, 'chosenVariant-- {{ section.id }}')"
+                          onChange="setVariantID(this.value, 'chosenVariant-- {{ section.id }}', {{MyVariant}})"
 
                         >
                           {%- for variant in bundle.values -%}
@@ -152,6 +157,8 @@
                                     {% if bundle.selected_value == value %}selected="selected"{% endif %}>
                               {{ variant }}
                             </option>
+                          {%- assign MyVariant[count] = variant.id -%}
+                          {% assign count = count | plus: 1 %}
                           {%- endfor -%}
                         </select>
                         {% render 'icon-caret' %}
