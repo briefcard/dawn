@@ -132,27 +132,7 @@
        
                
             		
-  <div class="product-form__input product-form__input--dropdown">
-                      <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">
-                        
-                      </label>
-                      <div class="select">
-                        <select 
-                          id="Option-{{ section.id }}-{{ forloop.index0 }}"
-                          class="select__select"
-                          name="options[{{ bundle.name | escape }}]"
-                          form="product-form-{{ section.id }}"
-
-                        >
-                          {%- for variant in bundle.values -%}
-                            <option value="{{ variant| escape }}" name="" {% if bundle.selected_value == value %}selected="selected"{% endif %}>
-                              {{ variant }}
-                            </option>
-                          {%- endfor -%}
-                        </select>
-                        {% render 'icon-caret' %}
-                      </div>
-                    </div>
+ 
            
                
 
