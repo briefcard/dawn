@@ -6,7 +6,6 @@
 {{ 'custom-style.css' | asset_url | stylesheet_tag }}
 
 {%- assign count = 0 -%}
-<script>console.log('the count is: ' + {{count}})</script>
 
 <link rel="preload" href="{{ 'component-rte.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
