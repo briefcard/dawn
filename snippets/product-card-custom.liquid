@@ -144,11 +144,12 @@
                           class="select__select"
                           name="options[{{ bundle.name | escape }}]"
                           form="product-form-{{ section.id }}"
-                          onChange=""
+                          onChange="setVariantID(this.value,document.getElementById('chosenVariant--'+ ' + {{ section.id }} + '))"
 
                         >
                           {%- for variant in bundle.values -%}
-                            <option value="{{ variant| escape }}" name="" {% if bundle.selected_value == value %}selected="selected"{% endif %}>
+                            <option value="{{ variant| escape }}" name="" 
+                                    {% if bundle.selected_value == value %}selected="selected"{% endif %}>
                               {{ variant }}
                             </option>
                           {%- endfor -%}
@@ -188,9 +189,9 @@
             </noscript>
           	
             <div {{ block.shopify_attributes }}>
-              <product-form class="product-form" onClick="setVariantID(document.getElementById('Variants-'+ ' + {{ section.id }} + ').value)">
+              <product-form class="product-form" onClick="">
                 {%- form 'product', product_card_product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
-                  <input id="chosenVariant--{{ product_card_product.title }}" type="hidden" name="id" value="{{ product_card_product.selected_or_first_available_variant.id }}">
+                  <input id="chosenVariant--{{ section.id }}" type="hidden" name="id" value="{{ product_card_product.selected_or_first_available_variant.id }}">
                   <div class="product-form__buttons">
                     <button
                       type="submit"
