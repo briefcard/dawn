@@ -15,8 +15,7 @@ const variant = urlParams.get('variant');
 // console.log('this is the array size of this variant: ' + variantSize);
 // console.log('this is the counter: ' + count);
 
-var Count = document.getElementById('counter');
-var newCount = parseInt(Count);
+var newCount = parseInt(document.getElementById('counter'));
 var input = document.getElementById(inputField);
 
 console.log(typeof count);
