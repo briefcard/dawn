@@ -16,21 +16,23 @@ console.log('this is the url param: ' + variant);
   console.log('this is the array size of this variant: ' + variantSize);
  console.log('this is the counter: ' + count);
 
+  var x ;
 var newCount = document.getElementById('counter');
-
 var input = document.getElementById(inputField);
 
   if ( variant == undefined) {
 	 input.value = selectedVariant;
      newCount.value = count;
+    x = 1;
     console.log('undefined parameter New Count: ' + newCount);
 
   } else if( variantSize < 2 )  {
   	 input.value = selectedVariant;
      newCount.value = count;
     console.log('Single Variant Product New Count: ' + newCount);
+    x = 1;
     
-  } else if (count !== newCount.value ) {
+  } else if (count !== newCount.value && x == 1 ) {
     input.value = selectedVariant;
   	newCount.value = count;
     console.log('Mismatching Count: ' + newCount.value + '...expected this:' + count);
@@ -39,6 +41,7 @@ var input = document.getElementById(inputField);
   } else {
   input.value = variant;
   newCount.value = count;
+    x = 1;
   }
   
   console.log(input.value);
