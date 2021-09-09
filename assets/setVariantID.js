@@ -1,7 +1,7 @@
 
 
 
-function setVariantID(x,y,z,count) {
+function setVariantID(inputField,selectedVariant,variantSize,count) {
 
 console.log(x);
 
@@ -15,19 +15,21 @@ console.log(variant);
 console.log(y);
 console.log(z)
 
-var newCount;
+var newCount = document.getElementById('counter');
 
-var input = document.getElementById(x);
+var input = document.getElementById(inputField);
 
   if ( variant == undefined) {
-	 input.value = y;
+	 input.value = selectedVariant;
      newCount = count;
-  } else if( z < 2 )  {
-  	 input.value = y;
+  } else if( variantSize < 2 )  {
+  	 input.value = selectedVariant;
      newCount = count;
   } else if (count !== newCount )
+    input.value = selectedVariant;
   else {
   input.value = variant;
+  newCount = count;
   }
   console.log(input.value);
 //   var selectedInput = document.getElementById(input);
