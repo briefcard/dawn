@@ -132,19 +132,40 @@
        
                
             		
+  <div class="product-form__input product-form__input--dropdown">
+                      <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">
+                        
+                      </label>
+                      <div class="select">
+                        <select 
+                          id="Option-{{ section.id }}-{{ forloop.index0 }}"
+                          class="select__select"
+                          name="options[{{ bundle.name | escape }}]"
+                          form="product-form-{{ section.id }}"
 
+                        >
+                          {%- for variant in bundle.values -%}
+                            <option value="{{ variant| escape }}" name="" {% if bundle.selected_value == value %}selected="selected"{% endif %}>
+                              {{ variant }}
+                            </option>
+                          {%- endfor -%}
+                        </select>
+                        {% render 'icon-caret' %}
+                      </div>
+                    </div>
+           
                
 
             {%- unless product.has_only_default_variant -%}
           <variant-selects class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}" {{ block.shopify_attributes }} >
               {%- for bundle in product_card_product.options_with_values -%}
               <div class="product-form__input{% if product_card_product.has_only_default_variant %} hidden{% endif %}">
-                <label class="form__label" for="Variants-{{ section.id }}">{{ bundle.name }}</label>
+                <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">{{ bundle.name }}</label>
                 <div class="select">
                   <select 
-                          name="options[{{ bundle.name | escape }}]" 
                           id="Option-{{ section.id }}-{{ forloop.index0 }}" 
-                          class="select__select" 
+                          class="select__select"
+                          name="options[{{ bundle.name | escape }}]" 
                           form="product-form-{{ section.id }}"
                           onChange="console.log({{ product_card_product.selected_or_first_available_variant.id  }})"
 				  >
@@ -153,7 +174,7 @@
                       <option
                         {% if variant == product_card_product.selected_or_first_available_variant %}selected="selected"{% endif %}
                         {% if variant.available == false %}disabled{% endif %}
-                        value="{{ variant.id| escape  }}"
+                        value="{{ variant.id | escape  }}"
                         name=""
                       >
                         {{ variant.title }}
@@ -166,6 +187,7 @@
                 </div>
               </div>
            {%- endfor -%}
+            
              <script type="application/json">
                     {{ product_card_product.variants | json }}
                   </script>
