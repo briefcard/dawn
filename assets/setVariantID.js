@@ -20,7 +20,7 @@ var newCount = document.getElementById('counter');
 var input = document.getElementById(inputField);
 
   
-console.log('newCount Vs. Count' + newCount.value + '...expected this:' + count);
+console.log('newCount Vs. Count = ' + newCount.value + '...expected this:' + count);
 
   if ( variant == undefined) {
 	 input.value = selectedVariant;
