@@ -10,6 +10,7 @@ const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const variant = urlParams.get('variant') 
 
+    console.log('newCount Vs. Count' + newCount.value + '...expected this:' + count);
 
 // console.log('this is the url param: ' + variant);
 //   console.log('this is the liquid variant selected:' + selectedVariant);
@@ -36,7 +37,6 @@ var input = document.getElementById(inputField);
     input.value = selectedVariant;
   	newCount.value = count;
      x = 1;
-    console.log('Mismatching Count: ' + newCount.value + '...expected this:' + count);
     
     
   } else {
