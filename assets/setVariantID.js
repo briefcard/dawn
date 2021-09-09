@@ -32,24 +32,24 @@ console.log('newCount Vs. Count = ' + newCount.value + '...expected this:' + cou
   	 input.value = selectedVariant;
      newCount.value = count;
     console.log('Single Variant Product New Count: ' + newCount.value);
-     x = 1;
+     x++;
     
   } else if (newCount.value !== count && x !== 0 ) {
     console.log(selectedVariant);
     input.value = selectedVariant;
   	newCount.value = count;
-    x = 1;
+    x++;
     console.log('testing count');
     
     
   } else {
   input.value = variant;
   newCount.value = count;
-     x = 1;
+     x++;
     console.log('new flavor');
   }
   
-
+  console.log('this is x: '+x);
 //   var selectedInput = document.getElementById(input);
 
 //   console.log()
