@@ -11,9 +11,10 @@ const urlParams = new URLSearchParams(queryString);
 const variant = urlParams.get('variant') 
 
 
-console.log(variant);
-console.log(selectedVariant);
-console.log(variantSize)
+console.log('this is the url param: ' + variant);
+  console.log('this is the liquid variant selected:' + selectedVariant);
+  console.log('this is the array size of this variant: ' + variantSize);
+ console.log('this is the counter: ' + count);
 
 var newCount = document.getElementById('counter');
 
@@ -22,15 +23,22 @@ var input = document.getElementById(inputField);
   if ( variant == undefined) {
 	 input.value = selectedVariant;
      newCount.value = count;
+    console.log('undefined parameter New Count: ' + newCount);
+
   } else if( variantSize < 2 )  {
   	 input.value = selectedVariant;
      newCount.value = count;
+    console.log('Single Variant Product New Count: ' + newCount);
+    
   } else if (count !== newCount ) {
     input.value = selectedVariant;
   	newCount.value = count;
+    console.log('Mismatching Count: ' + newCount + '...expected this:' + count);
+    
+    
   } else {
   input.value = variant;
-  newCount = count;
+  newCount.value = count;
   }
   
   console.log(input.value);
