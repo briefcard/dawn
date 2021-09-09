@@ -12,9 +12,12 @@
     Usage:
     {% render 'product-card-custom', show_vendor: section.settings.show_vendor %}
 {% endcomment %}
+<link rel="stylesheet" href="{{ 'component-cart-notification.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'component-deferred-media.css' | asset_url }}" media="print" onload="this.media='all'">
 
 <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
-<script src="{{ 'selectOption.js' | asset_url }}" defer="defer"></script>
+
+
 <div class="card-wrapper">
   
 
