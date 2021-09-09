@@ -11,10 +11,10 @@ const urlParams = new URLSearchParams(queryString);
 const variant = urlParams.get('variant') 
 
 
-console.log('this is the url param: ' + variant);
-  console.log('this is the liquid variant selected:' + selectedVariant);
-  console.log('this is the array size of this variant: ' + variantSize);
- console.log('this is the counter: ' + count);
+// console.log('this is the url param: ' + variant);
+//   console.log('this is the liquid variant selected:' + selectedVariant);
+//   console.log('this is the array size of this variant: ' + variantSize);
+//  console.log('this is the counter: ' + count);
 
   var x ;
 var newCount = document.getElementById('counter');
