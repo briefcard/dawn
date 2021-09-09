@@ -8,14 +8,13 @@ function setVariantID(inputField,selectedVariant,variantSize,count) {
 
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
-const variant = urlParams.get('variant') 
+const variant = urlParams.get('variant'); 
 
 // console.log('this is the url param: ' + variant);
-//   console.log('this is the liquid variant selected:' + selectedVariant);
-//   console.log('this is the array size of this variant: ' + variantSize);
-//  console.log('this is the counter: ' + count);
+// console.log('this is the liquid variant selected:' + selectedVariant);
+// console.log('this is the array size of this variant: ' + variantSize);
+// console.log('this is the counter: ' + count);
 
-var  x = 0;
 var newCount = document.getElementById('counter');
 var input = document.getElementById(inputField);
 
@@ -25,31 +24,31 @@ console.log('newCount Vs. Count = ' + newCount.value + '...expected this:' + cou
   if ( variant == undefined) {
 	 input.value = selectedVariant;
      newCount.value = count;
-     x = 1;
+
     console.log('undefined parameter New Count: ' + newCount.value);
 
   } else if( variantSize < 2 )  {
   	 input.value = selectedVariant;
      newCount.value = count;
     console.log('Single Variant Product New Count: ' + newCount.value);
-     x++;
+
     
-  } else if (newCount.value !== count && x !== 0 ) {
+  } else if (newCount.value !== count ) {
     console.log(selectedVariant);
     input.value = selectedVariant;
   	newCount.value = count;
-    x++;
+
     console.log('testing count');
     
     
   } else {
   input.value = variant;
   newCount.value = count;
-     x++;
+
     console.log('new flavor');
   }
   
-  console.log('this is x: '+x);
+  console.log('this is x: '+ x);
 //   var selectedInput = document.getElementById(input);
 
 //   console.log()
