@@ -138,7 +138,7 @@
           <variant-selects class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}" {{ block.shopify_attributes }} >
                   <div class="product-form__input{% if product_card_product.has_only_default_variant %} hidden{% endif %}" >
                 <label class="form__label" for="Variants-{{ section.id }}">{{ 'products.product.product_variants' | t }}</label>
-                <div class="select margin-bottom-5px">
+                <div class="select">
                   <select name="id" id="Variants-{{ section.id }}" class="select__select" form="product-form" onChange="setVariantID(this.value, 'chosenVariant--' + {{ count }}, {{product_card_product.selected_or_first_available_variant.id}}, {{product_card_product.variants.size}}, {{count }}); console.log(this);">
                     {%- for variant in product_card_product.variants -%}
                  
@@ -164,7 +164,7 @@
                     {%- endunless -%}
           	
             <div {{ block.shopify_attributes }}>
-              <product-form class="product-form" onClick="">
+              <product-form class="product-form margin-bottom-5px" onClick="">
                 {%- form 'product', product_card_product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
                   <input id="chosenVariant--{{count}}" type="hidden" name="id" value="{{ product_card_product.selected_or_first_available_variant.id }}">
                 	<input id="counter" type="hidden" name="" value ="0">  
