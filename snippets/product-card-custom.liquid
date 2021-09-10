@@ -27,10 +27,9 @@
   
 
     <span class="visually-hidden">{{ product_card_product.title | escape }}</span>
-   <a href="{{ product_card_product.url | default: '#' }}" class="full-unstyled-link">
-
     <div class="card card--product{% if product_card_product.featured_media == nil %} card--text-only card--soft{% endif %}{% if product_card_product.featured_media != nil and show_image_outline %} card--outline{% endif %}" tabindex="-1">
       <div class="card__inner">
+        <a href="{{ product_card_product.url | default: '#' }}" class="full-unstyled-link">
         {%- if product_card_product.featured_media -%}
           {%- liquid
             assign featured_media_aspect_ratio = product_card_product.featured_media.aspect_ratio
@@ -90,10 +89,11 @@
             <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">{{ 'products.product.on_sale' | t }}</span>
           {%- endif -%}
         </div>
+        </a>
       </div>
     </div>
      
-  </a>
+
     <div class="card-information collection-product-info">
       <div class="card-information__wrapper">
         {%- if show_vendor -%}
