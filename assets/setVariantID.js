@@ -5,7 +5,6 @@ function setVariantID(inputField,selectedVariant,variantSize,count) {
 
 
 
-
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const variant = urlParams.get('variant'); 
