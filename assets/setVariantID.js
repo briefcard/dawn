@@ -1,11 +1,11 @@
 
 
-function setVariantID(variantID, selectedVariant, variantSize, count) {
+function setVariantID(inputID, variantID, selectedVariant, variantSize, count) {
 
 var x = 0;
 var Count = document.getElementById('counter');
 var newCount = parseInt(Count)
-var input = document.getElementById(variantID);
+var input = document.getElementById(inputID);
 //var lastInput = document.getElementById();
 
 console.log(variantID);
