@@ -1,6 +1,6 @@
 
 
-function setVariantID(inputID, variantID, selectedVariant, variantSize, count) {
+function setVariantID(variantID, inputID, selectedVariant, variantSize, count) {
 
   console.log(inputID, variantID, selectedVariant, variantSize, count)
   
@@ -35,7 +35,7 @@ console.log(variantID);
     
   } else {
     
-  input = variantID;
+  input.value = variantID;
   Count.value = count;
 
     console.log('new flavor');
