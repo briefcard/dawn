@@ -34,7 +34,8 @@ console.log(variantID);
     
     
   } else {
-  input.value = variantID;
+    
+  input = variantID;
   Count.value = count;
 
     console.log('new flavor');
