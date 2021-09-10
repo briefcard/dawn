@@ -8,6 +8,8 @@ var x = 0;
 var Count = document.getElementById('counter');
 var newCount = parseInt(Count);
 var input = document.getElementById(inputID);
+var priceDiv = document.getElementById('price--' + count);
+ 
 //var lastInput = document.getElementById();
 
 console.log(variantID);
@@ -37,7 +39,7 @@ console.log(variantID);
     
   input.value = variantID;
   Count.value = count;
-
+  
     console.log('new flavor');
   }
   
