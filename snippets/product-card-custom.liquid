@@ -120,12 +120,11 @@
         {%- endif -%}
         
         {% comment %}Start automatically added Judge.me widget{% endcomment %}
-           <a href="{{ product_card_product.url | default: '#' }}" class="full-unstyled-link">
-
+          
          <div class="product__text">
   			{% render 'judgeme_widgets', widget_type: 'judgeme_preview_badge', concierge_install: true, product: product_card_product %}
         </div>
-        </a>
+       
 		{% comment %}End automatically added Judge.me widget{% endcomment %}
 	
 
@@ -139,7 +138,7 @@
           <variant-selects class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}" {{ block.shopify_attributes }} >
                   <div class="product-form__input{% if product_card_product.has_only_default_variant %} hidden{% endif %}" >
                 <label class="form__label" for="Variants-{{ section.id }}">{{ 'products.product.product_variants' | t }}</label>
-                <div class="select">
+                <div class="select margin-bottom-5px">
                   <select name="id" id="Variants-{{ section.id }}" class="select__select" form="product-form" onChange="setVariantID(this.value, 'chosenVariant--' + {{ count }}, {{product_card_product.selected_or_first_available_variant.id}}, {{product_card_product.variants.size}}, {{count }}); console.log(this);">
                     {%- for variant in product_card_product.variants -%}
                  
