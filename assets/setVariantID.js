@@ -1,6 +1,6 @@
 
 
-function setVariantID(variantID) {
+function setVariantID(variantID, variantSize, count) {
 
 
 var Count = document.getElementById('counter');
@@ -10,7 +10,7 @@ var input = document.getElementById(variantID);
 
 console.log(variantID);
 
-  if ( variant == undefined) {
+  if ( variantID == undefined) {
 	 input.value = selectedVariant;
      Count.value = count;
 
