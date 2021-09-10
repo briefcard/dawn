@@ -2,7 +2,7 @@
 
 function setVariantID(variantID, variantSize, count) {
 
-
+var x = 0;
 var Count = document.getElementById('counter');
 var newCount = parseInt(Count)
 var input = document.getElementById(variantID);
