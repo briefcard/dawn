@@ -1,6 +1,6 @@
 
 
-function setVariantID(variantID, variantSize, count) {
+function setVariantID(variantID, selectedVariant, variantSize, count) {
 
 var x = 0;
 var Count = document.getElementById('counter');
