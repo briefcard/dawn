@@ -102,8 +102,7 @@
         {%- endif -%}
 
         {%- if product_card_product.featured_media -%}
-           <a href="{{ product_card_product.url | default: '#' }}" class="full-unstyled-link">
-
+          
           <span class="card-information__text h2 margin-bottom-5px">
             {{ product_card_product.title | escape }}
           </span>
@@ -116,7 +115,7 @@
                 {{ form | payment_terms }}
               {%- endform -%}
             </div>
-        </a>
+      
         {%- endif -%}
         
         {% comment %}Start automatically added Judge.me widget{% endcomment %}
