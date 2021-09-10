@@ -144,7 +144,7 @@
                     {%- for variant in product_card_product.variants -%}
                    
                       <option
-                        {% if variant == product_card_product.selected_or_first_available_variant %}selected="selected"{% endif %}
+                        {% if variant == product_card_product.selected_variant %}selected="selected"{% endif %}
                         {% if variant.available == false %}disabled{% endif %}
                         value="{{ variant.id }}"
                       >
