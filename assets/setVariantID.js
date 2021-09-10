@@ -3,6 +3,7 @@
 function setVariantID(inputID, variantID, selectedVariant, variantSize, count) {
 
   console.log(inputID, variantID, selectedVariant, variantSize, count)
+  
 var x = 0;
 var Count = document.getElementById('counter');
 var newCount = parseInt(Count)
