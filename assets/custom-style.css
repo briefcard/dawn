@@ -22,7 +22,7 @@ filter: brightness(0) saturate(100%) invert(15%) sepia(9%) saturate(7494%) hue-r
 
 .header_label_sizing {
 
-    Max-width: 95% !important;
+    Max-width: 80% !important;
     height: auto !important;
       margin-left: auto;
     margin-right: auto;
@@ -160,7 +160,7 @@ margin-right:-10%;
 
 }
   .header_label_sizing{
-   padding-top:0em;
+   padding-top:1.5em;
   
   }
   .mobile-break{
