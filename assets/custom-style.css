@@ -1,20 +1,4 @@
-.sticky_parent{
-    height: 1000px;
-  	margin-bottom: 300px
-}
 
-.sticky_child {
-	top: 40px;
-    position: sticky;
-    overflow: visible !important;
-    align-self: flex-start;
-
-}
-
-.height-600 {
-min-height: 600px
-
-}
 
 .top-cropped{
   width: 100%;
@@ -222,6 +206,29 @@ margin-right:-10%;
   
 }
 
+
+@media screen and (min-width: 750px) {
+
+.desktop-sticky_parent{
+    height: 1000px;
+  	margin-bottom: 300px
+}
+
+.desktop-sticky_child {
+	top: 40px;
+    position: sticky;
+    overflow: visible !important;
+    align-self: flex-start;
+
+}
+
+.desktop-height-600 {
+min-height: 600px
+
+}
+}
+
+
 <!-- Active Button Section -->
 
 #flavor1Button {
@@ -271,3 +278,6 @@ display:inline !important;
 ul {    
   list-style-type: none;
   padding: 0;}
+
+
+
