@@ -209,12 +209,12 @@ margin-right:-10%;
 
 @media screen and (min-width: 750px) {
 
-.desktop-sticky_parent{
+.desktop_sticky_parent{
     height: 1000px;
   	margin-bottom: 300px
 }
 
-.desktop-sticky_child {
+.desktop_sticky_child {
 	top: 40px;
     position: sticky;
     overflow: visible !important;
