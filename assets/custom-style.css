@@ -1,8 +1,18 @@
+.sticky_parent{
+    height: 1000px;
+  	margin-bottom: 300px
+}
+
 .sticky_child {
 	top: 40px;
     position: sticky;
     overflow: visible !important;
     align-self: flex-start;
+
+}
+
+.height-600 {
+min-height: 600px
 
 }
 
