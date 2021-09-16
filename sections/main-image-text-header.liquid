@@ -100,14 +100,14 @@
             height="{{ section.settings.image.height }}"
             class="border-radius-25"
           />
-        </a>
+      
   
        
         {%- else -%}
           {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
         {%- endif -%}
        
-        <a href="/collections/all" id="mainImageButton" class=" header--button"{{ block.shopify_attributes }}>   
+        <a href="/collections/all" id="mainImageButton" class=" header--button"{{ block.shopify_attributes }}>    </a> 
         <a href="{{ section.settings.flavor1url }}" style="display:none;" id="flavor1Button" class=" header--button"{{ block.shopify_attributes }}><div class="button_container_header">Taste Now!</div></a>
         <a href="{{ section.settings.flavor2url }}" style="display:none;" id="flavor2Button" class=" header--button" {{ block.shopify_attributes }}><div class="button_container_header">Taste Now!</div></a>
         <a href="{{ section.settings.flavor3url }}" style="display:none;" id="flavor3Button" class=" header--button" {{ block.shopify_attributes }}><div class="button_container_header">Taste Now!</div></a>
