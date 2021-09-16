@@ -88,9 +88,8 @@
       <div class="image-with-text__media image-with-text__media--{{ section.settings.height }} {% if section.settings.image != blank %}media{% else %}image-with-text__media--placeholder placeholder{% endif %} right-margin-correct "
         {% if section.settings.height == 'adapt' and section.settings.image != blank %} style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"{% endif %}
       >
-      <div class="desktop_sticky">
         {%- if section.settings.image != blank -%}
-          <a href="/collections/all" id="mainImageButton" class=" header--button"{{ block.shopify_attributes }}>
+         
         <img id="mainImage"
             
             src="{{ section.settings.image | img_url: '1500x' }}"
@@ -108,14 +107,13 @@
           {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
         {%- endif -%}
        
-          
+        <a href="/collections/all" id="mainImageButton" class=" header--button"{{ block.shopify_attributes }}>   
         <a href="{{ section.settings.flavor1url }}" style="display:none;" id="flavor1Button" class=" header--button"{{ block.shopify_attributes }}><div class="button_container_header">Taste Now!</div></a>
         <a href="{{ section.settings.flavor2url }}" style="display:none;" id="flavor2Button" class=" header--button" {{ block.shopify_attributes }}><div class="button_container_header">Taste Now!</div></a>
         <a href="{{ section.settings.flavor3url }}" style="display:none;" id="flavor3Button" class=" header--button" {{ block.shopify_attributes }}><div class="button_container_header">Taste Now!</div></a>
         <a href="{{ section.settings.flavor4url }}" style="display:none;" id="flavor4Button" class=" header--button" {{ block.shopify_attributes }}><div class="button_container_header">Taste Now!</div></a>
       
-      
-       
+     
       </div> 
        
     </div>
