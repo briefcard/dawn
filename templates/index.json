@@ -18,7 +18,7 @@
         "1630350621dd61c948-2": {
           "type": "button",
           "settings": {
-            "button_label": "Get Started",
+            "button_label": "Choose Your Matcha",
             "button_link": "shopify:\/\/collections\/matcha-powder"
           }
         }
@@ -81,7 +81,7 @@
         "16303456864022f6d3-2": {
           "type": "button",
           "settings": {
-            "button_label": "Choose Your Flavor",
+            "button_label": "Choose Your Matcha",
             "button_link": "shopify:\/\/collections\/matcha-powder"
           }
         }
