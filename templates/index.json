@@ -64,6 +64,37 @@
         "maxwidth": 1080
       }
     },
+    "163190861628fdbc86": {
+      "type": "newsletter",
+      "blocks": {
+        "163190861628fdbc86-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "First timer? Get 20% Off!"
+          }
+        },
+        "163190861628fdbc86-1": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "<p>You'll also be the first to know when we have sales, events, or new goodies!<\/p>"
+          }
+        },
+        "163190861628fdbc86-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "163190861628fdbc86-0",
+        "163190861628fdbc86-1",
+        "163190861628fdbc86-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "16303456864022f6d3": {
       "type": "image-with-text",
       "blocks": {
@@ -145,98 +176,6 @@
         "adapt_height_first_image": false
       }
     },
-    "featured_products": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Featured products",
-        "collection": "matcha-powder",
-        "products_to_show": 4,
-        "show_view_all": true,
-        "swipe_on_mobile": true,
-        "image_ratio": "square",
-        "show_secondary_image": true,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false
-      }
-    },
-    "1631637423c30067a8": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "1631637423c30067a8-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text"
-          }
-        },
-        "1631637423c30067a8-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "1631637423c30067a8-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1631637423c30067a8-0",
-        "1631637423c30067a8-1",
-        "1631637423c30067a8-2"
-      ],
-      "settings": {
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first"
-      }
-    },
-    "1628780674c9ed5bc2": {
-      "type": "collage",
-      "disabled": true,
-      "blocks": {
-        "b26aea91-2376-4858-8801-a87c55e36fd3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/itoito.jpg",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        },
-        "3af15566-53f7-4956-9138-eaa3007c9a07": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Add_a_heading_1_1.jpg",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        },
-        "1628780674c9ed5bc2-1": {
-          "type": "product",
-          "settings": {
-            "product": "organic-premium-matcha-50g",
-            "secondary_background": false,
-            "second_image": true,
-            "image_padding": false
-          }
-        }
-      },
-      "block_order": [
-        "b26aea91-2376-4858-8801-a87c55e36fd3",
-        "3af15566-53f7-4956-9138-eaa3007c9a07",
-        "1628780674c9ed5bc2-1"
-      ],
-      "settings": {
-        "heading": "",
-        "desktop_layout": "left",
-        "mobile_layout": "collage"
-      }
-    },
     "163035809706adbc23": {
       "type": "multicolumn",
       "blocks": {
@@ -286,23 +225,61 @@
         "swipe_on_mobile": false
       }
     },
-    "16319048746983da35": {
-      "type": "apps",
+    "featured_products": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Featured products",
+        "collection": "matcha-powder",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false
+      }
+    },
+    "1628780674c9ed5bc2": {
+      "type": "collage",
       "disabled": true,
       "blocks": {
-        "083deb3f-6206-4419-a8cd-02e15a7fe54b": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "b26aea91-2376-4858-8801-a87c55e36fd3": {
+          "type": "image",
           "settings": {
-            "maxwidth": 1080,
-            "show_header": true
+            "image": "shopify:\/\/shop_images\/itoito.jpg",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "3af15566-53f7-4956-9138-eaa3007c9a07": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Add_a_heading_1_1.jpg",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "1628780674c9ed5bc2-1": {
+          "type": "product",
+          "settings": {
+            "product": "organic-premium-matcha-50g",
+            "secondary_background": false,
+            "second_image": true,
+            "image_padding": false
           }
         }
       },
       "block_order": [
-        "083deb3f-6206-4419-a8cd-02e15a7fe54b"
+        "b26aea91-2376-4858-8801-a87c55e36fd3",
+        "3af15566-53f7-4956-9138-eaa3007c9a07",
+        "1628780674c9ed5bc2-1"
       ],
       "settings": {
-        "include_margins": true
+        "heading": "",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
       }
     }
   },
@@ -310,13 +287,12 @@
     "1630350621dd61c948",
     "163042516378a404d8",
     "1631637376017b5670",
+    "163190861628fdbc86",
     "16303456864022f6d3",
     "1631904886bcc224d3",
     "image_banner",
-    "featured_products",
-    "1631637423c30067a8",
-    "1628780674c9ed5bc2",
     "163035809706adbc23",
-    "16319048746983da35"
+    "featured_products",
+    "1628780674c9ed5bc2"
   ]
 }
