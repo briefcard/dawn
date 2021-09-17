@@ -57,26 +57,31 @@
         "flavor4": "shopify:\/\/shop_images\/jason-leung-f3uWanPu_rU-unsplash.jpg"
       }
     },
+    "1631637376017b5670": {
+      "type": "judgeme_carousel_section",
+      "settings": {
+        "maxwidth": 1080
+      }
+    },
     "16303456864022f6d3": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "16303456864022f6d3-0": {
           "type": "heading",
           "settings": {
-            "heading": "Ready to Take a Leap?"
+            "heading": "Take the leap!"
           }
         },
         "16303456864022f6d3-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>8 out of 10 people fall in love with matcha. The other 2 didn't make it right. <\/p>"
           }
         },
         "16303456864022f6d3-2": {
           "type": "button",
           "settings": {
-            "button_label": "Get Started",
+            "button_label": "Choose Your Flavor",
             "button_link": "shopify:\/\/collections\/matcha-powder"
           }
         }
@@ -88,9 +93,9 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/three-Packaging-Presentation-Miaroo-min.png",
-        "height": "large",
+        "height": "small",
         "color_scheme": "background-1",
-        "layout": "text_first"
+        "layout": "image_first"
       }
     },
     "image_banner": {
@@ -148,13 +153,6 @@
         "add_image_padding": false,
         "show_image_outline": true,
         "show_vendor": false
-      }
-    },
-    "1631637376017b5670": {
-      "type": "judgeme_carousel_section",
-      "disabled": true,
-      "settings": {
-        "maxwidth": 1080
       }
     },
     "1631637423c30067a8": {
@@ -285,10 +283,10 @@
   "order": [
     "1630350621dd61c948",
     "163042516378a404d8",
+    "1631637376017b5670",
     "16303456864022f6d3",
     "image_banner",
     "featured_products",
-    "1631637376017b5670",
     "1631637423c30067a8",
     "1628780674c9ed5bc2",
     "163035809706adbc23"
