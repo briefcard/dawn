@@ -2099,6 +2099,11 @@ details-disclosure > details {
   .overflow-hidden-tablet {
     overflow: auto;
   }
+  .reviews-holder--1wrGp{
+  margin-top:50px !important;
+  max-width:95% !important;
+   
+  }
 }
 
 .badge {
