@@ -2123,7 +2123,7 @@ details-disclosure > details {
   }
   
    .reviews-holder--1wrGp{
-  margin-top:50px;
+  margin-top:50px !important;
   max-width:1100px;
    
   }
