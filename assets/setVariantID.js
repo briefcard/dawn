@@ -1,13 +1,14 @@
 
 
-function setVariantID(variantID, inputID, selectedVariant, variantSize, count) {
+function setVariantID(variantID, inputID, selectedVariant, variantSize, count, imgInput) {
 
-  console.log(inputID, variantID, selectedVariant, variantSize, count)
+  console.log(inputID, variantID, selectedVariant, variantSize, count, imgInput)
   
 var x = 0;
 var Count = document.getElementById('counter');
 var newCount = parseInt(Count);
 var input = document.getElementById(inputID);
+var imgInput = document.getElementById(imgInput);
 var priceDiv = document.getElementById('price--' + count);
  
 //var lastInput = document.getElementById();
