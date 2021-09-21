@@ -64,13 +64,13 @@ function setVariantImage (imgInput, imgSource){
   var imageInput = document.getElementById(imgInput);
   
   console.log(imageInput.src);
+   console.log(imgSource);
   
   
   imageInput.src = imgSource;
   
   
-  console.log(imgSource);
-  
+ 
   
 }
 
