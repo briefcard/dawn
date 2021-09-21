@@ -62,8 +62,8 @@ console.log(variantID);
 function setVariantImage (imgInput, thisVariant){
   
   var imageInput = document.getElementById(imgInput);
-  var variantImageSrc = thisVariant[thisVariant.selectedIndex].id;
-
+  var variantImageSrc = thisVariant.id;
+	console.log(variantImageSrc);
 
   
   imageInput.srcset = variantImageSrc;
