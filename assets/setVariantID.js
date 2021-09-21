@@ -59,15 +59,16 @@ console.log(variantID);
 }
 
 
-function setVariantImage (imgInput, imgSource, thisVariant){
+function setVariantImage (imgInput, thisVariant){
   
   var imageInput = document.getElementById(imgInput);
-  var imageSource = imgSource[thisVariant].featured_media
+  var imageSource = {{product_card_product.variants[[thisVariant].featured_media}};
+  console.log(imageSource);
   console.log(imageInput.src);
-  console.log(imgSource);
+
   
-  imageInput.srcset = 'https://cdn.shopify.com/s/files/1/0594/0897/4011/' + imgSource;
-  imageInput.src = 'https://cdn.shopify.com/s/files/1/0594/0897/4011/' + imgSource;
+  imageInput.srcset = 'https://cdn.shopify.com/s/files/1/0594/0897/4011/' + imageSource;
+  imageInput.src = 'https://cdn.shopify.com/s/files/1/0594/0897/4011/' + imageSource;
  
   
 }
