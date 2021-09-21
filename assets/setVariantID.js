@@ -60,10 +60,16 @@ console.log(variantID);
 
 
 function setVariantImage (imgInput, imgSource){
-
+  
   var imageInput = document.getElementById(imgInput);
+  
+  console.log(imageInput.src);
+  
+  
   imageInput.src = imgSource;
-  console.log(imgSource)
+  
+  
+  console.log(imgSource);
   
   
 }
