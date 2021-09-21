@@ -142,7 +142,7 @@
                 <div class="select">
                   <select name="id" id="Variants-{{ section.id }}" class="select__select" form="product-form" onChange="setVariantID(this.value, 'chosenVariant--' + {{ count }}, {{product_card_product.selected_or_first_available_variant.id}}, {{product_card_product.variants.size}}, {{count }}); setVariantImage('chosenVariantImg--' + {{ count }}, this[this.selectedIndex].id)">
                     {%- for variant in product_card_product.variants -%}
-                 		{% assign variantImage[forloop.index] = product_card_product.variants[forloop.index0].featured_media %}
+                 		{% assign variantImage[forloop.index] = product_card_product.variants[forloop.index0].image.src %}
                       <option
                         {% if variant == product_card_product.selected_variant %}selected="selected"{% endif %}
             
