@@ -62,13 +62,12 @@ console.log(variantID);
 function setVariantImage (imgInput, thisVariant){
   
   var imageInput = document.getElementById(imgInput);
-  var imageSource = {{product_card_product.variants[thisVariant].featured_media}};
-  console.log(imageSource);
+
   console.log(imageInput.src);
 
   
-  imageInput.srcset = 'https://cdn.shopify.com/s/files/1/0594/0897/4011/' + imageSource;
-  imageInput.src = 'https://cdn.shopify.com/s/files/1/0594/0897/4011/' + imageSource;
+  imageInput.srcset = 'https://cdn.shopify.com/s/files/1/0594/0897/4011/';
+  imageInput.src = 'https://cdn.shopify.com/s/files/1/0594/0897/4011/';
  
   
 }
