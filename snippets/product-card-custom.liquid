@@ -22,7 +22,7 @@
 
 
 {% assign count = count | plus: 1 %}
-
+{% assign variantImages = null | sort %}
 
 <div class="card-wrapper">
   
@@ -140,15 +140,17 @@
                   <div class="product-form__input{% if product_card_product.has_only_default_variant %} hidden{% endif %}" >
                 <label class="form__label" for="Variants-{{ section.id }}">{{ 'products.product.product_variants' | t }}</label>
                 <div class="select">
-                  <select name="id" id="Variants-{{ section.id }}" class="select__select" form="product-form" onChange="setVariantID(this.value, 'chosenVariant--' + {{ count }}, {{product_card_product.selected_or_first_available_variant.id}}, {{product_card_product.variants.size}}, {{count }}); setVariantImage('chosenVariantImg--' + {{ count }}, this[this.selectedIndex].id); console.log({{variantImage}});">
+                  <select name="id" id="Variants-{{ section.id }}" class="select__select" form="product-form" onChange="setVariantID(this.value, 'chosenVariant--' + {{ count }}, {{product_card_product.selected_or_first_available_variant.id}}, {{product_card_product.variants.size}}, {{count }}); setVariantImage('chosenVariantImg--' + {{ count }}, this[this.selectedIndex].id); console.log({{variantImages}});">
                     {%- for variant in product_card_product.variants -%}
-                 		{% assign variantImage[forloop.index] = variant.image.src %}
+                 		{% assign variantImage = variant.image.src | sort %}
+                        {% assign variantImages = variantImages | concat: variantImage %}
+
                       <option
                         {% if variant == product_card_product.selected_variant %}selected="selected"{% endif %}
             
                         {% if variant.available == false %}disabled{% endif %}
                         value="{{ variant.id }}"
-                        id="{{variantImage[forloop.index]}}"
+                        id="{{variantImages[forloop.index]}}"
                       >
                         {{ variant.title }}
                         {%- if variant.available == false %} - {{ 'products.product.sold_out' | t }}{% endif %}
