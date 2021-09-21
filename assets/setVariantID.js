@@ -62,7 +62,7 @@ console.log(variantID);
 function setVariantImage (imgInput, thisVariant){
   
   var imageInput = document.getElementById(imgInput);
-  var imageSource = {{product_card_product.variants[[thisVariant].featured_media}};
+  var imageSource = ;
   console.log(imageSource);
   console.log(imageInput.src);
 
