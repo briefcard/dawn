@@ -66,8 +66,8 @@ console.log(thisVariant);
   console.log(imageInput.src);
 
   
-  imageInput.srcset = 'https://cdn.shopify.com/s/files/1/0594/0897/4011/';
-  imageInput.src = 'https://cdn.shopify.com/s/files/1/0594/0897/4011/';
+  imageInput.srcset = thisVariant;
+  imageInput.src = thisVariant;
  
   
 }
