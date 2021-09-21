@@ -1,6 +1,6 @@
 
 
-function setVariantID(variantID, inputID, selectedVariant, variantSize, count) {
+function setVariantID (variantID, inputID, selectedVariant, variantSize, count) {
 
   console.log(inputID, variantID, selectedVariant, variantSize, count)
   
