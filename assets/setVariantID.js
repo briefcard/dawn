@@ -63,7 +63,7 @@ function setVariantImage (imgInput, imgSource){
 
   var imageInput = document.getElementById(imgInput);
   imageInput.src = imgSource;
-  
+  console.log(imgSource)
   
   
 }
