@@ -66,9 +66,9 @@ function setVariantImage (imgInput, imgSource){
   console.log(imageInput.src);
    console.log(imgSource);
   
-  
+    imageInput.srcset = imgSource;
+
   imageInput.src = imgSource;
-  
   
  
   
