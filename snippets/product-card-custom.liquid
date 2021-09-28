@@ -142,13 +142,14 @@
                 <div class="select">
                   <div name="id" id="Variants-{{ section.id }}" class="" >
                     {%- for variant in product_card_product.variants -%}
+                    <div class="variant-radio-btn">
                       <input type="radio"
                         {% if variant == product_card_product.selected_variant %}checked{% endif %}
             
                         {% if variant.available == false %}disabled{% endif %}
                         value="{{ variant.id }}"
                         id="{{variant.featured_media}}"
-                        class="variant-radio-btn"
+             
                         form="product-form"
                         onClick="setVariantID(this.value, 'chosenVariant--' + {{ count }}, {{product_card_product.selected_or_first_available_variant.id}}, {{product_card_product.variants.size}}, {{count }}); setVariantImage('chosenVariantImg--' + {{ count }}, this.id); console.log(this.id);"
                       >
@@ -156,6 +157,7 @@
                         {%- if variant.available == false %} - {{ 'products.product.sold_out' | t }}{% endif %}
                         | {{ variant.price | money | strip_html }}
                     </label>
+                    </div>
                     {%- endfor -%}
                  
                   {% render 'icon-caret' %}
