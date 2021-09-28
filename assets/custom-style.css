@@ -1,3 +1,18 @@
+.variant-radio-btn{
+    padding: 15px;
+    background-color: #fcfcfc;
+    border: 1px #eee solid;
+    margin-bottom: 1px;
+
+}
+
+.variant-radio-btn > input type="radio" {
+opacity: 0;
+  position: fixed;
+  width: 0;
+
+}
+
 .cards-widget--1WXS- .single-review--15jg7 .top-part--2mYmj{
 
 display:none;
