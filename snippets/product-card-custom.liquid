@@ -149,12 +149,14 @@
                         {% if variant.available == false %}disabled{% endif %}
                         value="{{ variant.id }}"
                         id="{{variant.featured_media}}"
+                        class="variant-radio-btn"
                       >
                        <label for="{{variant.featured_media}}"> {{ variant.title }}
                         {%- if variant.available == false %} - {{ 'products.product.sold_out' | t }}{% endif %}
                         - {{ variant.price | money | strip_html }}
                     </label>
-                    {%- endfor -%}                  </select>
+                    {%- endfor -%}
+                  </form>
                   {% render 'icon-caret' %}
                 </div>
               </div>
