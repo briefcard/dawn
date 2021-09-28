@@ -23,7 +23,9 @@
 
 .variant-radio-btn > input[type="radio"]:checked + label {
  
-  background-color: #bfb;
+  background-color: #5FD5A5;
+  color:#fff;
+  font-weight:600;
 
 
 }
