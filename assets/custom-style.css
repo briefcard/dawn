@@ -6,8 +6,8 @@
 
 }
 
-.variant-radio-btn > input type="radio" {
-opacity: 0;
+.variant-radio-btn input type="radio" {
+ opacity: 0;
   position: fixed;
   width: 0;
 
