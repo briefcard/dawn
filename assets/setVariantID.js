@@ -62,9 +62,6 @@ console.log(variantID);
 function setVariantImage (imgInput, thisVariant){
   
   var imageInput = document.getElementById(imgInput);
-
-  console.log(thisVariant);
-
   
   imageInput.srcset = 'https://cdn.shopify.com/s/files/1/0594/0897/4011/' + thisVariant;
   imageInput.src = 'https://cdn.shopify.com/s/files/1/0594/0897/4011/' + thisVariant;
