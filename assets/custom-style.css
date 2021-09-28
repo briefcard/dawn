@@ -149,7 +149,7 @@ margin-top:-50px !important;
 border:5px dashed #eee;
 }
 
-.slight-box-shadow:focus {
+.slight-box-shadow-active{
 border-color: #203D51;
 }
 
