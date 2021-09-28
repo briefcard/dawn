@@ -140,9 +140,8 @@
                   <div class="product-form__input{% if product_card_product.has_only_default_variant %} hidden{% endif %}" >
                 <label class="form__label" for="Variants-{{ section.id }}">{{ 'products.product.product_variants' | t }}</label>
                 <div class="select">
-                  <select name="id" id="Variants-{{ section.id }}" class="" form="product-form" onChange="setVariantID(this.value, 'chosenVariant--' + {{ count }}, {{product_card_product.selected_or_first_available_variant.id}}, {{product_card_product.variants.size}}, {{count }}); setVariantImage('chosenVariantImg--' + {{ count }}, this[this.selectedIndex].id); console.log(this[this.selectedIndex].id);">
+                  <div name="id" id="Variants-{{ section.id }}" class="" >
                     {%- for variant in product_card_product.variants -%}
-                 		
                       <input type="radio"
                         {% if variant == product_card_product.selected_variant %}checked{% endif %}
             
@@ -150,13 +149,15 @@
                         value="{{ variant.id }}"
                         id="{{variant.featured_media}}"
                         class="variant-radio-btn"
+                        form="product-form"
+                        onClick="setVariantID(this.value, 'chosenVariant--' + {{ count }}, {{product_card_product.selected_or_first_available_variant.id}}, {{product_card_product.variants.size}}, {{count }}); setVariantImage('chosenVariantImg--' + {{ count }}, this[this.selectedIndex].id); console.log(this[this.selectedIndex].id);"
                       >
                        <label for="{{variant.featured_media}}"> {{ variant.title }}
                         {%- if variant.available == false %} - {{ 'products.product.sold_out' | t }}{% endif %}
                         - {{ variant.price | money | strip_html }}
                     </label>
                     {%- endfor -%}
-                  </select>
+                 
                   {% render 'icon-caret' %}
                 </div>
               </div>
