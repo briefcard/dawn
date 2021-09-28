@@ -8,7 +8,9 @@
     
       $('.flavoractive').click(function(){
       $('img').removeClass('activeflavor');
+      $('div').removeClass('slight-box-shadow-active');
   	  $(this).addClass('activeflavor');
+        $(this).parent.addClass('slight-box-shadow-active');
 });
    
   });
