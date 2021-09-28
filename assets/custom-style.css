@@ -149,6 +149,10 @@ margin-top:-50px !important;
 border:5px dashed #eee;
 }
 
+.slight-box-shadow:focus {
+border-color: #203D51;
+}
+
 @media screen and (min-width: 750px) {
 
 .overflow-show{
