@@ -3,7 +3,7 @@
     background-color: #fcfcfc;
     border: 1px #eee solid;
     margin-bottom: 1px;
-  border-radius:5px;
+
 
 }
 
@@ -17,8 +17,12 @@
 .variant-radio-btn > label {
 
     display: inline-block;
-    background-color: #fcfcfc;
-  font-size: 16px;
+}
+
+.variant-radio-btn > input[type="radio"]:checked {
+ 
+  background-color: #bfb;
+
 
 }
 
