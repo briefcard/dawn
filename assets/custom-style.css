@@ -13,6 +13,18 @@
 
 }
 
+.variant-radio-btn > label {
+
+    display: inline-block;
+    background-color: #ddd;
+    padding: 10px 20px;
+    font-family: sans-serif, Arial;
+    font-size: 16px;
+    border: 2px solid #444;
+    border-radius: 4px;
+
+}
+
 .cards-widget--1WXS- .single-review--15jg7 .top-part--2mYmj{
 
 display:none;
