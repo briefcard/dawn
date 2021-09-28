@@ -154,7 +154,7 @@
                       >
                        <label for="{{variant.featured_media}}"> {{ variant.title }}
                         {%- if variant.available == false %} - {{ 'products.product.sold_out' | t }}{% endif %}
-                        - {{ variant.price | money | strip_html }}
+                        | {{ variant.price | money | strip_html }}
                     </label>
                     {%- endfor -%}
                  
