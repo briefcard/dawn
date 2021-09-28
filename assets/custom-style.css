@@ -19,7 +19,7 @@
     display: inline-block;
 }
 
-.variant-radio-btn > input[type="radio"]:checked {
+.variant-radio-btn > input[type="radio"]:checked + label {
  
   background-color: #bfb;
 
