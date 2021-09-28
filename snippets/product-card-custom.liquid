@@ -149,7 +149,7 @@
                         {% if variant.available == false %}disabled{% endif %}
                         value="{{ variant.id }}"
                         id="{{variant.featured_media}}"
-             
+             			name="{{product_card_product.id}}"
                         form="product-form"
                         onClick="setVariantID(this.value, 'chosenVariant--' + {{ count }}, {{product_card_product.selected_or_first_available_variant.id}}, {{product_card_product.variants.size}}, {{count }}); setVariantImage('chosenVariantImg--' + {{ count }}, this.id); console.log(this.id);"
                       >
