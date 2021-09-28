@@ -3,6 +3,7 @@
     background-color: #fcfcfc;
     border: 1px #eee solid;
     margin-bottom: 1px;
+  border-radius:5px;
 
 }
 
@@ -16,12 +17,8 @@
 .variant-radio-btn > label {
 
     display: inline-block;
-    background-color: #ddd;
-    padding: 10px 20px;
-    font-family: sans-serif, Arial;
-    font-size: 16px;
-    border: 2px solid #444;
-    border-radius: 4px;
+    background-color: #fcfcfc;
+  font-size: 16px;
 
 }
 
