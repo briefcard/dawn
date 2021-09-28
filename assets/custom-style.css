@@ -17,6 +17,8 @@
 .variant-radio-btn > label {
 
     display: inline-block;
+  width:100%;
+  height:100%;
 }
 
 .variant-radio-btn > input[type="radio"]:checked + label {
