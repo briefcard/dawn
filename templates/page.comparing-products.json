@@ -113,9 +113,10 @@
         "1632951005acb7f5a2-4"
       ],
       "settings": {
-        "height": "adapt",
+        "image": "shopify:\/\/shop_images\/tyler-nix-wVexcTg7oXY-unsplash.jpg",
+        "height": "small",
         "color_scheme": "inverse",
-        "layout": "image_first",
+        "layout": "text_first",
         "pro-or-con": "Cons"
       }
     },
