@@ -29,7 +29,13 @@
         "16329483622281dad8-3": {
           "type": "block-3",
           "settings": {
-            "list-item-3": "Taste-Tested Against Most Japanese Farms"
+            "list-item-3": "Taste-Tested Against The Other Japanese Farms (we won)"
+          }
+        },
+        "96a31086-0e8c-4ab5-849c-bf0733e09b2a": {
+          "type": "block-4",
+          "settings": {
+            "list-item-4": "Best Value on Organic Premium Matcha"
           }
         },
         "16329483622281dad8-4": {
@@ -45,6 +51,7 @@
         "16329483622281dad8-1",
         "16329483622281dad8-2",
         "16329483622281dad8-3",
+        "96a31086-0e8c-4ab5-849c-bf0733e09b2a",
         "16329483622281dad8-4"
       ],
       "settings": {
