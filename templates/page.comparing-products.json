@@ -14,10 +14,16 @@
             "heading": "Why Miaroo?"
           }
         },
+        "96a31086-0e8c-4ab5-849c-bf0733e09b2a": {
+          "type": "block-4",
+          "settings": {
+            "list-item-4": "Best Value on Organic Premium Matcha"
+          }
+        },
         "16329483622281dad8-1": {
           "type": "block-1",
           "settings": {
-            "list-item-1": "Packed With Antioxidants & Flavor"
+            "list-item-1": "Focused Energy | Curbs Cravings | PACKED with Antioxidants"
           }
         },
         "16329483622281dad8-2": {
@@ -32,10 +38,11 @@
             "list-item-3": "Taste-Tested Against The Other Japanese Farms (we won)"
           }
         },
-        "96a31086-0e8c-4ab5-849c-bf0733e09b2a": {
-          "type": "block-4",
+        "688749a4-442e-41fb-b8cc-41ad12972bc9": {
+          "type": "block-5",
+          "disabled": true,
           "settings": {
-            "list-item-4": "Best Value on Organic Premium Matcha"
+            "list-item-5": "Fifth Item"
           }
         },
         "16329483622281dad8-4": {
@@ -48,10 +55,11 @@
       },
       "block_order": [
         "16329483622281dad8-0",
+        "96a31086-0e8c-4ab5-849c-bf0733e09b2a",
         "16329483622281dad8-1",
         "16329483622281dad8-2",
         "16329483622281dad8-3",
-        "96a31086-0e8c-4ab5-849c-bf0733e09b2a",
+        "688749a4-442e-41fb-b8cc-41ad12972bc9",
         "16329483622281dad8-4"
       ],
       "settings": {
@@ -74,7 +82,7 @@
         "1632951005acb7f5a2-1": {
           "type": "block-1",
           "settings": {
-            "list-item-1": "Makes you anxious & jittery"
+            "list-item-1": "Makes you anxious, jittery, and unfocused"
           }
         },
         "1632951005acb7f5a2-2": {
