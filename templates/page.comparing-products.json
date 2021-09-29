@@ -17,26 +17,26 @@
         "16329483622281dad8-1": {
           "type": "block-1",
           "settings": {
-            "list-item-1": "Hi there!"
+            "list-item-1": "Packed With Antioxidants & Flavor"
           }
         },
         "16329483622281dad8-2": {
           "type": "block-2",
           "settings": {
-            "list-item-2": "Hello Friend!"
+            "list-item-2": "USDA & JAS Organic Certified"
           }
         },
         "16329483622281dad8-3": {
           "type": "block-3",
           "settings": {
-            "list-item-3": "Boom Boom!"
+            "list-item-3": "Taste-Tested Against Most Japanese Farms"
           }
         },
         "16329483622281dad8-4": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Choose Your Matcha",
+            "button_link": "shopify:\/\/collections\/all"
           }
         }
       },
@@ -54,10 +54,60 @@
         "layout": "image_first",
         "pro-or-con": "Pros"
       }
+    },
+    "1632951005acb7f5a2": {
+      "type": "Pros-and-cons",
+      "blocks": {
+        "1632951005acb7f5a2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Vs. Coffee"
+          }
+        },
+        "1632951005acb7f5a2-1": {
+          "type": "block-1",
+          "settings": {
+            "list-item-1": "Makes you anxious & jittery"
+          }
+        },
+        "1632951005acb7f5a2-2": {
+          "type": "block-2",
+          "settings": {
+            "list-item-2": "Makes you crash during meetings"
+          }
+        },
+        "1632951005acb7f5a2-3": {
+          "type": "block-3",
+          "settings": {
+            "list-item-3": "Third Item"
+          }
+        },
+        "1632951005acb7f5a2-4": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1632951005acb7f5a2-0",
+        "1632951005acb7f5a2-1",
+        "1632951005acb7f5a2-2",
+        "1632951005acb7f5a2-3",
+        "1632951005acb7f5a2-4"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "pro-or-con": "Cons"
+      }
     }
   },
   "order": [
     "main",
-    "16329483622281dad8"
+    "16329483622281dad8",
+    "1632951005acb7f5a2"
   ]
 }
