@@ -4,9 +4,44 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "163294699526d438c3": {
+      "type": "image-with-text",
+      "blocks": {
+        "163294699526d438c3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "MIAROO PROS"
+          }
+        },
+        "163294699526d438c3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pro # 1<\/p>"
+          }
+        },
+        "163294699526d438c3-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Choose Your Matcha",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "163294699526d438c3-0",
+        "163294699526d438c3-1",
+        "163294699526d438c3-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "163294699526d438c3"
   ]
 }
