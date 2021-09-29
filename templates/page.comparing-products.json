@@ -122,6 +122,7 @@
     },
     "163295325891873fcd": {
       "type": "Pros-and-cons",
+      "disabled": true,
       "blocks": {
         "163295325891873fcd-0": {
           "type": "heading",
@@ -169,12 +170,28 @@
         "layout": "image_first",
         "pro-or-con": "Cons"
       }
+    },
+    "1632956653f14aa0c8": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "collection": "matcha-powder",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false
+      }
     }
   },
   "order": [
     "main",
     "16329483622281dad8",
     "1632951005acb7f5a2",
-    "163295325891873fcd"
+    "163295325891873fcd",
+    "1632956653f14aa0c8"
   ]
 }
