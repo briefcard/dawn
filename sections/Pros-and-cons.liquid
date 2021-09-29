@@ -67,6 +67,26 @@
                  />
                 {{ block.settings.list-item-3 }}
               </div>
+        	{%- when 'block-4' -%}
+              <div class="image-with-text__text rte {% if section.settings.pro-or-con == 'Pros' %}pros-list{% else %} cons-list {% endif %}" {{ block.shopify_attributes }}>
+                <img 
+                    src="{% if section.settings.pro-or-con == 'Pros' %} https://cdn.shopify.com/s/files/1/0594/0897/4011/files/check.png?v=1632950144 {% else %} https://cdn.shopify.com/s/files/1/0594/0897/4011/files/cancel.png?v=1632950143 {% endif %}"
+                    class="inline-block"
+                    width="15px"
+                    height="15px"
+                 />
+                {{ block.settings.list-item-4 }}
+              </div>
+        	{%- when 'block-5' -%}
+              <div class="image-with-text__text rte {% if section.settings.pro-or-con == 'Pros' %}pros-list{% else %} cons-list {% endif %}" {{ block.shopify_attributes }}>
+                <img 
+                    src="{% if section.settings.pro-or-con == 'Pros' %} https://cdn.shopify.com/s/files/1/0594/0897/4011/files/check.png?v=1632950144 {% else %} https://cdn.shopify.com/s/files/1/0594/0897/4011/files/cancel.png?v=1632950143 {% endif %}"
+                    class="inline-block"
+                    width="15px"
+                    height="15px"
+                 />
+                {{ block.settings.list-item-5 }}
+              </div>
             {%- when 'button' -%}
               {%- if block.settings.button_label != blank -%}
                 <a{% if block.settings.button_link != blank %} href="{{ block.settings.button_link }}"{% endif %} class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"{% if block.settings.button_link == blank %} aria-disabled="true"{% endif %} {{ block.shopify_attributes }}>
@@ -214,7 +234,7 @@
     },
 	 {
       "type": "block-3",
-      "name": "Text 4",
+      "name": "Text 3",
 	  "limit": 1,
       "settings": [
           {
@@ -222,6 +242,32 @@
             "id": "list-item-3",
 			"default": "Third Item",
             "label": "Third List item"
+          }
+		]
+    },
+	{
+      "type": "block-4",
+      "name": "Text 4",
+	  "limit": 1,
+      "settings": [
+          {
+            "type": "text",
+            "id": "list-item-4",
+			"default": "Fourth Item",
+            "label": "Fourth List item"
+          }
+		]
+    },
+	{
+      "type": "block-5",
+      "name": "Text 5",
+	  "limit": 1,
+      "settings": [
+          {
+            "type": "text",
+            "id": "list-item-5",
+			"default": "Fifth Item",
+            "label": "Fifth List item"
           }
 		]
     },
