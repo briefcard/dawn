@@ -115,7 +115,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/tyler-nix-wVexcTg7oXY-unsplash.jpg",
         "height": "small",
-        "color_scheme": "inverse",
+        "color_scheme": "background-2",
         "layout": "text_first",
         "pro-or-con": "Cons"
       }
