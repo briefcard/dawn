@@ -128,7 +128,8 @@
       "info": "t:sections.image-with-text.settings.layout.info"
     }
   ],
-  "blocks": [
+  "blocks":
+	[
     {
       "type": "heading",
       "name": "t:sections.image-with-text.blocks.heading.name",
@@ -143,16 +144,37 @@
       ]
     },
     {
-      "type": "text",
-      "name": "firstText",
+      "type": "block-1",
+      "name": "Text 1",
       "settings": [
-        {
-          "type": "richtext",
-          "id": "text1",
-          "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-          "label": "Text 1"
-        }
-      ]
+          {
+            "type": "text",
+            "id": "list-item-1",
+            "label": "First List Item"
+          }
+		]
+    },
+ 	{
+      "type": "block-2",
+      "name": "Text 2",
+      "settings": [
+          {
+            "type": "text",
+            "id": "list-item-2",
+            "label": "Second List Item"
+          }
+		]
+    },
+	 {
+      "type": "block-3",
+      "name": "Text 4",
+      "settings": [
+          {
+            "type": "text",
+            "id": "list-item-3",
+            "label": "Third List item"
+          }
+		]
     },
     {
       "type": "button",
@@ -176,13 +198,13 @@
   ],
   "presets": [
     {
-      "name": "t:sections.image-with-text.presets.name",
+      "name": "Pros And Cons List",
       "blocks": [
         {
           "type": "heading"
         },
         {
-          "type": "text"
+          "type": "block-1"
         },
         {
           "type": "button"
