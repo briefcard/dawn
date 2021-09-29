@@ -5,7 +5,14 @@
     width: 100%;
 }
 
-.cons-list{
+.cons-list-1{
+	padding: 10px;
+    border-radius: 5px;
+    background-color: #efd8d8;
+    width: 100%;
+}
+
+.cons-list-2{
 	padding: 10px;
     border-radius: 5px;
     background-color: #efd8d8;
