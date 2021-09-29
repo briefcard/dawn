@@ -38,7 +38,7 @@
                 {{ block.settings.heading | escape }}
               </h2>
             {%- when 'block-1' -%}
-              <div class=" image-with-text__text rte {% if section.settings.pro-or-con == 'Pros' %}pros-list {% endif %} {% if section.settings.color_scheme == "background-1" %}cons-list-1{% else %}cons-list-2{% endif %}" {{ block.shopify_attributes }}>
+              <div class=" image-with-text__text rte {% if section.settings.pro-or-con == 'Pros' %}pros-list {% endif %} {% if section.settings.pro-or-con != 'Pros'and section.settings.color_scheme == "background-1" %}cons-list-1{% else if section.settings.pro-or-con != 'Pros' and section.settings.color_scheme != "background-1" %}cons-list-2 {% endif%} " {{ block.shopify_attributes }}>
                <img 
                     src="{% if section.settings.pro-or-con == 'Pros' %} https://cdn.shopify.com/s/files/1/0594/0897/4011/files/check.png?v=1632950144 {% else %} https://cdn.shopify.com/s/files/1/0594/0897/4011/files/cancel.png?v=1632950143 {% endif %}"
                     class="inline-block"
@@ -49,7 +49,7 @@
                 
         	  </div>
         	{%- when 'block-2' -%}
-              <div class="image-with-text__text rte {% if section.settings.pro-or-con == 'Pros' %}pros-list {% endif %} {% if section.settings.color_scheme == "background-1" %}cons-list-1{% else %}cons-list-2{% endif %}" {{ block.shopify_attributes }}>
+              <div class="image-with-text__text rte {% if section.settings.pro-or-con == 'Pros' %}pros-list {% endif %} {% if section.settings.pro-or-con != 'Pros'and section.settings.color_scheme == "background-1" %}cons-list-1{% else if section.settings.pro-or-con != 'Pros' and section.settings.color_scheme != "background-1" %}cons-list-2 {% endif%} " {{ block.shopify_attributes }}>
                 <img 
                     src="{% if section.settings.pro-or-con == 'Pros' %} https://cdn.shopify.com/s/files/1/0594/0897/4011/files/check.png?v=1632950144 {% else %} https://cdn.shopify.com/s/files/1/0594/0897/4011/files/cancel.png?v=1632950143 {% endif %}"
                     class="inline-block"
@@ -59,7 +59,7 @@
                 {{ block.settings.list-item-2 }}
         	  </div>
         	{%- when 'block-3' -%}
-              <div class="image-with-text__text rte {% if section.settings.pro-or-con == 'Pros' %}pros-list {% endif %} {% if section.settings.color_scheme == "background-1" %}cons-list-1{% else %}cons-list-2{% endif %}" {{ block.shopify_attributes }}>
+              <div class="image-with-text__text rte {% if section.settings.pro-or-con == 'Pros' %}pros-list {% endif %} {% if section.settings.pro-or-con != 'Pros'and section.settings.color_scheme == "background-1" %}cons-list-1{% else if section.settings.pro-or-con != 'Pros' and section.settings.color_scheme != "background-1" %}cons-list-2 {% endif%} " {{ block.shopify_attributes }}>
                 <img 
                     src="{% if section.settings.pro-or-con == 'Pros' %} https://cdn.shopify.com/s/files/1/0594/0897/4011/files/check.png?v=1632950144 {% else %} https://cdn.shopify.com/s/files/1/0594/0897/4011/files/cancel.png?v=1632950143 {% endif %}"
                     class="inline-block"
@@ -79,7 +79,7 @@
                 {{ block.settings.list-item-4 }}
               </div>
         	{%- when 'block-5' -%}
-              <div class="image-with-text__text rte{% if section.settings.pro-or-con == 'Pros' %}pros-list {% endif %} {% if section.settings.color_scheme == "background-1" %}cons-list-1{% else %}cons-list-2{% endif %}" {{ block.shopify_attributes }}>
+              <div class="image-with-text__text rte {% if section.settings.pro-or-con == 'Pros' %}pros-list {% endif %} {% if section.settings.pro-or-con != 'Pros'and section.settings.color_scheme == "background-1" %}cons-list-1{% else if section.settings.pro-or-con != 'Pros' and section.settings.color_scheme != "background-1" %}cons-list-2 {% endif%} " {{ block.shopify_attributes }}>
                 <img 
                     src="{% if section.settings.pro-or-con == 'Pros' %} https://cdn.shopify.com/s/files/1/0594/0897/4011/files/check.png?v=1632950144 {% else %} https://cdn.shopify.com/s/files/1/0594/0897/4011/files/cancel.png?v=1632950143 {% endif %}"
                     class="inline-block"
