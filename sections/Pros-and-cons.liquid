@@ -68,7 +68,7 @@
                 {{ block.settings.list-item-3 }}
               </div>
         	{%- when 'block-4' -%}
-              <div class="image-with-text__text rte {% if section.settings.pro-or-con == 'Pros' %}pros-list{% else if section.settings.color_scheme == 'background-1' %} cons-list-1 {% else %} cons-list-2 {% endif %}" {{ block.shopify_attributes }}>
+              <div class="image-with-text__text rte {% if section.settings.pro-or-con == 'Pros' %}pros-list{% else if section.settings.color_scheme == 'background-1' %}cons-list-1{% else %}cons-list-2{% endif %}" {{ block.shopify_attributes }}>
                 <img 
                     src="{% if section.settings.pro-or-con == 'Pros' %} https://cdn.shopify.com/s/files/1/0594/0897/4011/files/check.png?v=1632950144 {% else %} https://cdn.shopify.com/s/files/1/0594/0897/4011/files/cancel.png?v=1632950143 {% endif %}"
                     class="inline-block"
