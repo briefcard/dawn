@@ -163,7 +163,8 @@
         "163295325891873fcd-4"
       ],
       "settings": {
-        "height": "adapt",
+        "image": "shopify:\/\/shop_images\/Miaroo_Matcha_Vs_Competitor_Matcha.png",
+        "height": "small",
         "color_scheme": "inverse",
         "layout": "image_first",
         "pro-or-con": "Cons"
