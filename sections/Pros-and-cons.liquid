@@ -46,6 +46,7 @@
                     height="15px"
                  />
                 {{ block.settings.list-item-1 }}
+                {{ section.settings.color_scheme }}
         	  </div>
         	{%- when 'block-2' -%}
               <div class="image-with-text__text rte {% if section.settings.pro-or-con == 'Pros' %}pros-list{% else if section.settings.color_scheme == 'background-1' %}cons-list-1{% else %}cons-list-2{% endif %}" {{ block.shopify_attributes }}>
