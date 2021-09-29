@@ -1,9 +1,4 @@
-.pros-list{
-	padding: 10px;
-    border-radius: 5px;
-    background-color: #d7f5e3;
-    width: 100%;
-}
+
 
 .cons-list-1{
 	padding: 10px;
@@ -17,6 +12,13 @@
     border-radius: 5px;
     background-color: #fff;
     color: #203d51;
+    width: 100%;
+}
+
+.pros-list{
+	padding: 10px;
+    border-radius: 5px;
+    background-color: #d7f5e3;
     width: 100%;
 }
 
