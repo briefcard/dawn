@@ -36,11 +36,11 @@
                 {{ block.settings.heading | escape }}
               </h2>
             {%- when 'block-1' -%}
-              <div class="image-with-text__text rte {%- if block.settings.pro-or-con == Pros -%} pros-list {%- endif -%} {%- if block.settings.pro-or-con == Cons -%} cons-list {%- endif -%}" {{ block.shopify_attributes }}>{{ block.settings.list-item-1 }}</div>
+              <div class="image-with-text__text rte {%- if section.settings.pro-or-con == Pros -%} pros-list {%- endif -%} {%- if section.settings.pro-or-con == Cons -%} cons-list {%- endif -%}" {{ block.shopify_attributes }}>{{ block.settings.list-item-1 }}</div>
         	{%- when 'block-2' -%}
-              <div class="image-with-text__text rte {%- if block.settings.pro-or-con == Pros -%} pros-list {%- endif -%} {%- if block.settings.pro-or-con == Cons -%} cons-list {%- endif -%}" {{ block.shopify_attributes }}>{{ block.settings.list-item-2 }}</div>
+              <div class="image-with-text__text rte {%- if section.settings.pro-or-con == Pros -%} pros-list {%- endif -%} {%- if section.settings.pro-or-con == Cons -%} cons-list {%- endif -%}" {{ block.shopify_attributes }}>{{ block.settings.list-item-2 }}</div>
         	{%- when 'block-3' -%}
-              <div class="image-with-text__text rte {%- if block.settings.pro-or-con == Pros -%} pros-list {%- endif -%} {%- if block.settings.pro-or-con == Cons -%} cons-list {%- endif -%}" {{ block.shopify_attributes }}>{{ block.settings.list-item-3 }}</div>
+              <div class="image-with-text__text rte {%- if section.settings.pro-or-con == Pros -%} pros-list {%- endif -%} {%- if section.settings.pro-or-con == Cons -%} cons-list {%- endif -%}" {{ block.shopify_attributes }}>{{ block.settings.list-item-3 }}</div>
             {%- when 'button' -%}
               {%- if block.settings.button_label != blank -%}
                 <a{% if block.settings.button_link != blank %} href="{{ block.settings.button_link }}"{% endif %} class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"{% if block.settings.button_link == blank %} aria-disabled="true"{% endif %} {{ block.shopify_attributes }}>
