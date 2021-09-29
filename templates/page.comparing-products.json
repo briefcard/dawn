@@ -14,12 +14,6 @@
             "heading": "Why Miaroo?"
           }
         },
-        "96a31086-0e8c-4ab5-849c-bf0733e09b2a": {
-          "type": "block-4",
-          "settings": {
-            "list-item-4": "Best Value on Organic Premium Matcha"
-          }
-        },
         "16329483622281dad8-1": {
           "type": "block-1",
           "settings": {
@@ -36,6 +30,12 @@
           "type": "block-3",
           "settings": {
             "list-item-3": "Taste-Tested Against The Other Japanese Farms (we won)"
+          }
+        },
+        "96a31086-0e8c-4ab5-849c-bf0733e09b2a": {
+          "type": "block-4",
+          "settings": {
+            "list-item-4": "Best Value on Organic Premium Matcha"
           }
         },
         "688749a4-442e-41fb-b8cc-41ad12972bc9": {
@@ -55,10 +55,10 @@
       },
       "block_order": [
         "16329483622281dad8-0",
-        "96a31086-0e8c-4ab5-849c-bf0733e09b2a",
         "16329483622281dad8-1",
         "16329483622281dad8-2",
         "16329483622281dad8-3",
+        "96a31086-0e8c-4ab5-849c-bf0733e09b2a",
         "688749a4-442e-41fb-b8cc-41ad12972bc9",
         "16329483622281dad8-4"
       ],
@@ -94,14 +94,14 @@
         "1632951005acb7f5a2-3": {
           "type": "block-3",
           "settings": {
-            "list-item-3": "Third Item"
+            "list-item-3": "May lead to upset stomach & bad breath"
           }
         },
         "1632951005acb7f5a2-4": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Try Matcha Instead",
+            "button_link": "shopify:\/\/collections\/all"
           }
         }
       },
@@ -118,11 +118,61 @@
         "layout": "image_first",
         "pro-or-con": "Cons"
       }
+    },
+    "163295325891873fcd": {
+      "type": "Pros-and-cons",
+      "blocks": {
+        "163295325891873fcd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Vs. Competitors"
+          }
+        },
+        "163295325891873fcd-1": {
+          "type": "block-1",
+          "settings": {
+            "list-item-1": "First Item"
+          }
+        },
+        "163295325891873fcd-2": {
+          "type": "block-2",
+          "settings": {
+            "list-item-2": "Second Item"
+          }
+        },
+        "163295325891873fcd-3": {
+          "type": "block-3",
+          "settings": {
+            "list-item-3": "Third Item"
+          }
+        },
+        "163295325891873fcd-4": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "163295325891873fcd-0",
+        "163295325891873fcd-1",
+        "163295325891873fcd-2",
+        "163295325891873fcd-3",
+        "163295325891873fcd-4"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "pro-or-con": "Pros"
+      }
     }
   },
   "order": [
     "main",
     "16329483622281dad8",
-    "1632951005acb7f5a2"
+    "1632951005acb7f5a2",
+    "163295325891873fcd"
   ]
 }
