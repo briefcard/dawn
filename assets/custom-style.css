@@ -1,4 +1,9 @@
-
+.product-form__submit {
+    margin-bottom: 1rem;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
 
 .cons-list-1{
 	padding: 10px;
