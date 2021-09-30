@@ -144,12 +144,6 @@
         "full_width": true
       }
     },
-    "1631904886bcc224d3": {
-      "type": "reputon-testimonials-1631904696965",
-      "disabled": true,
-      "settings": {
-      }
-    },
     "163035809706adbc23": {
       "type": "multicolumn",
       "blocks": {
@@ -236,6 +230,11 @@
         "height": "small",
         "color_scheme": "background-2",
         "layout": "image_first"
+      }
+    },
+    "1631904886bcc224d3": {
+      "type": "reputon-testimonials-1631904696965",
+      "settings": {
       }
     },
     "image_banner": {
@@ -343,9 +342,9 @@
     "1631637376017b5670",
     "1633024209f982f71a",
     "163190861628fdbc86",
-    "1631904886bcc224d3",
     "163035809706adbc23",
     "16303456864022f6d3",
+    "1631904886bcc224d3",
     "image_banner",
     "featured_products",
     "1628780674c9ed5bc2"
