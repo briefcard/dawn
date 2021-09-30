@@ -5,6 +5,12 @@
     font-weight: bold;
 }
 
+.shopify-payment-button__button{
+  font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 .cons-list-1{
 	padding: 10px;
     border-radius: 5px;
