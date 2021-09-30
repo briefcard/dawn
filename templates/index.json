@@ -64,37 +64,6 @@
         "maxwidth": 1080
       }
     },
-    "163190861628fdbc86": {
-      "type": "newsletter",
-      "blocks": {
-        "163190861628fdbc86-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "First timer? Claim 20% Off!"
-          }
-        },
-        "163190861628fdbc86-1": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "<p>And be the first to know when we have sales, events, or new goodies!<\/p>"
-          }
-        },
-        "163190861628fdbc86-2": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "163190861628fdbc86-0",
-        "163190861628fdbc86-1",
-        "163190861628fdbc86-2"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
-    },
     "1633024209f982f71a": {
       "type": "Pros-and-cons",
       "blocks": {
@@ -138,11 +107,41 @@
         "1633024209f982f71a-4"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Miaroo_Guarantees_stickers_3318ebae-5cfb-4202-9edb-aedbaba869a4.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first",
         "pro-or-con": "Pros"
+      }
+    },
+    "163190861628fdbc86": {
+      "type": "newsletter",
+      "blocks": {
+        "163190861628fdbc86-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "First timer? Claim 20% Off!"
+          }
+        },
+        "163190861628fdbc86-1": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "<p>And be the first to know when we have sales, events, or new goodies!<\/p>"
+          }
+        },
+        "163190861628fdbc86-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "163190861628fdbc86-0",
+        "163190861628fdbc86-1",
+        "163190861628fdbc86-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
       }
     },
     "1631904886bcc224d3": {
@@ -342,8 +341,8 @@
     "1630350621dd61c948",
     "163042516378a404d8",
     "1631637376017b5670",
-    "163190861628fdbc86",
     "1633024209f982f71a",
+    "163190861628fdbc86",
     "1631904886bcc224d3",
     "163035809706adbc23",
     "16303456864022f6d3",
