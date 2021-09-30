@@ -95,6 +95,56 @@
         "full_width": true
       }
     },
+    "1633024209f982f71a": {
+      "type": "Pros-and-cons",
+      "blocks": {
+        "1633024209f982f71a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Give Us a Try!"
+          }
+        },
+        "1633024209f982f71a-1": {
+          "type": "block-1",
+          "settings": {
+            "list-item-1": "Same happy little coffee moments without the downside"
+          }
+        },
+        "1633024209f982f71a-2": {
+          "type": "block-2",
+          "settings": {
+            "list-item-2": "137x More Antioxidants Than Green Tea"
+          }
+        },
+        "1633024209f982f71a-3": {
+          "type": "block-3",
+          "settings": {
+            "list-item-3": "We Have A Matcha Flavor For Everyone"
+          }
+        },
+        "1633024209f982f71a-4": {
+          "type": "button",
+          "settings": {
+            "button_label": "Choose Your Matcha Now",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "1633024209f982f71a-0",
+        "1633024209f982f71a-1",
+        "1633024209f982f71a-2",
+        "1633024209f982f71a-3",
+        "1633024209f982f71a-4"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Miaroo_Guarantees_stickers_3318ebae-5cfb-4202-9edb-aedbaba869a4.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "pro-or-con": "Pros"
+      }
+    },
     "1631904886bcc224d3": {
       "type": "reputon-testimonials-1631904696965",
       "disabled": true,
@@ -293,6 +343,7 @@
     "163042516378a404d8",
     "1631637376017b5670",
     "163190861628fdbc86",
+    "1633024209f982f71a",
     "1631904886bcc224d3",
     "163035809706adbc23",
     "16303456864022f6d3",
