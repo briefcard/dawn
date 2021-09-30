@@ -11,6 +11,14 @@
     font-weight: bold;
 }
 
+.button .full {
+margin-bottom: 1rem;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+  background-color: #00af4a;
+
+}
 .cons-list-1{
 	padding: 10px;
     border-radius: 5px;
