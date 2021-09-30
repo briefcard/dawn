@@ -97,6 +97,7 @@
     },
     "1633024209f982f71a": {
       "type": "Pros-and-cons",
+      "disabled": true,
       "blocks": {
         "1633024209f982f71a-0": {
           "type": "heading",
@@ -139,7 +140,7 @@
       ],
       "settings": {
         "height": "adapt",
-        "color_scheme": "inverse",
+        "color_scheme": "background-1",
         "layout": "image_first",
         "pro-or-con": "Pros"
       }
