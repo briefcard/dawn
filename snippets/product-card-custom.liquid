@@ -113,7 +113,7 @@
             </div>
             <div {{ block.shopify_attributes }}>
               {%- form 'product', product, data-productid: product.id_card_product, id: 'product-form-installment', class: 'installment caption-large' -%}
-                <input type="" name="id" data-productid="{{ product.id }}" value="{{ product.selected_or_first_available_variant.id }}">
+                <input type="hidden" name="id" data-productid="{{ product.id }}" value="{{ product.selected_or_first_available_variant.id }}">
                 {{ form | payment_terms }}
               {%- endform -%}
             </div>
