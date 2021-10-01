@@ -64,6 +64,37 @@
         "maxwidth": 1080
       }
     },
+    "163190861628fdbc86": {
+      "type": "newsletter",
+      "blocks": {
+        "163190861628fdbc86-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "First timer? Get Another 20% Off!"
+          }
+        },
+        "163190861628fdbc86-1": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "<p>And be the first to know when we have sales, events, or new goodies!<\/p>"
+          }
+        },
+        "163190861628fdbc86-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "163190861628fdbc86-0",
+        "163190861628fdbc86-1",
+        "163190861628fdbc86-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "16303456864022f6d3": {
       "type": "image-with-text",
       "blocks": {
@@ -97,37 +128,6 @@
         "height": "small",
         "color_scheme": "background-2",
         "layout": "image_first"
-      }
-    },
-    "163190861628fdbc86": {
-      "type": "newsletter",
-      "blocks": {
-        "163190861628fdbc86-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "First timer? Get Another 20% Off!"
-          }
-        },
-        "163190861628fdbc86-1": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "<p>And be the first to know when we have sales, events, or new goodies!<\/p>"
-          }
-        },
-        "163190861628fdbc86-2": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "163190861628fdbc86-0",
-        "163190861628fdbc86-1",
-        "163190861628fdbc86-2"
-      ],
-      "settings": {
-        "color_scheme": "inverse",
-        "full_width": true
       }
     },
     "163035809706adbc23": {
@@ -341,8 +341,8 @@
     "1630350621dd61c948",
     "163042516378a404d8",
     "1631637376017b5670",
-    "16303456864022f6d3",
     "163190861628fdbc86",
+    "16303456864022f6d3",
     "163035809706adbc23",
     "1633024209f982f71a",
     "1631904886bcc224d3",
