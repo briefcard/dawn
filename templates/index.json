@@ -95,39 +95,46 @@
         "full_width": true
       }
     },
-    "16303456864022f6d3": {
-      "type": "image-with-text",
+    "16331179545f7ff9dc": {
+      "type": "collage",
+      "disabled": true,
       "blocks": {
-        "16303456864022f6d3-0": {
-          "type": "heading",
+        "16331179545f7ff9dc-1": {
+          "type": "product",
           "settings": {
-            "heading": "Subscribe & Save Another 15%"
+            "product": "organic-premium-matcha-50g",
+            "secondary_background": false,
+            "second_image": false,
+            "image_padding": false
           }
         },
-        "16303456864022f6d3-1": {
-          "type": "text",
+        "16331179545f7ff9dc-2": {
+          "type": "collection",
           "settings": {
-            "text": "<p>Get 15% off and make sure you never have the sad mornings without matcha.<\/p>"
+            "collection": "matcha-powder",
+            "image_padding": false,
+            "color_scheme": "background-1"
           }
         },
-        "16303456864022f6d3-2": {
-          "type": "button",
+        "55792377-04b6-4d16-abb6-6250e74ba063": {
+          "type": "product",
           "settings": {
-            "button_label": "Choose Your Matcha",
-            "button_link": "shopify:\/\/collections\/matcha-powder"
+            "product": "organic-matcha-lemon-raspberry",
+            "secondary_background": true,
+            "second_image": false,
+            "image_padding": false
           }
         }
       },
       "block_order": [
-        "16303456864022f6d3-0",
-        "16303456864022f6d3-1",
-        "16303456864022f6d3-2"
+        "16331179545f7ff9dc-1",
+        "16331179545f7ff9dc-2",
+        "55792377-04b6-4d16-abb6-6250e74ba063"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Miaroo_premium_matcha_green_tea_on_yellow_background.png",
-        "height": "small",
-        "color_scheme": "background-2",
-        "layout": "image_first"
+        "heading": "",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
       }
     },
     "163035809706adbc23": {
@@ -181,6 +188,41 @@
         "button_label": "Choose Your Matcha",
         "button_link": "shopify:\/\/collections\/all",
         "swipe_on_mobile": true
+      }
+    },
+    "16303456864022f6d3": {
+      "type": "image-with-text",
+      "blocks": {
+        "16303456864022f6d3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe & Save Another 15%"
+          }
+        },
+        "16303456864022f6d3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get 15% off and make sure you never have the sad mornings without matcha.<\/p>"
+          }
+        },
+        "16303456864022f6d3-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Choose Your Matcha",
+            "button_link": "shopify:\/\/collections\/matcha-powder"
+          }
+        }
+      },
+      "block_order": [
+        "16303456864022f6d3-0",
+        "16303456864022f6d3-1",
+        "16303456864022f6d3-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Miaroo_premium_matcha_green_tea_on_yellow_background.png",
+        "height": "small",
+        "color_scheme": "background-2",
+        "layout": "image_first"
       }
     },
     "1633024209f982f71a": {
@@ -281,7 +323,6 @@
     },
     "featured_products": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Featured products",
         "collection": "matcha-powder",
@@ -342,8 +383,9 @@
     "163042516378a404d8",
     "1631637376017b5670",
     "163190861628fdbc86",
-    "16303456864022f6d3",
+    "16331179545f7ff9dc",
     "163035809706adbc23",
+    "16303456864022f6d3",
     "1633024209f982f71a",
     "1631904886bcc224d3",
     "image_banner",
