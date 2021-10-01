@@ -64,6 +64,41 @@
         "maxwidth": 1080
       }
     },
+    "16303456864022f6d3": {
+      "type": "image-with-text",
+      "blocks": {
+        "16303456864022f6d3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe & Save on Matcha!"
+          }
+        },
+        "16303456864022f6d3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get 15% off and make sure you n<\/p>"
+          }
+        },
+        "16303456864022f6d3-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Choose Your Matcha",
+            "button_link": "shopify:\/\/collections\/matcha-powder"
+          }
+        }
+      },
+      "block_order": [
+        "16303456864022f6d3-0",
+        "16303456864022f6d3-1",
+        "16303456864022f6d3-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Miaroo_premium_matcha_green_tea_on_yellow_background.png",
+        "height": "small",
+        "color_scheme": "background-2",
+        "layout": "image_first"
+      }
+    },
     "163190861628fdbc86": {
       "type": "newsletter",
       "blocks": {
@@ -93,56 +128,6 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": true
-      }
-    },
-    "1633024209f982f71a": {
-      "type": "Pros-and-cons",
-      "disabled": true,
-      "blocks": {
-        "1633024209f982f71a-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Give Us a Try!"
-          }
-        },
-        "1633024209f982f71a-1": {
-          "type": "block-1",
-          "settings": {
-            "list-item-1": "Same happy little coffee moments without the downside"
-          }
-        },
-        "1633024209f982f71a-2": {
-          "type": "block-2",
-          "settings": {
-            "list-item-2": "137x More Antioxidants Than Green Tea"
-          }
-        },
-        "1633024209f982f71a-3": {
-          "type": "block-3",
-          "settings": {
-            "list-item-3": "A Matcha Flavor For Everyone"
-          }
-        },
-        "1633024209f982f71a-4": {
-          "type": "button",
-          "settings": {
-            "button_label": "Choose Your Matcha Now",
-            "button_link": "shopify:\/\/collections\/all"
-          }
-        }
-      },
-      "block_order": [
-        "1633024209f982f71a-0",
-        "1633024209f982f71a-1",
-        "1633024209f982f71a-2",
-        "1633024209f982f71a-3",
-        "1633024209f982f71a-4"
-      ],
-      "settings": {
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first",
-        "pro-or-con": "Pros"
       }
     },
     "163035809706adbc23": {
@@ -198,39 +183,54 @@
         "swipe_on_mobile": true
       }
     },
-    "16303456864022f6d3": {
-      "type": "image-with-text",
+    "1633024209f982f71a": {
+      "type": "Pros-and-cons",
+      "disabled": true,
       "blocks": {
-        "16303456864022f6d3-0": {
+        "1633024209f982f71a-0": {
           "type": "heading",
           "settings": {
-            "heading": "Take the leap!"
+            "heading": "Give Us a Try!"
           }
         },
-        "16303456864022f6d3-1": {
-          "type": "text",
+        "1633024209f982f71a-1": {
+          "type": "block-1",
           "settings": {
-            "text": "<p>8 out of 10 people fall in love with matcha. The other 2 didn't make it right. <\/p>"
+            "list-item-1": "Same happy little coffee moments without the downside"
           }
         },
-        "16303456864022f6d3-2": {
+        "1633024209f982f71a-2": {
+          "type": "block-2",
+          "settings": {
+            "list-item-2": "137x More Antioxidants Than Green Tea"
+          }
+        },
+        "1633024209f982f71a-3": {
+          "type": "block-3",
+          "settings": {
+            "list-item-3": "A Matcha Flavor For Everyone"
+          }
+        },
+        "1633024209f982f71a-4": {
           "type": "button",
           "settings": {
-            "button_label": "Choose Your Matcha",
-            "button_link": "shopify:\/\/collections\/matcha-powder"
+            "button_label": "Choose Your Matcha Now",
+            "button_link": "shopify:\/\/collections\/all"
           }
         }
       },
       "block_order": [
-        "16303456864022f6d3-0",
-        "16303456864022f6d3-1",
-        "16303456864022f6d3-2"
+        "1633024209f982f71a-0",
+        "1633024209f982f71a-1",
+        "1633024209f982f71a-2",
+        "1633024209f982f71a-3",
+        "1633024209f982f71a-4"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Miaroo_premium_matcha_green_tea_on_yellow_background.png",
-        "height": "small",
-        "color_scheme": "background-2",
-        "layout": "image_first"
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first",
+        "pro-or-con": "Pros"
       }
     },
     "1631904886bcc224d3": {
@@ -341,10 +341,10 @@
     "1630350621dd61c948",
     "163042516378a404d8",
     "1631637376017b5670",
-    "163190861628fdbc86",
-    "1633024209f982f71a",
-    "163035809706adbc23",
     "16303456864022f6d3",
+    "163190861628fdbc86",
+    "163035809706adbc23",
+    "1633024209f982f71a",
     "1631904886bcc224d3",
     "image_banner",
     "featured_products",
