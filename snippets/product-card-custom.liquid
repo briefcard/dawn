@@ -111,15 +111,7 @@
             <div class="no-js-hidden" id="price--{{count}}" {{ block.shopify_attributes }}>
               Starting at {%- render 'price', product: product_card_product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
             </div>
-           <div {{ block.shopify_attributes }}>
-              {%- form 'product', product, data-productid: product.id_card_product, id: 'product-form-installment', class: 'installment caption-large form' -%}
-                <input type="hidden" name="id" data-productid="{{ product.id }}" value="{{ product.selected_or_first_available_variant.id }}">
-                {{ form | payment_terms }}
-              {%- endform -%}
-             
-  
-
-            </div>
+      
       
         {%- endif -%}
         
@@ -135,6 +127,15 @@
         {% comment %} TODO: metafield {% endcomment %}
         <span class="caption-large light">{{ block.settings.description | escape }}</span>
         
+             <div {{ block.shopify_attributes }}>
+              {%- form 'product', product, data-productid: product.id_card_product, id: 'product-form-installment', class: 'installment caption-large form' -%}
+                <input type="hidden" name="id" data-productid="{{ product.id }}" value="{{ product.selected_or_first_available_variant.id }}">
+                {{ form | payment_terms }}
+              {%- endform -%}
+             
+  
+
+            </div>
          
         {% comment %} Variant Selector below{% endcomment %}
        
@@ -145,6 +146,7 @@
                 <div class="select">
                   <div name="id" data-productid="{{ product.id }}" id="Variants-{{ section.id }}" class="" >
                     {%- for variant in product_card_product.variants -%}
+         
                     <div class="variant-radio-btn">
                       <input type="radio"
                         {% if variant == product_card_product.selected_variant %}checked{% endif %}
