@@ -128,12 +128,11 @@
         <span class="caption-large light">{{ block.settings.description | escape }}</span>
         
              <div {{ block.shopify_attributes }}>
-              {%- form 'product', product, data-productid: product.id, id: 'product-form-installment', class: 'installment caption-large productClasses' -%}
-               <input type="hidden" name="id" data-productid="{{ product.id }}" value="{{ product.selected_or_first_available_variant.id }}">
-              {{ form | payment_terms }}
-	
-               {%- endform -%}
-
+              {%- form 'product', product, data-productid: product.id, id: 'product-form-installment', class: 'installment caption-large form' -%}
+                <input type="hidden" name="id" data-productid="{{ product.id }}" value="{{ product.selected_or_first_available_variant.id }}">
+                {{ form | payment_terms }}
+              {%- endform -%}
+           
 
             </div>
          
@@ -145,7 +144,7 @@
                 <label class="form__label" for="Variants-{{ section.id }}">{{ 'products.product.product_variants' | t }}</label>
                 <div class="select">
                   <div name="id" data-productid="{{ product.id }}" id="Variants-{{ section.id }}" class="" >
-          https://miaroo.myshopify.com/admin/themes/125976150203?key=assets%2Fcomponent-discounts.css          {%- for variant in product_card_product.variants -%}
+                    {%- for variant in product_card_product.variants -%}
          
                     <div class="variant-radio-btn">
                       <input type="radio"
