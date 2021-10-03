@@ -105,13 +105,14 @@
 
         {%- if product_card_product.featured_media -%}
           
+        <a href="{{ product_card_product.url | default: '#' }}" class="full-unstyled-link">
           <span class="card-information__text h2 margin-bottom-5px">
             {{ product_card_product.title | escape }}
           </span>
             <div class="no-js-hidden" id="price--{{count}}" {{ block.shopify_attributes }}>
               Starting at {%- render 'price', product: product_card_product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
             </div>
-      
+        </a>
       
         {%- endif -%}
         
