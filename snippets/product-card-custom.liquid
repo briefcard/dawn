@@ -128,7 +128,8 @@
         <span class="caption-large light">{{ block.settings.description | escape }}</span>
         
              <div {{ block.shopify_attributes }}>
-              {%- form 'product', product, data-productid: product.id, id: 'product-form-installment', class: 'installment caption-large' -%}
+              {%- form 'product', product, data-productid: product.id, id: 'product-form-installment', class: 'installment caption-large productClasses' -%}
+               {% if product.available %}{% include 'subscription-product' %}{% endif %} 
                 <input type="hidden" name="id" data-productid="{{ product.id }}" value="{{ product.selected_or_first_available_variant.id }}">
               {{ form | payment_terms }}
 
