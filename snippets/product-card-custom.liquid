@@ -129,11 +129,10 @@
         <span class="caption-large light">{{ block.settings.description | escape }}</span>
         
              <div {{ block.shopify_attributes }}>
-            <form id="add-item-form" action="/cart/add" method="post" data-productid="{{product.id}}">
-            <br> 
-				{% if product.available %}{% include 'subscription-product' %}{% endif %} 
-             </form>	
-
+              {%- form 'product', product, data-productid: product.id, id: 'product-form-installment', class: 'installment caption-large' -%}
+                <input type="hidden" name="id" data-productid="{{ product.id }}" value="{{ product.selected_or_first_available_variant.id }}">
+                {{ form | payment_terms }}
+              {%- endform -%}
             </div>
          
         {% comment %} Variant Selector below{% endcomment %}
