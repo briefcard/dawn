@@ -132,7 +132,7 @@
                 <input type="hidden" name="id" data-productid="{{ product.id }}" value="{{ product.selected_or_first_available_variant.id }}">
                 {{ form | payment_terms }}
               {%- endform -%}
-               <div type="hidden" value="{{ product.id }}">
+               <input type="text" value="{{ product.id }}">
              
   
 
