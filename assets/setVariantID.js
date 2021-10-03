@@ -17,12 +17,15 @@ console.log(variantID);
 
   if ( variantID == undefined) {
 	 input.value = selectedVariant;
+     input.data-productid = selectedVariant;
      Count.value = count;
 
     console.log('undefined parameter New Count: ' + newCount.value);
 
   } else if( variantSize < 2 )  {
   	 input.value = selectedVariant;
+     input.data-productid = selectedVariant;
+
      Count.value = count;
     console.log('Single Variant Product New Count: ' + newCount.value);
 
@@ -31,6 +34,8 @@ console.log(variantID);
     
     console.log(selectedVariant);
     input.value = selectedVariant;
+    input.data-productid = selectedVariant;
+
   	Count.value = count;
 
     console.log('testing count');
@@ -39,6 +44,8 @@ console.log(variantID);
   } else {
     
   input.value = variantID;
+  input.data-productid = variantID;
+    
   Count.value = count;
   
     console.log('new flavor');
