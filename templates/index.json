@@ -64,35 +64,46 @@
         "maxwidth": 1080
       }
     },
-    "163190861628fdbc86": {
-      "type": "newsletter",
+    "16334616185572d1c6": {
+      "type": "multicolumn",
+      "disabled": true,
       "blocks": {
-        "163190861628fdbc86-0": {
-          "type": "heading",
+        "16334616185572d1c6-0": {
+          "type": "column",
           "settings": {
-            "heading": "First timer? Get 20% Off!"
+            "title": "Now in Canada & Mexico!",
+            "text": "<p>It's been a long time coming. <\/p><p>Thank you for your patience!!<\/p>"
           }
         },
-        "163190861628fdbc86-1": {
-          "type": "paragraph",
+        "16334616185572d1c6-1": {
+          "type": "column",
           "settings": {
-            "paragraph": "<p>And be the first to know when we have sales, events, or new goodies!<\/p>"
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         },
-        "163190861628fdbc86-2": {
-          "type": "email_form",
+        "16334616185572d1c6-2": {
+          "type": "column",
           "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         }
       },
       "block_order": [
-        "163190861628fdbc86-0",
-        "163190861628fdbc86-1",
-        "163190861628fdbc86-2"
+        "16334616185572d1c6-0",
+        "16334616185572d1c6-1",
+        "16334616185572d1c6-2"
       ],
       "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "square",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
       }
     },
     "16331179545f7ff9dc": {
@@ -135,6 +146,37 @@
         "heading": "",
         "desktop_layout": "left",
         "mobile_layout": "collage"
+      }
+    },
+    "163190861628fdbc86": {
+      "type": "newsletter",
+      "blocks": {
+        "163190861628fdbc86-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "First timer? Get 20% Off!"
+          }
+        },
+        "163190861628fdbc86-1": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "<p>And be the first to know when we have sales, events, or new goodies!<\/p>"
+          }
+        },
+        "163190861628fdbc86-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "163190861628fdbc86-0",
+        "163190861628fdbc86-1",
+        "163190861628fdbc86-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
       }
     },
     "163035809706adbc23": {
@@ -275,8 +317,24 @@
         "pro-or-con": "Pros"
       }
     },
+    "featured_products": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products",
+        "collection": "matcha-powder",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false
+      }
+    },
     "1631904886bcc224d3": {
       "type": "reputon-testimonials-1631904696965",
+      "disabled": true,
       "settings": {
       }
     },
@@ -321,21 +379,6 @@
         "adapt_height_first_image": false
       }
     },
-    "featured_products": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "collection": "matcha-powder",
-        "products_to_show": 4,
-        "show_view_all": true,
-        "swipe_on_mobile": true,
-        "image_ratio": "square",
-        "show_secondary_image": true,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false
-      }
-    },
     "1628780674c9ed5bc2": {
       "type": "collage",
       "disabled": true,
@@ -376,20 +419,40 @@
         "desktop_layout": "left",
         "mobile_layout": "collage"
       }
+    },
+    "163346668600c0566a": {
+      "type": "apps",
+      "blocks": {
+        "eefc3279-55af-4f40-b6f6-37326c549cad": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080,
+            "show_header": true
+          }
+        }
+      },
+      "block_order": [
+        "eefc3279-55af-4f40-b6f6-37326c549cad"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "1630350621dd61c948",
     "163042516378a404d8",
     "1631637376017b5670",
-    "163190861628fdbc86",
+    "16334616185572d1c6",
     "16331179545f7ff9dc",
+    "163190861628fdbc86",
     "163035809706adbc23",
     "16303456864022f6d3",
     "1633024209f982f71a",
+    "featured_products",
     "1631904886bcc224d3",
     "image_banner",
-    "featured_products",
-    "1628780674c9ed5bc2"
+    "1628780674c9ed5bc2",
+    "163346668600c0566a"
   ]
 }
