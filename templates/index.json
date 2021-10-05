@@ -19,7 +19,7 @@
           "type": "button",
           "settings": {
             "button_label": "Choose Your Matcha",
-            "button_link": "shopify:\/\/collections\/matcha-powder"
+            "button_link": "shopify:\/\/collections\/organic-matcha-powder"
           }
         }
       },
@@ -122,7 +122,7 @@
         "16331179545f7ff9dc-2": {
           "type": "collection",
           "settings": {
-            "collection": "matcha-powder",
+            "collection": "organic-matcha-powder",
             "image_padding": false,
             "color_scheme": "background-1"
           }
@@ -251,7 +251,7 @@
           "type": "button",
           "settings": {
             "button_label": "Choose Your Matcha",
-            "button_link": "shopify:\/\/collections\/matcha-powder"
+            "button_link": "shopify:\/\/collections\/organic-matcha-powder"
           }
         }
       },
@@ -321,7 +321,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Featured products",
-        "collection": "matcha-powder",
+        "collection": "organic-matcha-powder",
         "products_to_show": 4,
         "show_view_all": true,
         "swipe_on_mobile": true,
