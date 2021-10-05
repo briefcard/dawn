@@ -422,18 +422,6 @@
     },
     "163346668600c0566a": {
       "type": "apps",
-      "blocks": {
-        "eefc3279-55af-4f40-b6f6-37326c549cad": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "maxwidth": 1080,
-            "show_header": true
-          }
-        }
-      },
-      "block_order": [
-        "eefc3279-55af-4f40-b6f6-37326c549cad"
-      ],
       "settings": {
         "include_margins": true
       }
