@@ -47,23 +47,6 @@
         "flavor4url": "https:\/\/miaroo.com\/products\/organic-matcha-latte-mix-coconut"
       }
     },
-    "163042516378a404d8": {
-      "type": "main-image-flavor-selector",
-      "disabled": true,
-      "settings": {
-        "flavor1": "shopify:\/\/shop_images\/Miaroo_Organic_Premium_Matcha_Powder.jpg",
-        "flavor2": "shopify:\/\/shop_images\/IMG_8726_1.png",
-        "flavor3": "shopify:\/\/shop_images\/Add_a_heading_1_1.jpg",
-        "flavor4": "shopify:\/\/shop_images\/jason-leung-f3uWanPu_rU-unsplash.jpg"
-      }
-    },
-    "1631637376017b5670": {
-      "type": "judgeme_carousel_section",
-      "disabled": true,
-      "settings": {
-        "maxwidth": 1080
-      }
-    },
     "16334616185572d1c6": {
       "type": "multicolumn",
       "disabled": true,
@@ -104,48 +87,6 @@
         "button_label": "",
         "button_link": "",
         "swipe_on_mobile": true
-      }
-    },
-    "16331179545f7ff9dc": {
-      "type": "collage",
-      "disabled": true,
-      "blocks": {
-        "16331179545f7ff9dc-1": {
-          "type": "product",
-          "settings": {
-            "product": "organic-premium-matcha-50g",
-            "secondary_background": false,
-            "second_image": false,
-            "image_padding": false
-          }
-        },
-        "16331179545f7ff9dc-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "matcha-powder",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        },
-        "55792377-04b6-4d16-abb6-6250e74ba063": {
-          "type": "product",
-          "settings": {
-            "product": "organic-matcha-lemon-raspberry",
-            "secondary_background": true,
-            "second_image": false,
-            "image_padding": false
-          }
-        }
-      },
-      "block_order": [
-        "16331179545f7ff9dc-1",
-        "16331179545f7ff9dc-2",
-        "55792377-04b6-4d16-abb6-6250e74ba063"
-      ],
-      "settings": {
-        "heading": "",
-        "desktop_layout": "left",
-        "mobile_layout": "collage"
       }
     },
     "163190861628fdbc86": {
@@ -267,10 +208,10 @@
         "layout": "image_first"
       }
     },
-    "163346668600c0566a": {
+    "16335407265112e169": {
       "type": "apps",
       "blocks": {
-        "f011c4c2-a108-41cf-8f5d-42ad78f4d6b5": {
+        "10531b62-800f-4df9-bf2a-07c500da194f": {
           "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "maxwidth": 1080,
@@ -279,7 +220,7 @@
         }
       },
       "block_order": [
-        "f011c4c2-a108-41cf-8f5d-42ad78f4d6b5"
+        "10531b62-800f-4df9-bf2a-07c500da194f"
       ],
       "settings": {
         "include_margins": true
@@ -349,110 +290,16 @@
         "show_image_outline": true,
         "show_vendor": false
       }
-    },
-    "1631904886bcc224d3": {
-      "type": "reputon-testimonials-1631904696965",
-      "disabled": true,
-      "settings": {
-      }
-    },
-    "image_banner": {
-      "type": "image-banner",
-      "disabled": true,
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Ready to take a leap?"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Try Miaroo Premium Matcha",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        },
-        "1643dc38-de81-4067-8c47-42396c5c54a6": {
-          "type": "text",
-          "settings": {
-            "text": "Your mind, body & soul will thank you. :-)"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "button",
-        "1643dc38-de81-4067-8c47-42396c5c54a6"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/three-Packaging-Presentation-Miaroo-min.png",
-        "desktop_text_box_position": "flex-end",
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": false,
-        "adapt_height_first_image": false
-      }
-    },
-    "1628780674c9ed5bc2": {
-      "type": "collage",
-      "disabled": true,
-      "blocks": {
-        "b26aea91-2376-4858-8801-a87c55e36fd3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/itoito.jpg",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        },
-        "3af15566-53f7-4956-9138-eaa3007c9a07": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Add_a_heading_1_1.jpg",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        },
-        "1628780674c9ed5bc2-1": {
-          "type": "product",
-          "settings": {
-            "product": "organic-premium-matcha-50g",
-            "secondary_background": false,
-            "second_image": true,
-            "image_padding": false
-          }
-        }
-      },
-      "block_order": [
-        "b26aea91-2376-4858-8801-a87c55e36fd3",
-        "3af15566-53f7-4956-9138-eaa3007c9a07",
-        "1628780674c9ed5bc2-1"
-      ],
-      "settings": {
-        "heading": "",
-        "desktop_layout": "left",
-        "mobile_layout": "collage"
-      }
     }
   },
   "order": [
     "1630350621dd61c948",
-    "163042516378a404d8",
-    "1631637376017b5670",
     "16334616185572d1c6",
-    "16331179545f7ff9dc",
     "163190861628fdbc86",
     "163035809706adbc23",
     "16303456864022f6d3",
-    "163346668600c0566a",
+    "16335407265112e169",
     "1633024209f982f71a",
-    "featured_products",
-    "1631904886bcc224d3",
-    "image_banner",
-    "1628780674c9ed5bc2"
+    "featured_products"
   ]
 }
