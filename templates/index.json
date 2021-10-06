@@ -89,35 +89,22 @@
         "swipe_on_mobile": true
       }
     },
-    "163190861628fdbc86": {
-      "type": "newsletter",
+    "16335407265112e169": {
+      "type": "apps",
       "blocks": {
-        "163190861628fdbc86-0": {
-          "type": "heading",
+        "10531b62-800f-4df9-bf2a-07c500da194f": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
-            "heading": "First timer? Get 20% Off!"
-          }
-        },
-        "163190861628fdbc86-1": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "<p>And be the first to know when we have sales, events, or new goodies!<\/p>"
-          }
-        },
-        "163190861628fdbc86-2": {
-          "type": "email_form",
-          "settings": {
+            "maxwidth": 1080,
+            "show_header": true
           }
         }
       },
       "block_order": [
-        "163190861628fdbc86-0",
-        "163190861628fdbc86-1",
-        "163190861628fdbc86-2"
+        "10531b62-800f-4df9-bf2a-07c500da194f"
       ],
       "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
+        "include_margins": true
       }
     },
     "16303456864022f6d3": {
@@ -126,13 +113,13 @@
         "16303456864022f6d3-0": {
           "type": "heading",
           "settings": {
-            "heading": "Subscribe & Save Another 15%"
+            "heading": "Subscribe  & Save!"
           }
         },
         "16303456864022f6d3-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Get 15% off and make sure you never have the sad mornings without matcha.<\/p>"
+            "text": "<p>Get 15% off and make sure you never have another sad, matcha-less morning.<\/p>"
           }
         },
         "16303456864022f6d3-2": {
@@ -153,24 +140,6 @@
         "height": "small",
         "color_scheme": "background-2",
         "layout": "image_first"
-      }
-    },
-    "16335407265112e169": {
-      "type": "apps",
-      "blocks": {
-        "10531b62-800f-4df9-bf2a-07c500da194f": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "maxwidth": 1080,
-            "show_header": true
-          }
-        }
-      },
-      "block_order": [
-        "10531b62-800f-4df9-bf2a-07c500da194f"
-      ],
-      "settings": {
-        "include_margins": true
       }
     },
     "163035809706adbc23": {
@@ -224,6 +193,37 @@
         "button_label": "Choose Your Matcha",
         "button_link": "shopify:\/\/collections\/all",
         "swipe_on_mobile": true
+      }
+    },
+    "163190861628fdbc86": {
+      "type": "newsletter",
+      "blocks": {
+        "163190861628fdbc86-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "First timer? Get 20% Off!"
+          }
+        },
+        "163190861628fdbc86-1": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "<p>And be the first to know when we have sales, events, or new goodies!<\/p>"
+          }
+        },
+        "163190861628fdbc86-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "163190861628fdbc86-0",
+        "163190861628fdbc86-1",
+        "163190861628fdbc86-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
       }
     },
     "1633024209f982f71a": {
@@ -295,10 +295,10 @@
   "order": [
     "1630350621dd61c948",
     "16334616185572d1c6",
-    "163190861628fdbc86",
-    "16303456864022f6d3",
     "16335407265112e169",
+    "16303456864022f6d3",
     "163035809706adbc23",
+    "163190861628fdbc86",
     "1633024209f982f71a",
     "featured_products"
   ]
