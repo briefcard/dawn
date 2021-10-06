@@ -6,8 +6,6 @@
   $(document).ready( function() {
     
     $('#mainImage').src = '{{section.settings.flavor1display | img_url: '1500x' }}';
-    $('#flavor1Button').addClass('activeFlavor');
-    
     
     
       $('.flavoractive').click(function(){
@@ -168,7 +166,7 @@
             loading="lazy"
             width=""
             height=""
-            class="header_label_sizing flavoractive"
+            class="header_label_sizing flavoractive activeflavor"
             
           >
        
