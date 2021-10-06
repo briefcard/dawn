@@ -5,6 +5,10 @@
   
   $(document).ready( function() {
     
+    $('#mainImage').src = '{{section.settings.flavor1display | img_url: '1500x' }}';
+    $('#flavor1Button').addClass('activeFlavor');
+    
+    
     
       $('.flavoractive').click(function(){
       $('img').removeClass('activeflavor');
