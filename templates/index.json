@@ -47,6 +47,37 @@
         "flavor4url": "https:\/\/miaroo.com\/products\/organic-matcha-latte-mix-coconut"
       }
     },
+    "163190861628fdbc86": {
+      "type": "newsletter",
+      "blocks": {
+        "163190861628fdbc86-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "First timer? Get 20% Off!"
+          }
+        },
+        "163190861628fdbc86-1": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "<p>And be the first to know when we have sales, events, or new goodies!<\/p>"
+          }
+        },
+        "163190861628fdbc86-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "163190861628fdbc86-0",
+        "163190861628fdbc86-1",
+        "163190861628fdbc86-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "16334616185572d1c6": {
       "type": "multicolumn",
       "disabled": true,
@@ -86,6 +117,59 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
+    "163035809706adbc23": {
+      "type": "multicolumn",
+      "blocks": {
+        "163035809706adbc23-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Matcha_Promotes_Healthy_Skin_and_Hair.png",
+            "title": "...Because Your Skin, Hair & Nails",
+            "text": "<p>Did you know? Matcha is packed with antioxidants, minerals and other nutrients that have shown to improve the quality and appearance of your hair & skin!<\/p>"
+          }
+        },
+        "163035809706adbc23-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Matcha_Helps_with_Weight_Loss_and_Weight_Management.png",
+            "title": "...Because Improved Weight Management",
+            "text": "<p>Not only does Matcha give a huge metabolism boost, but it also curbs your cravings so that you can stick to your regiment and hit your weight goals.<\/p>"
+          }
+        },
+        "163035809706adbc23-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Organic_Matcha_Promotes_Internal_Health.png",
+            "title": "...Because Better Internal Health",
+            "text": "<p>The high antioxidant & nutrient count in matcha makes it an organic and natural measure recommended  against several cancers and a host of other diseases.<\/p>"
+          }
+        },
+        "f6a9a9fa-e1f1-43e8-b472-9bdd49f3d092": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Best_Tasting_Matcha_Tea_Powder.png",
+            "title": "Becasuse your Taste Buds deserve it!",
+            "text": "<p>It's green, it's lean, and it's absolutely delicious. Have it as a tea, latte, or supplement in your smoothies to get your energy, nutrients, and antioxidants daily.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "163035809706adbc23-0",
+        "163035809706adbc23-1",
+        "163035809706adbc23-2",
+        "f6a9a9fa-e1f1-43e8-b472-9bdd49f3d092"
+      ],
+      "settings": {
+        "title": "Why the fuss about Miaroo Matcha?",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "secondary",
+        "button_label": "Choose Your Matcha",
+        "button_link": "shopify:\/\/collections\/all",
         "swipe_on_mobile": true
       }
     },
@@ -140,90 +224,6 @@
         "height": "small",
         "color_scheme": "background-2",
         "layout": "image_first"
-      }
-    },
-    "163035809706adbc23": {
-      "type": "multicolumn",
-      "blocks": {
-        "163035809706adbc23-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Matcha_Promotes_Healthy_Skin_and_Hair.png",
-            "title": "For Your Skin, Hair & Nails",
-            "text": "<p>Did you know? Matcha is packed with antioxidants, minerals and other nutrients that have shown to improve the quality and appearance of your hair & skin!<\/p>"
-          }
-        },
-        "163035809706adbc23-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Matcha_Helps_with_Weight_Loss_and_Weight_Management.png",
-            "title": "For Weight Management",
-            "text": "<p>Not only does Matcha give a huge metabolism boost, but it also curbs your cravings so that you can stick to your regiment and hit your weight goals.<\/p>"
-          }
-        },
-        "163035809706adbc23-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Organic_Matcha_Promotes_Internal_Health.png",
-            "title": "For Your Internal Health",
-            "text": "<p>The high antioxidant & nutrient count in matcha makes it an organic and natural measure recommended  against several cancers and a host of other diseases.<\/p>"
-          }
-        },
-        "f6a9a9fa-e1f1-43e8-b472-9bdd49f3d092": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Best_Tasting_Matcha_Tea_Powder.png",
-            "title": "For Your Taste Buds!",
-            "text": "<p>It's green, it's lean, and it's absolutely delicious. Have it as a tea, latte, or supplement in your smoothies to get your energy, nutrients, and antioxidants daily.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "163035809706adbc23-0",
-        "163035809706adbc23-1",
-        "163035809706adbc23-2",
-        "f6a9a9fa-e1f1-43e8-b472-9bdd49f3d092"
-      ],
-      "settings": {
-        "title": "Don't know matcha 'bout us?",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "secondary",
-        "button_label": "Choose Your Matcha",
-        "button_link": "shopify:\/\/collections\/all",
-        "swipe_on_mobile": true
-      }
-    },
-    "163190861628fdbc86": {
-      "type": "newsletter",
-      "blocks": {
-        "163190861628fdbc86-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "First timer? Get 20% Off!"
-          }
-        },
-        "163190861628fdbc86-1": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "<p>And be the first to know when we have sales, events, or new goodies!<\/p>"
-          }
-        },
-        "163190861628fdbc86-2": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "163190861628fdbc86-0",
-        "163190861628fdbc86-1",
-        "163190861628fdbc86-2"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
       }
     },
     "1633024209f982f71a": {
@@ -294,11 +294,11 @@
   },
   "order": [
     "1630350621dd61c948",
+    "163190861628fdbc86",
     "16334616185572d1c6",
+    "163035809706adbc23",
     "16335407265112e169",
     "16303456864022f6d3",
-    "163035809706adbc23",
-    "163190861628fdbc86",
     "1633024209f982f71a",
     "featured_products"
   ]
