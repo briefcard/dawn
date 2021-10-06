@@ -19,7 +19,7 @@
           "type": "button",
           "settings": {
             "button_label": "Choose Your Matcha",
-            "button_link": "shopify:\/\/collections\/organic-matcha-powder"
+            "button_link": "shopify:\/\/collections\/matcha-powder"
           }
         }
       },
@@ -122,7 +122,7 @@
         "16331179545f7ff9dc-2": {
           "type": "collection",
           "settings": {
-            "collection": "organic-matcha-powder",
+            "collection": "matcha-powder",
             "image_padding": false,
             "color_scheme": "background-1"
           }
@@ -251,7 +251,7 @@
           "type": "button",
           "settings": {
             "button_label": "Choose Your Matcha",
-            "button_link": "shopify:\/\/collections\/organic-matcha-powder"
+            "button_link": "shopify:\/\/collections\/matcha-powder"
           }
         }
       },
@@ -265,6 +265,24 @@
         "height": "small",
         "color_scheme": "background-2",
         "layout": "image_first"
+      }
+    },
+    "163346668600c0566a": {
+      "type": "apps",
+      "blocks": {
+        "f011c4c2-a108-41cf-8f5d-42ad78f4d6b5": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080,
+            "show_header": true
+          }
+        }
+      },
+      "block_order": [
+        "f011c4c2-a108-41cf-8f5d-42ad78f4d6b5"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "1633024209f982f71a": {
@@ -321,7 +339,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Featured products",
-        "collection": "organic-matcha-powder",
+        "collection": "matcha-powder",
         "products_to_show": 4,
         "show_view_all": true,
         "swipe_on_mobile": true,
@@ -419,12 +437,6 @@
         "desktop_layout": "left",
         "mobile_layout": "collage"
       }
-    },
-    "163346668600c0566a": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
@@ -436,11 +448,11 @@
     "163190861628fdbc86",
     "163035809706adbc23",
     "16303456864022f6d3",
+    "163346668600c0566a",
     "1633024209f982f71a",
     "featured_products",
     "1631904886bcc224d3",
     "image_banner",
-    "1628780674c9ed5bc2",
-    "163346668600c0566a"
+    "1628780674c9ed5bc2"
   ]
 }
