@@ -120,6 +120,59 @@
         "swipe_on_mobile": true
       }
     },
+    "16303456864022f6d3": {
+      "type": "image-with-text",
+      "blocks": {
+        "16303456864022f6d3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe  & Save!"
+          }
+        },
+        "16303456864022f6d3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get 15% off and make sure you never have another sad, matcha-less morning.<\/p>"
+          }
+        },
+        "16303456864022f6d3-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Choose Your Matcha",
+            "button_link": "shopify:\/\/collections\/matcha-powder"
+          }
+        }
+      },
+      "block_order": [
+        "16303456864022f6d3-0",
+        "16303456864022f6d3-1",
+        "16303456864022f6d3-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Miaroo-Organic-Chai-Matcha-Tea-Latte.jpg",
+        "height": "small",
+        "color_scheme": "background-2",
+        "layout": "image_first"
+      }
+    },
+    "16335407265112e169": {
+      "type": "apps",
+      "blocks": {
+        "10531b62-800f-4df9-bf2a-07c500da194f": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080,
+            "show_header": true
+          }
+        }
+      },
+      "block_order": [
+        "10531b62-800f-4df9-bf2a-07c500da194f"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "163035809706adbc23": {
       "type": "multicolumn",
       "blocks": {
@@ -173,24 +226,6 @@
         "swipe_on_mobile": true
       }
     },
-    "16335407265112e169": {
-      "type": "apps",
-      "blocks": {
-        "10531b62-800f-4df9-bf2a-07c500da194f": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "maxwidth": 1080,
-            "show_header": true
-          }
-        }
-      },
-      "block_order": [
-        "10531b62-800f-4df9-bf2a-07c500da194f"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "1633630617e184d95d": {
       "type": "video",
       "settings": {
@@ -198,41 +233,6 @@
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false
-      }
-    },
-    "16303456864022f6d3": {
-      "type": "image-with-text",
-      "blocks": {
-        "16303456864022f6d3-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Subscribe  & Save!"
-          }
-        },
-        "16303456864022f6d3-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Get 15% off and make sure you never have another sad, matcha-less morning.<\/p>"
-          }
-        },
-        "16303456864022f6d3-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Choose Your Matcha",
-            "button_link": "shopify:\/\/collections\/matcha-powder"
-          }
-        }
-      },
-      "block_order": [
-        "16303456864022f6d3-0",
-        "16303456864022f6d3-1",
-        "16303456864022f6d3-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Miaroo-Organic-Chai-Matcha-Tea-Latte.jpg",
-        "height": "small",
-        "color_scheme": "background-2",
-        "layout": "image_first"
       }
     },
     "1633024209f982f71a": {
@@ -305,10 +305,10 @@
     "1630350621dd61c948",
     "163190861628fdbc86",
     "16334616185572d1c6",
-    "163035809706adbc23",
-    "16335407265112e169",
-    "1633630617e184d95d",
     "16303456864022f6d3",
+    "16335407265112e169",
+    "163035809706adbc23",
+    "1633630617e184d95d",
     "1633024209f982f71a",
     "featured_products"
   ]
