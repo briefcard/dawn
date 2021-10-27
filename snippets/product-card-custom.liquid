@@ -190,7 +190,7 @@
                           {{ 'products.product.sold_out' | t }}
                         {%- endif -%}
                     </button>
-                    <script> window.ReChargeWidget.getWidgetByProductId({{product.id}}); </script>
+                    <script> $(window).ReChargeWidget.getWidgetByProductId({{product.id}}); </script>
                     </div>
                     {%- if block.settings.show_dynamic_checkout -%}
                       {{ form | payment_button }}
