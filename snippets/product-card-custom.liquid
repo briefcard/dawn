@@ -174,7 +174,8 @@
             <div {{ block.shopify_attributes }}>
               <product-form class="product-form margin-bottom-5px" onClick="">
                 {%- form 'product', product, data-productid: product.id, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}  
-                <input id="chosenVariant--{{count}}" type="hidden" name="id" value="{{ product_card_product.selected_or_first_available_variant.id }}">
+                
+                  <input id="chosenVariant--{{count}}" type="hidden" name="id" value="{{ product_card_product.selected_or_first_available_variant.id }}">
                 	<input id="counter" type="hidden" name="" value ="0">  
                 <div class="product-form__buttons">
                     <button
@@ -189,6 +190,8 @@
                           {{ 'products.product.sold_out' | t }}
                         {%- endif -%}
                     </button>
+                    <script> window.ReChargeWidget.getWidgetByProductId({{product.id}}); </script>
+                    </div>
                     {%- if block.settings.show_dynamic_checkout -%}
                       {{ form | payment_button }}
                     {%- endif -%}
