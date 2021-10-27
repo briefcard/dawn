@@ -130,6 +130,8 @@
         
              <div {{ block.shopify_attributes }}>
               {%- form 'product', product, data-productid: product.id, id: 'product-form-installment', class: 'installment caption-large' -%}
+               <div class="rc-widget-injection-parent" style="display: initial;"></div>
+
                 {{ form | payment_terms }}
               {%- endform -%}
             </div>
