@@ -117,7 +117,7 @@
       	<div {{ block.shopify_attributes }}>
               {%- form 'product', product, data-productid: product.id, id: 'product-form-installment', class: 'installment caption-large' -%}
                 <input type="hidden" name="id" data-productid="{{ product.id }}" value="{{ product.selected_or_first_available_variant.id }}">
-          		<input type="hidden" value="{{ product.metafields.subscriptions.shipping_interval_frequency }} "
+          		<input type="hidden" value="{{ product.metafields.subscriptions }} "
                 {{ form | payment_terms }}
           {% render 'subscription-product' %}
               {%- endform -%}
